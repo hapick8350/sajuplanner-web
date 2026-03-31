@@ -89,6 +89,22 @@
     .ai-card ul li { font-size: 0.85rem; color: var(--text-light); padding: 4px 0; padding-left: 20px; position: relative; }
     .ai-card ul li::before { content: '\2713'; position: absolute; left: 0; color: var(--primary); font-weight: 700; }
 
+    /* DETAIL BLOCKS */
+    .detail-block { max-width: 900px; margin: 0 auto 48px; background: var(--white); border: 1px solid rgba(107,70,193,0.12); border-radius: 20px; padding: 36px; transition: all 0.3s; }
+    .detail-block:hover { box-shadow: 0 8px 40px rgba(107,70,193,0.1); }
+    .detail-header { display: flex; gap: 20px; align-items: flex-start; margin-bottom: 28px; padding-bottom: 24px; border-bottom: 1px solid rgba(107,70,193,0.08); }
+    .detail-icon { font-size: 2.5rem; flex-shrink: 0; width: 64px; height: 64px; background: linear-gradient(135deg, var(--bg-light), #EDE9FE); border-radius: 16px; display: flex; align-items: center; justify-content: center; }
+    .detail-header h3 { font-size: 1.4rem; font-weight: 700; margin-bottom: 8px; color: var(--text); }
+    .detail-price { background: var(--primary); color: var(--white); padding: 3px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; margin-left: 8px; vertical-align: middle; }
+    .detail-desc { font-size: 0.95rem; color: var(--text-light); line-height: 1.6; }
+    .detail-items { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 12px; }
+    .detail-item { display: flex; gap: 14px; align-items: flex-start; padding: 14px 16px; border-radius: 12px; background: var(--bg-light); transition: all 0.2s; }
+    .detail-item:hover { background: #EDE9FE; }
+    .item-num { font-size: 0.75rem; font-weight: 700; color: var(--primary); background: rgba(107,70,193,0.1); width: 28px; height: 28px; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px; }
+    .detail-item strong { font-size: 0.9rem; color: var(--text); display: block; margin-bottom: 2px; }
+    .detail-item span { font-size: 0.8rem; color: var(--text-light); line-height: 1.5; }
+    @media (max-width: 768px) { .detail-items { grid-template-columns: 1fr; } .detail-header { flex-direction: column; align-items: center; text-align: center; } }
+
     /* CONSULT */
     .consult-section { background: var(--bg-light); }
     .consult-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; max-width: 900px; margin: 0 auto; }
@@ -339,75 +355,128 @@
       <h2>AI가 분석하는 깊이 있는 사주 해석</h2>
       <p>AI가 사주 전문가 수준의 상세한 분석을 제공합니다</p>
     </div>
-    <div class="ai-grid">
-      <div class="ai-card">
-        <div class="price">&#8361;1,500</div>
-        <div class="ai-icon">&#x1F52E;</div>
-        <h3>일별 상세 운세</h3>
-        <p>특정 날짜의 운세를 AI가 심층 분석합니다.</p>
-        <ul>
-          <li>6카테고리 상세 해석</li>
-          <li>시간대별 행운 포인트</li>
-          <li>주의할 점과 조언</li>
-        </ul>
+
+    <!-- 일별 상세 운세 -->
+    <div class="detail-block">
+      <div class="detail-header">
+        <div class="detail-icon">&#x1F52E;</div>
+        <div>
+          <h3>일별 상세 운세 <span class="detail-price">&#8361;1,500</span></h3>
+          <p class="detail-desc">특정 날짜의 운세를 AI가 9개 항목으로 심층 분석합니다. 오늘 하루를 어떻게 보내야 할지 구체적인 가이드를 제공합니다.</p>
+        </div>
       </div>
-      <div class="ai-card">
-        <div class="price">&#8361;5,900</div>
-        <div class="ai-icon">&#x1F5D3;</div>
-        <h3>연간 운세</h3>
-        <p>올해의 전체 흐름과 12개월 월별 운세를 제공합니다.</p>
-        <ul>
-          <li>연간 종합 운세 분석</li>
-          <li>12개월 월별 상세 운세</li>
-          <li>올해의 행운 키워드</li>
-        </ul>
-      </div>
-      <div class="ai-card">
-        <div class="price">&#8361;7,900</div>
-        <div class="ai-icon">&#x1F4CA;</div>
-        <h3>상세 사주 리포트</h3>
-        <p>나의 사주 원국을 AI가 전문가 수준으로 심층 분석합니다.</p>
-        <ul>
-          <li>사주 원국 종합 해석</li>
-          <li>오행 균형 및 성격 분석</li>
-          <li>적성과 진로 방향</li>
-          <li>인생 주기별 조언</li>
-        </ul>
-      </div>
-      <div class="ai-card">
-        <div class="price">&#8361;5,900</div>
-        <div class="ai-icon">&#x1F495;</div>
-        <h3>궁합 분석</h3>
-        <p>두 사람의 사주를 비교하여 궁합을 상세히 분석합니다.</p>
-        <ul>
-          <li>오행 궁합도</li>
-          <li>성격 궁합 분석</li>
-          <li>관계 발전 조언</li>
-        </ul>
-      </div>
-      <div class="ai-card">
-        <div class="price">&#8361;5,900</div>
-        <div class="ai-icon">&#x1F492;</div>
-        <h3>택일 분석</h3>
-        <p>결혼, 이사, 개업 등 중요한 일에 최적인 날을 AI가 선정합니다.</p>
-        <ul>
-          <li>활동 유형별 최적 날짜</li>
-          <li>날짜별 적합도 분석</li>
-          <li>주의해야 할 날짜 안내</li>
-        </ul>
-      </div>
-      <div class="ai-card">
-        <div class="price">&#8361;14,900~</div>
-        <div class="ai-icon">&#x1F4AC;</div>
-        <h3>AI 사주 상담</h3>
-        <p>AI와 1:1 대화로 사주에 대해 자유롭게 질문하세요.</p>
-        <ul>
-          <li>세션당 질문 10개</li>
-          <li>실시간 대화형 상담</li>
-          <li>맞춤형 사주 조언</li>
-        </ul>
+      <div class="detail-items">
+        <div class="detail-item"><span class="item-num">01</span><div><strong>오늘의 테마</strong><br><span>오늘 하루를 관통하는 핵심 키워드와 에너지 방향</span></div></div>
+        <div class="detail-item"><span class="item-num">02</span><div><strong>사주 맥락 분석</strong><br><span>오늘의 에너지, 격국의 영향, 인생 흐름, 주요 신살을 종합 해석</span></div></div>
+        <div class="detail-item"><span class="item-num">03</span><div><strong>12시진 시간대별 운세</strong><br><span>2시간 간격 12개 시간대별 운세 점수와 최적 활동 추천</span></div></div>
+        <div class="detail-item"><span class="item-num">04</span><div><strong>카테고리별 상세 운세</strong><br><span>재물, 연애, 직장, 건강 4대 카테고리별 점수와 상세 해석</span></div></div>
+        <div class="detail-item"><span class="item-num">05</span><div><strong>오행 에너지 분석</strong><br><span>오늘의 오행(목화토금수) 에너지 흐름과 균형 상태</span></div></div>
+        <div class="detail-item"><span class="item-num">06</span><div><strong>활동별 최적 시간 추천</strong><br><span>미팅, 계약, 운동 등 활동 유형별 베스트 시간대 안내</span></div></div>
+        <div class="detail-item"><span class="item-num">07</span><div><strong>심층 인사이트</strong><br><span>사주 전문가 관점의 추가 분석과 깊이 있는 조언</span></div></div>
+        <div class="detail-item"><span class="item-num">08</span><div><strong>행운 요소</strong><br><span>오늘의 행운 색상, 숫자, 방위, 계절 추천</span></div></div>
+        <div class="detail-item"><span class="item-num">09</span><div><strong>주의 사항 & 오늘의 메시지</strong><br><span>하루를 보내며 주의할 점과 마무리 조언</span></div></div>
       </div>
     </div>
+
+    <!-- 연간 운세 -->
+    <div class="detail-block">
+      <div class="detail-header">
+        <div class="detail-icon">&#x1F5D3;</div>
+        <div>
+          <h3>연간 운세 <span class="detail-price">&#8361;5,900</span></h3>
+          <p class="detail-desc">올해의 전체 흐름을 파악하고, 12개월 월별 운세를 상세하게 분석합니다. 한 해를 전략적으로 계획하세요.</p>
+        </div>
+      </div>
+      <div class="detail-items">
+        <div class="detail-item"><span class="item-num">01</span><div><strong>연간 총운 & 세운 분석</strong><br><span>올해 전체 운세 점수와 세운(올해 간지)이 사주에 미치는 영향 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">02</span><div><strong>올해의 테마</strong><br><span>한 해를 관통하는 핵심 키워드와 주요 에너지 방향</span></div></div>
+        <div class="detail-item"><span class="item-num">03</span><div><strong>12개월 월별 상세 운세</strong><br><span>매월 키워드, 점수, 종합 분석 + 직장/재물/연애/건강 4대 카테고리 해석</span></div></div>
+        <div class="detail-item"><span class="item-num">04</span><div><strong>카테고리별 연간 운세</strong><br><span>직장/재물, 인간관계/연애, 건강, 학업, 사교 영역별 점수와 좋은 달/주의할 달 안내</span></div></div>
+        <div class="detail-item"><span class="item-num">05</span><div><strong>행운 요소</strong><br><span>올해의 행운 색상, 숫자, 방위, 유리한 계절</span></div></div>
+        <div class="detail-item"><span class="item-num">06</span><div><strong>연간 종합 조언</strong><br><span>한 해를 성공적으로 보내기 위한 전략적 가이드</span></div></div>
+      </div>
+    </div>
+
+    <!-- 상세 사주 리포트 -->
+    <div class="detail-block">
+      <div class="detail-header">
+        <div class="detail-icon">&#x1F4CA;</div>
+        <div>
+          <h3>상세 사주 리포트 <span class="detail-price">&#8361;7,900</span></h3>
+          <p class="detail-desc">나의 사주 원국을 전문가 수준으로 총체적 분석합니다. 타고난 성향, 적성, 인생의 흐름까지 깊이 있게 해석합니다.</p>
+        </div>
+      </div>
+      <div class="detail-items">
+        <div class="detail-item"><span class="item-num">01</span><div><strong>일간(日干) 분석</strong><br><span>나의 본질적 성격과 기질을 일간 오행으로 심층 해석</span></div></div>
+        <div class="detail-item"><span class="item-num">02</span><div><strong>십신(十神) 분포</strong><br><span>비겁/식상/재성/관성/인성 분포로 삶의 방향성 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">03</span><div><strong>격국(格局) 분석</strong><br><span>사주의 전체 구조와 격의 높낮이, 삶의 패턴 해석</span></div></div>
+        <div class="detail-item"><span class="item-num">04</span><div><strong>용신 & 희신 분석</strong><br><span>사주에 가장 필요한 오행(용신)과 도움이 되는 오행(희신) 도출</span></div></div>
+        <div class="detail-item"><span class="item-num">05</span><div><strong>주요 신살 해석</strong><br><span>천을귀인, 역마, 화개, 도화 등 주요 신살의 영향 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">06</span><div><strong>성격 - 강점 & 약점</strong><br><span>타고난 강점과 보완이 필요한 약점을 구체적으로 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">07</span><div><strong>재물운 & 적성/직업</strong><br><span>재물 패턴 분석과 사주에 맞는 직업군 및 진로 방향 추천</span></div></div>
+        <div class="detail-item"><span class="item-num">08</span><div><strong>결혼/배우자운 & 가족관계</strong><br><span>배우자 궁 분석, 결혼 시기, 가족 관계 패턴 해석</span></div></div>
+        <div class="detail-item"><span class="item-num">09</span><div><strong>건강 주의 부위</strong><br><span>오행 불균형에 따른 건강 취약 부위와 관리 방법</span></div></div>
+        <div class="detail-item"><span class="item-num">10</span><div><strong>대운 흐름 & 인생 주기</strong><br><span>10년 단위 대운 변화, 전성기, 주요 변화 시점, 미래 전망까지 종합 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">11</span><div><strong>행운 요소 & 종합 운세</strong><br><span>행운 색상/숫자/방위 + 인생 전반에 대한 종합 메시지</span></div></div>
+      </div>
+    </div>
+
+    <!-- 궁합 분석 -->
+    <div class="detail-block">
+      <div class="detail-header">
+        <div class="detail-icon">&#x1F495;</div>
+        <div>
+          <h3>궁합 분석 <span class="detail-price">&#8361;5,900</span></h3>
+          <p class="detail-desc">두 사람의 사주를 비교하여 궁합을 다각도로 분석합니다. 연인, 부부, 비즈니스 파트너까지 모든 관계에 적용 가능합니다.</p>
+        </div>
+      </div>
+      <div class="detail-items">
+        <div class="detail-item"><span class="item-num">01</span><div><strong>종합 궁합 점수</strong><br><span>두 사람의 전체적인 궁합도를 0~100점으로 산출</span></div></div>
+        <div class="detail-item"><span class="item-num">02</span><div><strong>궁합 요약 분석</strong><br><span>두 사람의 관계를 한눈에 파악할 수 있는 핵심 요약</span></div></div>
+        <div class="detail-item"><span class="item-num">03</span><div><strong>오행 궁합 분석</strong><br><span>오행(목화토금수) 상생/상극 관계 분석 + 보완점 & 해결책</span></div></div>
+        <div class="detail-item"><span class="item-num">04</span><div><strong>감성 궁합 분석</strong><br><span>감정적 교류 방식과 정서적 호환성, 갈등 포인트 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">05</span><div><strong>현실 궁합 분석</strong><br><span>생활 습관, 가치관, 목표 등 실생활 호환성 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">06</span><div><strong>소통 방식 분석</strong><br><span>두 사람의 커뮤니케이션 스타일과 실천 가능한 소통 팁</span></div></div>
+        <div class="detail-item"><span class="item-num">07</span><div><strong>미래 전망</strong><br><span>관계 발전 방향 예측과 장기적 관점의 조언</span></div></div>
+        <div class="detail-item"><span class="item-num">08</span><div><strong>종합 조언</strong><br><span>관계를 더욱 발전시키기 위한 맞춤형 가이드</span></div></div>
+      </div>
+    </div>
+
+    <!-- 택일 분석 -->
+    <div class="detail-block">
+      <div class="detail-header">
+        <div class="detail-icon">&#x1F492;</div>
+        <div>
+          <h3>택일 분석 <span class="detail-price">&#8361;5,900</span></h3>
+          <p class="detail-desc">결혼, 이사, 개업, 계약 등 인생의 중요한 순간에 최적인 날짜를 AI가 선정해드립니다.</p>
+        </div>
+      </div>
+      <div class="detail-items">
+        <div class="detail-item"><span class="item-num">01</span><div><strong>분석 요약</strong><br><span>선택한 활동 유형에 대한 전체적인 분석 개요</span></div></div>
+        <div class="detail-item"><span class="item-num">02</span><div><strong>추천 날짜 리스트</strong><br><span>적합도 점수, 추천 사유, 최적 시간대, 주의사항이 포함된 상세 날짜 목록</span></div></div>
+        <div class="detail-item"><span class="item-num">03</span><div><strong>피해야 할 날짜</strong><br><span>해당 활동에 부적합한 날짜와 그 사유 안내</span></div></div>
+        <div class="detail-item"><span class="item-num">04</span><div><strong>준비 체크리스트</strong><br><span>선택한 날짜에 맞춰 사전에 준비해야 할 항목 안내</span></div></div>
+        <div class="detail-item"><span class="item-num">05</span><div><strong>종합 조언</strong><br><span>택일과 관련된 전반적인 조언과 마무리 가이드</span></div></div>
+      </div>
+    </div>
+
+    <!-- AI 사주 상담 -->
+    <div class="detail-block">
+      <div class="detail-header">
+        <div class="detail-icon">&#x1F4AC;</div>
+        <div>
+          <h3>AI 사주 상담 <span class="detail-price">&#8361;14,900~</span></h3>
+          <p class="detail-desc">AI 사주 전문가와 1:1 대화 형식으로 자유롭게 질문하세요. 나의 사주에 대해 궁금한 모든 것을 물어볼 수 있습니다.</p>
+        </div>
+      </div>
+      <div class="detail-items">
+        <div class="detail-item"><span class="item-num">01</span><div><strong>자유 주제 상담</strong><br><span>진로, 연애, 재물, 건강, 이사, 사업 등 어떤 주제든 자유롭게 질문</span></div></div>
+        <div class="detail-item"><span class="item-num">02</span><div><strong>실시간 대화형 분석</strong><br><span>채팅 형태로 질문하면 즉시 사주 기반 맞춤 답변 제공</span></div></div>
+        <div class="detail-item"><span class="item-num">03</span><div><strong>맞춤형 심층 조언</strong><br><span>개인의 강점, 주의점, 해결책까지 구체적으로 안내</span></div></div>
+        <div class="detail-item"><span class="item-num">04</span><div><strong>세션당 질문 10개</strong><br><span>1세션(질문 10개 + AI 응답 10개), 구매 후 무기한 유효</span></div></div>
+      </div>
+    </div>
+
   </section>
 
   <!-- CONSULTATION PRICING -->
