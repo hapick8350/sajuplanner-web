@@ -28,6 +28,7 @@
     nav .logo { font-weight: 700; font-size: 1.2rem; color: var(--primary); text-decoration: none; }
     nav .nav-links a { color: var(--text-light); text-decoration: none; margin-left: 28px; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
     nav .nav-links a:hover { color: var(--primary); }
+    .lang-select { background: var(--bg-light); border: 1px solid rgba(107,70,193,0.2); border-radius: 8px; padding: 6px 10px; font-size: 0.85rem; color: var(--primary); font-weight: 500; cursor: pointer; margin-left: 20px; }
 
     /* HERO */
     .hero { background: linear-gradient(135deg, #1a1a2e 0%, #2d1b69 40%, #6B46C1 100%); color: var(--white); padding: 140px 24px 100px; text-align: center; position: relative; overflow: hidden; }
@@ -189,10 +190,18 @@
     <div class="nav-inner">
       <a href="/" class="logo">SajuPlanner</a>
       <div class="nav-links">
-        <a href="#features">기능</a>
-        <a href="#ai">프리미엄 분석</a>
-        <a href="#pricing">요금</a>
-        <a href="/support.html">고객지원</a>
+        <a href="#features" data-i18n="nav_features">기능</a>
+        <a href="#ai" data-i18n="nav_premium">프리미엄 분석</a>
+        <a href="#pricing" data-i18n="nav_pricing">요금</a>
+        <a href="/support.html" data-i18n="nav_support">고객지원</a>
+        <select class="lang-select" id="langSelect" onchange="setLang(this.value)">
+          <option value="ko">한국어</option>
+          <option value="en">English</option>
+          <option value="ja">日本語</option>
+          <option value="zh_TW">繁體中文</option>
+          <option value="vi">Tiếng Việt</option>
+          <option value="id">Indonesia</option>
+        </select>
       </div>
     </div>
   </nav>
@@ -201,24 +210,24 @@
   <div class="hero">
     <div class="hero-content">
       <div class="hero-badge">Saju Advisor System</div>
-      <h1>내 사주에 맞는<br><span>최적의 타이밍</span>을 알려드립니다</h1>
-      <p class="subtitle">생년월일시를 기반으로 매일의 운세를 분석하고, 사주 어드바이저 시스템이 깊이 있는 상담을 제공합니다. 중요한 일정은 좋은 날에 맞춰 계획하세요.</p>
+      <h1 data-i18n="hero_title">내 사주에 맞는<br><span>최적의 타이밍</span>을 알려드립니다</h1>
+      <p class="subtitle" data-i18n="hero_subtitle">생년월일시를 기반으로 매일의 운세를 분석하고, 사주 어드바이저 시스템이 깊이 있는 상담을 제공합니다. 중요한 일정은 좋은 날에 맞춰 계획하세요.</p>
       <div class="hero-buttons">
-        <a class="btn-primary" href="#">App Store 다운로드</a>
-        <a class="btn-secondary" href="#">Google Play 다운로드</a>
+        <a class="btn-primary" href="#" data-i18n="btn_appstore">App Store 다운로드</a>
+        <a class="btn-secondary" href="#" data-i18n="btn_playstore">Google Play 다운로드</a>
       </div>
       <div class="hero-stats">
         <div class="hero-stat">
           <div class="num">6</div>
-          <div class="label">카테고리 운세</div>
+          <div class="label" data-i18n="stat_fortune">카테고리 운세</div>
         </div>
         <div class="hero-stat">
           <div class="num">6</div>
-          <div class="label">지원 언어</div>
+          <div class="label" data-i18n="stat_lang">지원 언어</div>
         </div>
         <div class="hero-stat">
           <div class="num">1:1</div>
-          <div class="label">어드바이저 상담</div>
+          <div class="label" data-i18n="stat_consult">어드바이저 상담</div>
         </div>
       </div>
     </div>
@@ -228,8 +237,8 @@
   <section class="free-features" id="features">
     <div class="section-header">
       <div class="section-tag">Free Features</div>
-      <h2>무료로 제공되는 핵심 기능</h2>
-      <p>회원가입만 하면 바로 사용할 수 있는 강력한 기능들</p>
+      <h2 data-i18n="free_title">무료로 제공되는 핵심 기능</h2>
+      <p data-i18n="free_desc">회원가입만 하면 바로 사용할 수 있는 강력한 기능들</p>
     </div>
     <div class="feature-grid">
       <div class="feature-card">
@@ -352,8 +361,8 @@
   <section class="ai-section" id="ai">
     <div class="section-header">
       <div class="section-tag">Premium</div>
-      <h2>사주 어드바이저 시스템의 깊이 있는 해석</h2>
-      <p>사주 이론을 학습한 어드바이저 시스템이 전문가 수준의 정밀 분석을 제공합니다</p>
+      <h2 data-i18n="premium_title">사주 어드바이저 시스템의 깊이 있는 해석</h2>
+      <p data-i18n="premium_desc">사주 이론을 학습한 어드바이저 시스템이 전문가 수준의 정밀 분석을 제공합니다</p>
     </div>
 
     <!-- 일별 상세 운세 -->
@@ -496,7 +505,7 @@
   <section class="consult-section" id="pricing">
     <div class="section-header">
       <div class="section-tag">Consultation</div>
-      <h2>사주 어드바이저 상담 요금</h2>
+      <h2 data-i18n="pricing_title">사주 어드바이저 상담 요금</h2>
       <p>대면 상담의 1/3 가격으로 전문가급 사주 상담을 받으세요</p>
     </div>
     <div class="consult-grid">
@@ -618,8 +627,8 @@
 
   <!-- CTA -->
   <section class="cta-section">
-    <h2>지금 바로 시작하세요</h2>
-    <p>오늘의 운세를 확인하고, 나의 사주를 깊이 있게 알아보세요.</p>
+    <h2 data-i18n="cta_title">지금 바로 시작하세요</h2>
+    <p data-i18n="cta_desc">오늘의 운세를 확인하고, 나의 사주를 깊이 있게 알아보세요.</p>
     <div class="cta-buttons">
       <a class="btn-cta" href="#">App Store 다운로드</a>
       <a class="btn-cta" href="#" style="background:#34A853">Google Play 다운로드</a>
@@ -632,14 +641,107 @@
       <div>
         <div class="footer-brand">SajuPlanner</div>
         <div class="footer-links">
-          <a href="/privacy.html">개인정보 처리방침</a>
-          <a href="/support.html">고객 지원</a>
-          <a href="mailto:hapick8350@gmail.com">문의하기</a>
+          <a href="/privacy.html" data-i18n="footer_privacy">개인정보 처리방침</a>
+          <a href="/support.html" data-i18n="footer_support">고객 지원</a>
+          <a href="mailto:hapick8350@gmail.com" data-i18n="footer_contact">문의하기</a>
         </div>
         <div class="footer-copy">&copy; 2026 SajuPlanner. All rights reserved.</div>
       </div>
     </div>
   </footer>
 
+<script>
+const T = {
+  ko: {
+    nav_features:'기능', nav_premium:'프리미엄 분석', nav_pricing:'요금', nav_support:'고객지원',
+    hero_title:'내 사주에 맞는<br><span>최적의 타이밍</span>을 알려드립니다',
+    hero_subtitle:'생년월일시를 기반으로 매일의 운세를 분석하고, 사주 어드바이저 시스템이 깊이 있는 상담을 제공합니다. 중요한 일정은 좋은 날에 맞춰 계획하세요.',
+    btn_appstore:'App Store 다운로드', btn_playstore:'Google Play 다운로드',
+    stat_fortune:'카테고리 운세', stat_lang:'지원 언어', stat_consult:'어드바이저 상담',
+    free_title:'무료로 제공되는 핵심 기능', free_desc:'회원가입만 하면 바로 사용할 수 있는 강력한 기능들',
+    premium_title:'사주 어드바이저 시스템의 깊이 있는 해석', premium_desc:'사주 이론을 학습한 어드바이저 시스템이 전문가 수준의 정밀 분석을 제공합니다',
+    pricing_title:'사주 어드바이저 상담 요금',
+    cta_title:'지금 바로 시작하세요', cta_desc:'오늘의 운세를 확인하고, 나의 사주를 깊이 있게 알아보세요.',
+    footer_privacy:'개인정보 처리방침', footer_support:'고객 지원', footer_contact:'문의하기',
+  },
+  en: {
+    nav_features:'Features', nav_premium:'Premium', nav_pricing:'Pricing', nav_support:'Support',
+    hero_title:'Discover the<br><span>Perfect Timing</span> Based on Your BaZi',
+    hero_subtitle:'Analyze daily fortune based on your birth date and time. The Saju Advisor System provides expert-level consultations. Plan important events on the best days.',
+    btn_appstore:'App Store Download', btn_playstore:'Google Play Download',
+    stat_fortune:'Fortune Categories', stat_lang:'Languages', stat_consult:'Advisor Consult',
+    free_title:'Powerful Free Features', free_desc:'Sign up and start using these powerful features right away',
+    premium_title:'In-Depth Analysis by Saju Advisor System', premium_desc:'The Advisor System trained in Saju theory provides expert-level precision analysis',
+    pricing_title:'Saju Advisor Consultation Pricing',
+    cta_title:'Get Started Now', cta_desc:'Check today\'s fortune and explore your BaZi in depth.',
+    footer_privacy:'Privacy Policy', footer_support:'Support', footer_contact:'Contact Us',
+  },
+  ja: {
+    nav_features:'機能', nav_premium:'プレミアム', nav_pricing:'料金', nav_support:'サポート',
+    hero_title:'四柱推命に基づく<br><span>最適なタイミング</span>をお知らせします',
+    hero_subtitle:'生年月日時に基づいて毎日の運勢を分析し、四柱アドバイザーシステムが深い相談を提供します。大切な予定は良い日に合わせて計画しましょう。',
+    btn_appstore:'App Store ダウンロード', btn_playstore:'Google Play ダウンロード',
+    stat_fortune:'カテゴリ運勢', stat_lang:'対応言語', stat_consult:'アドバイザー相談',
+    free_title:'無料で使える主要機能', free_desc:'会員登録するだけですぐに使える強力な機能',
+    premium_title:'四柱アドバイザーシステムの深い解釈', premium_desc:'四柱理論を学習したアドバイザーシステムが専門家レベルの精密分析を提供します',
+    pricing_title:'四柱アドバイザー相談料金',
+    cta_title:'今すぐ始めましょう', cta_desc:'今日の運勢を確認し、あなたの四柱を深く知りましょう。',
+    footer_privacy:'プライバシーポリシー', footer_support:'サポート', footer_contact:'お問い合わせ',
+  },
+  zh_TW: {
+    nav_features:'功能', nav_premium:'進階分析', nav_pricing:'價格', nav_support:'客服',
+    hero_title:'根據您的八字<br>告訴您<span>最佳時機</span>',
+    hero_subtitle:'根據出生年月日時分析每日運勢，八字顧問系統提供深度諮詢。將重要行程安排在最好的日子。',
+    btn_appstore:'App Store 下載', btn_playstore:'Google Play 下載',
+    stat_fortune:'分類運勢', stat_lang:'支援語言', stat_consult:'顧問諮詢',
+    free_title:'免費提供的核心功能', free_desc:'註冊後即可使用的強大功能',
+    premium_title:'八字顧問系統的深度解析', premium_desc:'學習八字理論的顧問系統提供專家級精準分析',
+    pricing_title:'八字顧問諮詢價格',
+    cta_title:'立即開始', cta_desc:'查看今日運勢，深入了解您的八字。',
+    footer_privacy:'隱私權政策', footer_support:'客服支援', footer_contact:'聯絡我們',
+  },
+  vi: {
+    nav_features:'Tính năng', nav_premium:'Cao cấp', nav_pricing:'Giá', nav_support:'Hỗ trợ',
+    hero_title:'Khám phá<br><span>Thời điểm tốt nhất</span> dựa trên Tứ Trụ',
+    hero_subtitle:'Phân tích vận mệnh hàng ngày dựa trên ngày giờ sinh. Hệ thống Tư vấn Tứ Trụ cung cấp tư vấn chuyên sâu. Lên kế hoạch sự kiện quan trọng vào ngày tốt nhất.',
+    btn_appstore:'Tải App Store', btn_playstore:'Tải Google Play',
+    stat_fortune:'Vận mệnh', stat_lang:'Ngôn ngữ', stat_consult:'Tư vấn',
+    free_title:'Tính năng miễn phí mạnh mẽ', free_desc:'Đăng ký và bắt đầu sử dụng ngay các tính năng mạnh mẽ',
+    premium_title:'Phân tích chuyên sâu của Hệ thống Tư vấn Tứ Trụ', premium_desc:'Hệ thống Tư vấn được đào tạo lý thuyết Tứ Trụ cung cấp phân tích chính xác cấp chuyên gia',
+    pricing_title:'Bảng giá Tư vấn Tứ Trụ',
+    cta_title:'Bắt đầu ngay', cta_desc:'Xem vận mệnh hôm nay và khám phá Tứ Trụ của bạn.',
+    footer_privacy:'Chính sách bảo mật', footer_support:'Hỗ trợ', footer_contact:'Liên hệ',
+  },
+  id: {
+    nav_features:'Fitur', nav_premium:'Premium', nav_pricing:'Harga', nav_support:'Dukungan',
+    hero_title:'Temukan<br><span>Waktu Terbaik</span> Berdasarkan BaZi Anda',
+    hero_subtitle:'Analisis keberuntungan harian berdasarkan tanggal dan waktu lahir. Sistem Penasihat Saju memberikan konsultasi mendalam. Rencanakan acara penting di hari terbaik.',
+    btn_appstore:'Unduh App Store', btn_playstore:'Unduh Google Play',
+    stat_fortune:'Kategori Keberuntungan', stat_lang:'Bahasa', stat_consult:'Konsultasi',
+    free_title:'Fitur Gratis yang Kuat', free_desc:'Daftar dan langsung gunakan fitur-fitur hebat ini',
+    premium_title:'Analisis Mendalam oleh Sistem Penasihat Saju', premium_desc:'Sistem Penasihat yang terlatih teori Saju memberikan analisis presisi tingkat ahli',
+    pricing_title:'Harga Konsultasi Penasihat Saju',
+    cta_title:'Mulai Sekarang', cta_desc:'Cek keberuntungan hari ini dan jelajahi BaZi Anda secara mendalam.',
+    footer_privacy:'Kebijakan Privasi', footer_support:'Dukungan', footer_contact:'Hubungi Kami',
+  }
+};
+function setLang(lang) {
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (T[lang] && T[lang][key]) el.innerHTML = T[lang][key];
+  });
+  document.documentElement.lang = lang === 'zh_TW' ? 'zh-TW' : lang;
+  localStorage.setItem('lang', lang);
+  document.getElementById('langSelect').value = lang;
+}
+(function() {
+  const saved = localStorage.getItem('lang');
+  const browserLang = navigator.language.slice(0,2);
+  const langMap = {ko:'ko',en:'en',ja:'ja',zh:'zh_TW',vi:'vi',id:'id'};
+  const lang = saved || langMap[browserLang] || 'ko';
+  document.getElementById('langSelect').value = lang;
+  if (lang !== 'ko') setLang(lang);
+})();
+</script>
 </body>
 </html>
