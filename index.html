@@ -190,15 +190,15 @@
     <div class="nav-inner">
       <a href="/" class="logo">SajuPlanner</a>
       <div class="nav-links">
-        <a href="#features" data-i18n="nav_features">기능</a>
-        <a href="#ai" data-i18n="nav_premium">프리미엄 분석</a>
-        <a href="#pricing" data-i18n="nav_pricing">요금</a>
-        <a href="/support.html" data-i18n="nav_support">고객지원</a>
-        <select class="lang-select" id="langSelect" onchange="setLang(this.value)">
+        <a href="#features" data-i18n="nav1">기능</a>
+        <a href="#ai" data-i18n="nav2">프리미엄 분석</a>
+        <a href="#pricing" data-i18n="nav3">요금</a>
+        <a href="/support.html" data-i18n="nav4">고객지원</a>
+        <select class="lang-select" id="langSel" onchange="switchLang(this.value)">
           <option value="ko">한국어</option>
           <option value="en">English</option>
           <option value="ja">日本語</option>
-          <option value="zh_TW">繁體中文</option>
+          <option value="zh">繁體中文</option>
           <option value="vi">Tiếng Việt</option>
           <option value="id">Indonesia</option>
         </select>
@@ -210,24 +210,24 @@
   <div class="hero">
     <div class="hero-content">
       <div class="hero-badge">Saju Advisor System</div>
-      <h1 data-i18n="hero_title">내 사주에 맞는<br><span>최적의 타이밍</span>을 알려드립니다</h1>
-      <p class="subtitle" data-i18n="hero_subtitle">생년월일시를 기반으로 매일의 운세를 분석하고, 사주 어드바이저 시스템이 깊이 있는 상담을 제공합니다. 중요한 일정은 좋은 날에 맞춰 계획하세요.</p>
+      <h1 data-i18n="h1">내 사주에 맞는<br><span>최적의 타이밍</span>을 알려드립니다</h1>
+      <p class="subtitle" data-i18n="h1s">생년월일시를 기반으로 매일의 운세를 분석하고, 사주 어드바이저 시스템이 깊이 있는 상담을 제공합니다. 중요한 일정은 좋은 날에 맞춰 계획하세요.</p>
       <div class="hero-buttons">
-        <a class="btn-primary" href="#" data-i18n="btn_appstore">App Store 다운로드</a>
-        <a class="btn-secondary" href="#" data-i18n="btn_playstore">Google Play 다운로드</a>
+        <a class="btn-primary" href="#" data-i18n="dl1">App Store 다운로드</a>
+        <a class="btn-secondary" href="#" data-i18n="dl2">Google Play 다운로드</a>
       </div>
       <div class="hero-stats">
         <div class="hero-stat">
           <div class="num">6</div>
-          <div class="label" data-i18n="stat_fortune">카테고리 운세</div>
+          <div class="label" data-i18n="s1">카테고리 운세</div>
         </div>
         <div class="hero-stat">
           <div class="num">6</div>
-          <div class="label" data-i18n="stat_lang">지원 언어</div>
+          <div class="label" data-i18n="s2">지원 언어</div>
         </div>
         <div class="hero-stat">
           <div class="num">1:1</div>
-          <div class="label" data-i18n="stat_consult">어드바이저 상담</div>
+          <div class="label" data-i18n="s3">어드바이저 상담</div>
         </div>
       </div>
     </div>
@@ -237,45 +237,45 @@
   <section class="free-features" id="features">
     <div class="section-header">
       <div class="section-tag">Free Features</div>
-      <h2 data-i18n="free_title">무료로 제공되는 핵심 기능</h2>
-      <p data-i18n="free_desc">회원가입만 하면 바로 사용할 수 있는 강력한 기능들</p>
+      <h2 data-i18n="ft">무료로 제공되는 핵심 기능</h2>
+      <p data-i18n="fts">회원가입만 하면 바로 사용할 수 있는 강력한 기능들</p>
     </div>
     <div class="feature-grid">
       <div class="feature-card">
         <div class="feature-icon">&#x2609;</div>
-        <div class="tag">무료</div>
-        <h3>사주 원국 분석</h3>
-        <p>생년월일시를 기반으로 사주팔자를 정밀하게 분석합니다. 천간, 지지, 오행 배치와 십신 관계를 한눈에 확인하세요. 음력/양력 변환을 자동 지원합니다.</p>
+        <div class="tag" data-i18n="free">무료</div>
+        <h3 data-i18n="f1t">사주 원국 분석</h3>
+        <p data-i18n="f1d">생년월일시를 기반으로 사주팔자를 정밀하게 분석합니다. 천간, 지지, 오행 배치와 십신 관계를 한눈에 확인하세요. 음력/양력 변환을 자동 지원합니다.</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">&#x2606;</div>
-        <div class="tag">무료</div>
-        <h3>6카테고리 일일 운세</h3>
-        <p>재물, 연애, 직장, 건강, 학업, 대인관계 6개 카테고리별 운세 점수를 매일 제공합니다. 0~100점 색상 코딩으로 한눈에 오늘의 운세를 파악하세요.</p>
+        <div class="tag" data-i18n="free">무료</div>
+        <h3 data-i18n="f2t">6카테고리 일일 운세</h3>
+        <p data-i18n="f2d">재물, 연애, 직장, 건강, 학업, 대인관계 6개 카테고리별 운세 점수를 매일 제공합니다. 0~100점 색상 코딩으로 한눈에 오늘의 운세를 파악하세요.</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">&#x2637;</div>
-        <div class="tag">무료</div>
-        <h3>스마트 캘린더</h3>
-        <p>월별 캘린더에 운세 점수가 색상으로 표시됩니다. 카테고리별 필터로 중요한 일정에 최적인 날을 쉽게 찾으세요. 일정 등록과 관리도 가능합니다.</p>
+        <div class="tag" data-i18n="free">무료</div>
+        <h3 data-i18n="f3t">스마트 캘린더</h3>
+        <p data-i18n="f3d">월별 캘린더에 운세 점수가 색상으로 표시됩니다. 카테고리별 필터로 중요한 일정에 최적인 날을 쉽게 찾으세요. 일정 등록과 관리도 가능합니다.</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">&#x231A;</div>
-        <div class="tag">무료</div>
-        <h3>12시진 시간대별 운세</h3>
-        <p>하루를 12개 시간대(2시간 간격)로 나누어 각 시간대별 운세를 제공합니다. 중요한 미팅이나 계약에 가장 좋은 시간을 선택하세요.</p>
+        <div class="tag" data-i18n="free">무료</div>
+        <h3 data-i18n="f4t">12시진 시간대별 운세</h3>
+        <p data-i18n="f4d">하루를 12개 시간대(2시간 간격)로 나누어 각 시간대별 운세를 제공합니다. 중요한 미팅이나 계약에 가장 좋은 시간을 선택하세요.</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">&#x263C;</div>
-        <div class="tag">무료</div>
-        <h3>용신 분석</h3>
-        <p>사주의 오행 균형을 분석하여 용신(가장 필요한 오행)을 찾아드립니다. 용신을 활용하면 생활 속에서 좋은 기운을 끌어올 수 있습니다.</p>
+        <div class="tag" data-i18n="free">무료</div>
+        <h3 data-i18n="f5t">용신 분석</h3>
+        <p data-i18n="f5d">사주의 오행 균형을 분석하여 용신(가장 필요한 오행)을 찾아드립니다. 용신을 활용하면 생활 속에서 좋은 기운을 끌어올 수 있습니다.</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">&#x2728;</div>
-        <div class="tag">무료</div>
-        <h3>대운/세운 분석</h3>
-        <p>10년 단위 대운과 연간 세운 흐름을 분석합니다. 인생의 큰 흐름 속에서 지금이 어떤 시기인지 파악하고, 장기적인 계획을 세우세요.</p>
+        <div class="tag" data-i18n="free">무료</div>
+        <h3 data-i18n="f6t">대운/세운 분석</h3>
+        <p data-i18n="f6d">10년 단위 대운과 연간 세운 흐름을 분석합니다. 인생의 큰 흐름 속에서 지금이 어떤 시기인지 파악하고, 장기적인 계획을 세우세요.</p>
       </div>
     </div>
   </section>
@@ -284,39 +284,39 @@
   <section class="fortune-section">
     <div class="section-header">
       <div class="section-tag">Daily Fortune</div>
-      <h2 style="color:#fff">6가지 카테고리별 운세 분석</h2>
-      <p>매일 6개 영역의 운세를 0~100점으로 분석합니다</p>
+      <h2 style="color:#fff" data-i18n="ct">6가지 카테고리별 운세 분석</h2>
+      <p data-i18n="cts">매일 6개 영역의 운세를 0~100점으로 분석합니다</p>
     </div>
     <div class="fortune-grid">
       <div class="fortune-category">
         <div class="fortune-emoji">&#x1F4B0;</div>
-        <h3>재물운</h3>
-        <p>금전, 투자, 재테크</p>
+        <h3 data-i18n="c1t">재물운</h3>
+        <p data-i18n="c1d">금전, 투자, 재테크</p>
       </div>
       <div class="fortune-category">
         <div class="fortune-emoji">&#x1F495;</div>
-        <h3>애정운</h3>
-        <p>연애, 결혼, 인연</p>
+        <h3 data-i18n="c2t">애정운</h3>
+        <p data-i18n="c2d">연애, 결혼, 인연</p>
       </div>
       <div class="fortune-category">
         <div class="fortune-emoji">&#x1F4BC;</div>
-        <h3>직장운</h3>
-        <p>승진, 이직, 사업</p>
+        <h3 data-i18n="c3t">직장운</h3>
+        <p data-i18n="c3d">승진, 이직, 사업</p>
       </div>
       <div class="fortune-category">
         <div class="fortune-emoji">&#x1F3E5;</div>
-        <h3>건강운</h3>
-        <p>체력, 컨디션, 주의사항</p>
+        <h3 data-i18n="c4t">건강운</h3>
+        <p data-i18n="c4d">체력, 컨디션, 주의사항</p>
       </div>
       <div class="fortune-category">
         <div class="fortune-emoji">&#x1F4DA;</div>
-        <h3>학업운</h3>
-        <p>시험, 자격증, 학습</p>
+        <h3 data-i18n="c5t">학업운</h3>
+        <p data-i18n="c5d">시험, 자격증, 학습</p>
       </div>
       <div class="fortune-category">
         <div class="fortune-emoji">&#x1F91D;</div>
-        <h3>대인운</h3>
-        <p>인간관계, 소통, 협업</p>
+        <h3 data-i18n="c6t">대인운</h3>
+        <p data-i18n="c6d">인간관계, 소통, 협업</p>
       </div>
     </div>
   </section>
@@ -325,34 +325,34 @@
   <section class="score-section">
     <div class="section-header">
       <div class="section-tag">Score System</div>
-      <h2>직관적인 운세 점수 시스템</h2>
-      <p>점수와 색상으로 한눈에 오늘의 운세를 파악하세요</p>
+      <h2 data-i18n="sct">직관적인 운세 점수 시스템</h2>
+      <p data-i18n="scs">점수와 색상으로 한눈에 오늘의 운세를 파악하세요</p>
     </div>
     <div class="score-bar-list">
       <div class="score-bar">
         <div class="score-range">80~100</div>
         <div class="score-dot" style="background:#48BB78"></div>
-        <div class="score-desc"><strong>대길</strong> - 중요한 일정을 잡기에 최적의 날입니다</div>
+        <div class="score-desc" data-i18n="sc1"><strong>대길</strong> - 중요한 일정을 잡기에 최적의 날입니다</div>
       </div>
       <div class="score-bar">
         <div class="score-range">60~79</div>
         <div class="score-dot" style="background:#4299E1"></div>
-        <div class="score-desc"><strong>길</strong> - 대부분의 활동에 좋은 날입니다</div>
+        <div class="score-desc" data-i18n="sc2"><strong>길</strong> - 대부분의 활동에 좋은 날입니다</div>
       </div>
       <div class="score-bar">
         <div class="score-range">40~59</div>
         <div class="score-dot" style="background:#ECC94B"></div>
-        <div class="score-desc"><strong>보통</strong> - 일상적인 활동에 무리 없는 날입니다</div>
+        <div class="score-desc" data-i18n="sc3"><strong>보통</strong> - 일상적인 활동에 무리 없는 날입니다</div>
       </div>
       <div class="score-bar">
         <div class="score-range">20~39</div>
         <div class="score-dot" style="background:#ED8936"></div>
-        <div class="score-desc"><strong>주의</strong> - 중요한 결정은 피하는 것이 좋습니다</div>
+        <div class="score-desc" data-i18n="sc4"><strong>주의</strong> - 중요한 결정은 피하는 것이 좋습니다</div>
       </div>
       <div class="score-bar">
         <div class="score-range">0~19</div>
         <div class="score-dot" style="background:#F56565"></div>
-        <div class="score-desc"><strong>흉</strong> - 큰 일정은 다른 날로 미루세요</div>
+        <div class="score-desc" data-i18n="sc5"><strong>흉</strong> - 큰 일정은 다른 날로 미루세요</div>
       </div>
     </div>
   </section>
@@ -361,8 +361,8 @@
   <section class="ai-section" id="ai">
     <div class="section-header">
       <div class="section-tag">Premium</div>
-      <h2 data-i18n="premium_title">사주 어드바이저 시스템의 깊이 있는 해석</h2>
-      <p data-i18n="premium_desc">사주 이론을 학습한 어드바이저 시스템이 전문가 수준의 정밀 분석을 제공합니다</p>
+      <h2 data-i18n="pt">사주 어드바이저 시스템의 깊이 있는 해석</h2>
+      <p data-i18n="ps">사주 이론을 학습한 어드바이저 시스템이 전문가 수준의 정밀 분석을 제공합니다</p>
     </div>
 
     <!-- 일별 상세 운세 -->
@@ -370,20 +370,20 @@
       <div class="detail-header">
         <div class="detail-icon">&#x1F52E;</div>
         <div>
-          <h3>일별 상세 운세 <span class="detail-price">&#8361;1,500</span></h3>
-          <p class="detail-desc">특정 날짜의 운세를 9개 항목으로 심층 분석합니다. 오늘 하루를 어떻게 보내야 할지 구체적인 가이드를 제공합니다.</p>
+          <h3 data-i18n="d1t">일별 상세 운세 <span class="detail-price">&#8361;1,500</span></h3>
+          <p class="detail-desc" data-i18n="d1d">특정 날짜의 운세를 9개 항목으로 심층 분석합니다. 오늘 하루를 어떻게 보내야 할지 구체적인 가이드를 제공합니다.</p>
         </div>
       </div>
       <div class="detail-items">
-        <div class="detail-item"><span class="item-num">01</span><div><strong>오늘의 테마</strong><br><span>오늘 하루를 관통하는 핵심 키워드와 에너지 방향</span></div></div>
-        <div class="detail-item"><span class="item-num">02</span><div><strong>사주 맥락 분석</strong><br><span>오늘의 에너지, 격국의 영향, 인생 흐름, 주요 신살을 종합 해석</span></div></div>
-        <div class="detail-item"><span class="item-num">03</span><div><strong>12시진 시간대별 운세</strong><br><span>2시간 간격 12개 시간대별 운세 점수와 최적 활동 추천</span></div></div>
-        <div class="detail-item"><span class="item-num">04</span><div><strong>카테고리별 상세 운세</strong><br><span>재물, 연애, 직장, 건강 4대 카테고리별 점수와 상세 해석</span></div></div>
-        <div class="detail-item"><span class="item-num">05</span><div><strong>오행 에너지 분석</strong><br><span>오늘의 오행(목화토금수) 에너지 흐름과 균형 상태</span></div></div>
-        <div class="detail-item"><span class="item-num">06</span><div><strong>활동별 최적 시간 추천</strong><br><span>미팅, 계약, 운동 등 활동 유형별 베스트 시간대 안내</span></div></div>
-        <div class="detail-item"><span class="item-num">07</span><div><strong>심층 인사이트</strong><br><span>어드바이저 시스템의 추가 분석과 깊이 있는 조언</span></div></div>
-        <div class="detail-item"><span class="item-num">08</span><div><strong>행운 요소</strong><br><span>오늘의 행운 색상, 숫자, 방위, 계절 추천</span></div></div>
-        <div class="detail-item"><span class="item-num">09</span><div><strong>주의 사항 & 오늘의 메시지</strong><br><span>하루를 보내며 주의할 점과 마무리 조언</span></div></div>
+        <div class="detail-item"><span class="item-num">01</span><div data-i18n="d1i1"><strong>오늘의 테마</strong><br><span>오늘 하루를 관통하는 핵심 키워드와 에너지 방향</span></div></div>
+        <div class="detail-item"><span class="item-num">02</span><div data-i18n="d1i2"><strong>사주 맥락 분석</strong><br><span>오늘의 에너지, 격국의 영향, 인생 흐름, 주요 신살을 종합 해석</span></div></div>
+        <div class="detail-item"><span class="item-num">03</span><div data-i18n="d1i3"><strong>12시진 시간대별 운세</strong><br><span>2시간 간격 12개 시간대별 운세 점수와 최적 활동 추천</span></div></div>
+        <div class="detail-item"><span class="item-num">04</span><div data-i18n="d1i4"><strong>카테고리별 상세 운세</strong><br><span>재물, 연애, 직장, 건강 4대 카테고리별 점수와 상세 해석</span></div></div>
+        <div class="detail-item"><span class="item-num">05</span><div data-i18n="d1i5"><strong>오행 에너지 분석</strong><br><span>오늘의 오행(목화토금수) 에너지 흐름과 균형 상태</span></div></div>
+        <div class="detail-item"><span class="item-num">06</span><div data-i18n="d1i6"><strong>활동별 최적 시간 추천</strong><br><span>미팅, 계약, 운동 등 활동 유형별 베스트 시간대 안내</span></div></div>
+        <div class="detail-item"><span class="item-num">07</span><div data-i18n="d1i7"><strong>심층 인사이트</strong><br><span>어드바이저 시스템의 추가 분석과 깊이 있는 조언</span></div></div>
+        <div class="detail-item"><span class="item-num">08</span><div data-i18n="d1i8"><strong>행운 요소</strong><br><span>오늘의 행운 색상, 숫자, 방위, 계절 추천</span></div></div>
+        <div class="detail-item"><span class="item-num">09</span><div data-i18n="d1i9"><strong>주의 사항 & 오늘의 메시지</strong><br><span>하루를 보내며 주의할 점과 마무리 조언</span></div></div>
       </div>
     </div>
 
@@ -392,17 +392,17 @@
       <div class="detail-header">
         <div class="detail-icon">&#x1F5D3;</div>
         <div>
-          <h3>연간 운세 <span class="detail-price">&#8361;5,900</span></h3>
-          <p class="detail-desc">올해의 전체 흐름을 파악하고, 12개월 월별 운세를 상세하게 분석합니다. 한 해를 전략적으로 계획하세요.</p>
+          <h3 data-i18n="d2t">연간 운세 <span class="detail-price">&#8361;5,900</span></h3>
+          <p class="detail-desc" data-i18n="d2d">올해의 전체 흐름을 파악하고, 12개월 월별 운세를 상세하게 분석합니다. 한 해를 전략적으로 계획하세요.</p>
         </div>
       </div>
       <div class="detail-items">
-        <div class="detail-item"><span class="item-num">01</span><div><strong>연간 총운 & 세운 분석</strong><br><span>올해 전체 운세 점수와 세운(올해 간지)이 사주에 미치는 영향 분석</span></div></div>
-        <div class="detail-item"><span class="item-num">02</span><div><strong>올해의 테마</strong><br><span>한 해를 관통하는 핵심 키워드와 주요 에너지 방향</span></div></div>
-        <div class="detail-item"><span class="item-num">03</span><div><strong>12개월 월별 상세 운세</strong><br><span>매월 키워드, 점수, 종합 분석 + 직장/재물/연애/건강 4대 카테고리 해석</span></div></div>
-        <div class="detail-item"><span class="item-num">04</span><div><strong>카테고리별 연간 운세</strong><br><span>직장/재물, 인간관계/연애, 건강, 학업, 사교 영역별 점수와 좋은 달/주의할 달 안내</span></div></div>
-        <div class="detail-item"><span class="item-num">05</span><div><strong>행운 요소</strong><br><span>올해의 행운 색상, 숫자, 방위, 유리한 계절</span></div></div>
-        <div class="detail-item"><span class="item-num">06</span><div><strong>연간 종합 조언</strong><br><span>한 해를 성공적으로 보내기 위한 전략적 가이드</span></div></div>
+        <div class="detail-item"><span class="item-num">01</span><div data-i18n="d2i1"><strong>연간 총운 & 세운 분석</strong><br><span>올해 전체 운세 점수와 세운(올해 간지)이 사주에 미치는 영향 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">02</span><div data-i18n="d2i2"><strong>올해의 테마</strong><br><span>한 해를 관통하는 핵심 키워드와 주요 에너지 방향</span></div></div>
+        <div class="detail-item"><span class="item-num">03</span><div data-i18n="d2i3"><strong>12개월 월별 상세 운세</strong><br><span>매월 키워드, 점수, 종합 분석 + 직장/재물/연애/건강 4대 카테고리 해석</span></div></div>
+        <div class="detail-item"><span class="item-num">04</span><div data-i18n="d2i4"><strong>카테고리별 연간 운세</strong><br><span>직장/재물, 인간관계/연애, 건강, 학업, 사교 영역별 점수와 좋은 달/주의할 달 안내</span></div></div>
+        <div class="detail-item"><span class="item-num">05</span><div data-i18n="d2i5"><strong>행운 요소</strong><br><span>올해의 행운 색상, 숫자, 방위, 유리한 계절</span></div></div>
+        <div class="detail-item"><span class="item-num">06</span><div data-i18n="d2i6"><strong>연간 종합 조언</strong><br><span>한 해를 성공적으로 보내기 위한 전략적 가이드</span></div></div>
       </div>
     </div>
 
@@ -411,22 +411,22 @@
       <div class="detail-header">
         <div class="detail-icon">&#x1F4CA;</div>
         <div>
-          <h3>상세 사주 리포트 <span class="detail-price">&#8361;7,900</span></h3>
-          <p class="detail-desc">나의 사주 원국을 어드바이저 시스템이 총체적으로 분석합니다. 타고난 성향, 적성, 인생의 흐름까지 깊이 있게 해석합니다.</p>
+          <h3 data-i18n="d3t">상세 사주 리포트 <span class="detail-price">&#8361;7,900</span></h3>
+          <p class="detail-desc" data-i18n="d3d">나의 사주 원국을 어드바이저 시스템이 총체적으로 분석합니다. 타고난 성향, 적성, 인생의 흐름까지 깊이 있게 해석합니다.</p>
         </div>
       </div>
       <div class="detail-items">
-        <div class="detail-item"><span class="item-num">01</span><div><strong>일간(日干) 분석</strong><br><span>나의 본질적 성격과 기질을 일간 오행으로 심층 해석</span></div></div>
-        <div class="detail-item"><span class="item-num">02</span><div><strong>십신(十神) 분포</strong><br><span>비겁/식상/재성/관성/인성 분포로 삶의 방향성 분석</span></div></div>
-        <div class="detail-item"><span class="item-num">03</span><div><strong>격국(格局) 분석</strong><br><span>사주의 전체 구조와 격의 높낮이, 삶의 패턴 해석</span></div></div>
-        <div class="detail-item"><span class="item-num">04</span><div><strong>용신 & 희신 분석</strong><br><span>사주에 가장 필요한 오행(용신)과 도움이 되는 오행(희신) 도출</span></div></div>
-        <div class="detail-item"><span class="item-num">05</span><div><strong>주요 신살 해석</strong><br><span>천을귀인, 역마, 화개, 도화 등 주요 신살의 영향 분석</span></div></div>
-        <div class="detail-item"><span class="item-num">06</span><div><strong>성격 - 강점 & 약점</strong><br><span>타고난 강점과 보완이 필요한 약점을 구체적으로 분석</span></div></div>
-        <div class="detail-item"><span class="item-num">07</span><div><strong>재물운 & 적성/직업</strong><br><span>재물 패턴 분석과 사주에 맞는 직업군 및 진로 방향 추천</span></div></div>
-        <div class="detail-item"><span class="item-num">08</span><div><strong>결혼/배우자운 & 가족관계</strong><br><span>배우자 궁 분석, 결혼 시기, 가족 관계 패턴 해석</span></div></div>
-        <div class="detail-item"><span class="item-num">09</span><div><strong>건강 주의 부위</strong><br><span>오행 불균형에 따른 건강 취약 부위와 관리 방법</span></div></div>
-        <div class="detail-item"><span class="item-num">10</span><div><strong>대운 흐름 & 인생 주기</strong><br><span>10년 단위 대운 변화, 전성기, 주요 변화 시점, 미래 전망까지 종합 분석</span></div></div>
-        <div class="detail-item"><span class="item-num">11</span><div><strong>행운 요소 & 종합 운세</strong><br><span>행운 색상/숫자/방위 + 인생 전반에 대한 종합 메시지</span></div></div>
+        <div class="detail-item"><span class="item-num">01</span><div data-i18n="d3i1"><strong>일간(日干) 분석</strong><br><span>나의 본질적 성격과 기질을 일간 오행으로 심층 해석</span></div></div>
+        <div class="detail-item"><span class="item-num">02</span><div data-i18n="d3i2"><strong>십신(十神) 분포</strong><br><span>비겁/식상/재성/관성/인성 분포로 삶의 방향성 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">03</span><div data-i18n="d3i3"><strong>격국(格局) 분석</strong><br><span>사주의 전체 구조와 격의 높낮이, 삶의 패턴 해석</span></div></div>
+        <div class="detail-item"><span class="item-num">04</span><div data-i18n="d3i4"><strong>용신 & 희신 분석</strong><br><span>사주에 가장 필요한 오행(용신)과 도움이 되는 오행(희신) 도출</span></div></div>
+        <div class="detail-item"><span class="item-num">05</span><div data-i18n="d3i5"><strong>주요 신살 해석</strong><br><span>천을귀인, 역마, 화개, 도화 등 주요 신살의 영향 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">06</span><div data-i18n="d3i6"><strong>성격 - 강점 & 약점</strong><br><span>타고난 강점과 보완이 필요한 약점을 구체적으로 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">07</span><div data-i18n="d3i7"><strong>재물운 & 적성/직업</strong><br><span>재물 패턴 분석과 사주에 맞는 직업군 및 진로 방향 추천</span></div></div>
+        <div class="detail-item"><span class="item-num">08</span><div data-i18n="d3i8"><strong>결혼/배우자운 & 가족관계</strong><br><span>배우자 궁 분석, 결혼 시기, 가족 관계 패턴 해석</span></div></div>
+        <div class="detail-item"><span class="item-num">09</span><div data-i18n="d3i9"><strong>건강 주의 부위</strong><br><span>오행 불균형에 따른 건강 취약 부위와 관리 방법</span></div></div>
+        <div class="detail-item"><span class="item-num">10</span><div data-i18n="d3i10"><strong>대운 흐름 & 인생 주기</strong><br><span>10년 단위 대운 변화, 전성기, 주요 변화 시점, 미래 전망까지 종합 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">11</span><div data-i18n="d3i11"><strong>행운 요소 & 종합 운세</strong><br><span>행운 색상/숫자/방위 + 인생 전반에 대한 종합 메시지</span></div></div>
       </div>
     </div>
 
@@ -435,19 +435,19 @@
       <div class="detail-header">
         <div class="detail-icon">&#x1F495;</div>
         <div>
-          <h3>궁합 분석 <span class="detail-price">&#8361;5,900</span></h3>
-          <p class="detail-desc">두 사람의 사주를 비교하여 궁합을 다각도로 분석합니다. 연인, 부부, 비즈니스 파트너까지 모든 관계에 적용 가능합니다.</p>
+          <h3 data-i18n="d4t">궁합 분석 <span class="detail-price">&#8361;5,900</span></h3>
+          <p class="detail-desc" data-i18n="d4d">두 사람의 사주를 비교하여 궁합을 다각도로 분석합니다. 연인, 부부, 비즈니스 파트너까지 모든 관계에 적용 가능합니다.</p>
         </div>
       </div>
       <div class="detail-items">
-        <div class="detail-item"><span class="item-num">01</span><div><strong>종합 궁합 점수</strong><br><span>두 사람의 전체적인 궁합도를 0~100점으로 산출</span></div></div>
-        <div class="detail-item"><span class="item-num">02</span><div><strong>궁합 요약 분석</strong><br><span>두 사람의 관계를 한눈에 파악할 수 있는 핵심 요약</span></div></div>
-        <div class="detail-item"><span class="item-num">03</span><div><strong>오행 궁합 분석</strong><br><span>오행(목화토금수) 상생/상극 관계 분석 + 보완점 & 해결책</span></div></div>
-        <div class="detail-item"><span class="item-num">04</span><div><strong>감성 궁합 분석</strong><br><span>감정적 교류 방식과 정서적 호환성, 갈등 포인트 분석</span></div></div>
-        <div class="detail-item"><span class="item-num">05</span><div><strong>현실 궁합 분석</strong><br><span>생활 습관, 가치관, 목표 등 실생활 호환성 분석</span></div></div>
-        <div class="detail-item"><span class="item-num">06</span><div><strong>소통 방식 분석</strong><br><span>두 사람의 커뮤니케이션 스타일과 실천 가능한 소통 팁</span></div></div>
-        <div class="detail-item"><span class="item-num">07</span><div><strong>미래 전망</strong><br><span>관계 발전 방향 예측과 장기적 관점의 조언</span></div></div>
-        <div class="detail-item"><span class="item-num">08</span><div><strong>종합 조언</strong><br><span>관계를 더욱 발전시키기 위한 맞춤형 가이드</span></div></div>
+        <div class="detail-item"><span class="item-num">01</span><div data-i18n="d4i1"><strong>종합 궁합 점수</strong><br><span>두 사람의 전체적인 궁합도를 0~100점으로 산출</span></div></div>
+        <div class="detail-item"><span class="item-num">02</span><div data-i18n="d4i2"><strong>궁합 요약 분석</strong><br><span>두 사람의 관계를 한눈에 파악할 수 있는 핵심 요약</span></div></div>
+        <div class="detail-item"><span class="item-num">03</span><div data-i18n="d4i3"><strong>오행 궁합 분석</strong><br><span>오행(목화토금수) 상생/상극 관계 분석 + 보완점 & 해결책</span></div></div>
+        <div class="detail-item"><span class="item-num">04</span><div data-i18n="d4i4"><strong>감성 궁합 분석</strong><br><span>감정적 교류 방식과 정서적 호환성, 갈등 포인트 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">05</span><div data-i18n="d4i5"><strong>현실 궁합 분석</strong><br><span>생활 습관, 가치관, 목표 등 실생활 호환성 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">06</span><div data-i18n="d4i6"><strong>소통 방식 분석</strong><br><span>두 사람의 커뮤니케이션 스타일과 실천 가능한 소통 팁</span></div></div>
+        <div class="detail-item"><span class="item-num">07</span><div data-i18n="d4i7"><strong>미래 전망</strong><br><span>관계 발전 방향 예측과 장기적 관점의 조언</span></div></div>
+        <div class="detail-item"><span class="item-num">08</span><div data-i18n="d4i8"><strong>종합 조언</strong><br><span>관계를 더욱 발전시키기 위한 맞춤형 가이드</span></div></div>
       </div>
     </div>
 
@@ -456,46 +456,46 @@
       <div class="detail-header">
         <div class="detail-icon">&#x1F492;</div>
         <div>
-          <h3>택일 분석 <span class="detail-price">&#8361;5,900</span></h3>
-          <p class="detail-desc">결혼, 이사, 개업, 계약 등 인생의 중요한 순간에 최적인 날짜를 선정해드립니다.</p>
+          <h3 data-i18n="d5t">택일 분석 <span class="detail-price">&#8361;5,900</span></h3>
+          <p class="detail-desc" data-i18n="d5d">결혼, 이사, 개업, 계약 등 인생의 중요한 순간에 최적인 날짜를 선정해드립니다.</p>
         </div>
       </div>
       <div class="detail-items">
-        <div class="detail-item"><span class="item-num">01</span><div><strong>분석 요약</strong><br><span>선택한 활동 유형에 대한 전체적인 분석 개요</span></div></div>
-        <div class="detail-item"><span class="item-num">02</span><div><strong>추천 날짜 리스트</strong><br><span>적합도 점수, 추천 사유, 최적 시간대, 주의사항이 포함된 상세 날짜 목록</span></div></div>
-        <div class="detail-item"><span class="item-num">03</span><div><strong>피해야 할 날짜</strong><br><span>해당 활동에 부적합한 날짜와 그 사유 안내</span></div></div>
-        <div class="detail-item"><span class="item-num">04</span><div><strong>준비 체크리스트</strong><br><span>선택한 날짜에 맞춰 사전에 준비해야 할 항목 안내</span></div></div>
-        <div class="detail-item"><span class="item-num">05</span><div><strong>종합 조언</strong><br><span>택일과 관련된 전반적인 조언과 마무리 가이드</span></div></div>
+        <div class="detail-item"><span class="item-num">01</span><div data-i18n="d5i1"><strong>분석 요약</strong><br><span>선택한 활동 유형에 대한 전체적인 분석 개요</span></div></div>
+        <div class="detail-item"><span class="item-num">02</span><div data-i18n="d5i2"><strong>추천 날짜 리스트</strong><br><span>적합도 점수, 추천 사유, 최적 시간대, 주의사항이 포함된 상세 날짜 목록</span></div></div>
+        <div class="detail-item"><span class="item-num">03</span><div data-i18n="d5i3"><strong>피해야 할 날짜</strong><br><span>해당 활동에 부적합한 날짜와 그 사유 안내</span></div></div>
+        <div class="detail-item"><span class="item-num">04</span><div data-i18n="d5i4"><strong>준비 체크리스트</strong><br><span>선택한 날짜에 맞춰 사전에 준비해야 할 항목 안내</span></div></div>
+        <div class="detail-item"><span class="item-num">05</span><div data-i18n="d5i5"><strong>종합 조언</strong><br><span>택일과 관련된 전반적인 조언과 마무리 가이드</span></div></div>
       </div>
     </div>
 
-    <!-- AI 사주 상담 -->
+    <!-- 사주 상담 -->
     <div class="detail-block" style="border: 2px solid var(--primary);">
       <div class="detail-header">
         <div class="detail-icon" style="background: linear-gradient(135deg, var(--primary), var(--primary-light));">&#x1F4AC;</div>
         <div>
-          <h3>사주 어드바이저 상담 <span class="detail-price">&#8361;14,900~</span> <span style="background:var(--accent);color:#1a1a2e;padding:3px 10px;border-radius:20px;font-size:0.75rem;font-weight:700;margin-left:4px;">핵심 기능</span></h3>
-          <p class="detail-desc">사주 어드바이저와 1:1 대화 형식으로 자유롭게 질문하세요. 아래 17개 분석 카테고리의 400개 이상 데이터를 기반으로 깊이 있는 맞춤 상담을 제공합니다.</p>
+          <h3 data-i18n="d6t">사주 어드바이저 상담 <span class="detail-price">&#8361;14,900~</span> <span style="background:var(--accent);color:#1a1a2e;padding:3px 10px;border-radius:20px;font-size:0.75rem;font-weight:700;margin-left:4px;">핵심 기능</span></h3>
+          <p class="detail-desc" data-i18n="d6d">사주 어드바이저와 1:1 대화 형식으로 자유롭게 질문하세요. 아래 17개 분석 카테고리의 400개 이상 데이터를 기반으로 깊이 있는 맞춤 상담을 제공합니다.</p>
         </div>
       </div>
       <div class="detail-items">
-        <div class="detail-item"><span class="item-num">01</span><div><strong>사주 원국 기본 정보</strong><br><span>천간 4주, 지지 4주, 오행 분포/균형, 음양 구성, 납음 오행</span></div></div>
-        <div class="detail-item"><span class="item-num">02</span><div><strong>십성 분석</strong><br><span>8개 위치별 십성 배치, 비겁/식상/재성/관성/인성 비율, 일간 강약(신강/신약)</span></div></div>
-        <div class="detail-item"><span class="item-num">03</span><div><strong>용신/희신 체계</strong><br><span>용신 오행(억부법/조후법/통관법/병약법), 희신/기신/구신, 조후 용신</span></div></div>
-        <div class="detail-item"><span class="item-num">04</span><div><strong>십이운성</strong><br><span>4개 지지별 십이운성(장생~태), 생왕묘절 에너지 흐름</span></div></div>
-        <div class="detail-item"><span class="item-num">05</span><div><strong>신살 분석</strong><br><span>천을귀인/문창귀인 등 길신, 도화살/역마살/겁살 등 흉신, 화개살/학당귀인 등 특수 신살</span></div></div>
-        <div class="detail-item"><span class="item-num">06</span><div><strong>합/충 관계</strong><br><span>천간합(갑기합/을경합), 육합, 삼합, 방합, 지지충 종합 분석</span></div></div>
-        <div class="detail-item"><span class="item-num">07</span><div><strong>충/형/원진 관계</strong><br><span>천간충, 지지 삼형(인사신/축술미), 원진 관계 분석</span></div></div>
-        <div class="detail-item"><span class="item-num">08</span><div><strong>지장간 분석</strong><br><span>년지/월지/일지/시지 숨은 천간, 여기/중기/정기 구분 및 영향력</span></div></div>
-        <div class="detail-item"><span class="item-num">09</span><div><strong>격국 판정</strong><br><span>정격 8격(정관격/식신격/재격 등), 종격, 성격/파격 판정</span></div></div>
-        <div class="detail-item"><span class="item-num">10</span><div><strong>대운/세운 분석</strong><br><span>현재 대운/세운 천간/지지/십신, 대운 시작 나이 및 교차점</span></div></div>
-        <div class="detail-item"><span class="item-num">11</span><div><strong>공망 분석</strong><br><span>일주 공망 지지, 대운 공망, 세운 공망</span></div></div>
-        <div class="detail-item"><span class="item-num">12</span><div><strong>납음 오행</strong><br><span>일주 납음(해중금/노중화 등), 납음 오행 속성</span></div></div>
-        <div class="detail-item"><span class="item-num">13</span><div><strong>운세 흐름</strong><br><span>전체 대운 흐름(10년 단위), 현재 대운/세운 십신 영향, 대운 교차 시점</span></div></div>
-        <div class="detail-item"><span class="item-num">14</span><div><strong>일별 운세</strong><br><span>오늘 &#177;7일 운세 점수, 총운/재물/연애/건강/직장 5영역, 럭키 컬러/방향/시간</span></div></div>
-        <div class="detail-item"><span class="item-num">15</span><div><strong>월별 운세</strong><br><span>12개월 월별 종합 점수, 월간 간지와 원국 관계, 사업/재물/연애/건강 월별 변화</span></div></div>
-        <div class="detail-item"><span class="item-num">16</span><div><strong>개인 일정 연동</strong><br><span>등록된 일정 기반 맞춤 상담, 중요 일정의 길흉 판단, 과거 7일~미래 30일 분석</span></div></div>
-        <div class="detail-item"><span class="item-num">17</span><div><strong>궁합 분석</strong><br><span>오행 상생/상극, 성격/감정/현실 궁합, 소통 방식, 800+ 데이터 교차 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">01</span><div data-i18n="d6i1"><strong>사주 원국 기본 정보</strong><br><span>천간 4주, 지지 4주, 오행 분포/균형, 음양 구성, 납음 오행</span></div></div>
+        <div class="detail-item"><span class="item-num">02</span><div data-i18n="d6i2"><strong>십성 분석</strong><br><span>8개 위치별 십성 배치, 비겁/식상/재성/관성/인성 비율, 일간 강약(신강/신약)</span></div></div>
+        <div class="detail-item"><span class="item-num">03</span><div data-i18n="d6i3"><strong>용신/희신 체계</strong><br><span>용신 오행(억부법/조후법/통관법/병약법), 희신/기신/구신, 조후 용신</span></div></div>
+        <div class="detail-item"><span class="item-num">04</span><div data-i18n="d6i4"><strong>십이운성</strong><br><span>4개 지지별 십이운성(장생~태), 생왕묘절 에너지 흐름</span></div></div>
+        <div class="detail-item"><span class="item-num">05</span><div data-i18n="d6i5"><strong>신살 분석</strong><br><span>천을귀인/문창귀인 등 길신, 도화살/역마살/겁살 등 흉신, 화개살/학당귀인 등 특수 신살</span></div></div>
+        <div class="detail-item"><span class="item-num">06</span><div data-i18n="d6i6"><strong>합/충 관계</strong><br><span>천간합(갑기합/을경합), 육합, 삼합, 방합, 지지충 종합 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">07</span><div data-i18n="d6i7"><strong>충/형/원진 관계</strong><br><span>천간충, 지지 삼형(인사신/축술미), 원진 관계 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">08</span><div data-i18n="d6i8"><strong>지장간 분석</strong><br><span>년지/월지/일지/시지 숨은 천간, 여기/중기/정기 구분 및 영향력</span></div></div>
+        <div class="detail-item"><span class="item-num">09</span><div data-i18n="d6i9"><strong>격국 판정</strong><br><span>정격 8격(정관격/식신격/재격 등), 종격, 성격/파격 판정</span></div></div>
+        <div class="detail-item"><span class="item-num">10</span><div data-i18n="d6i10"><strong>대운/세운 분석</strong><br><span>현재 대운/세운 천간/지지/십신, 대운 시작 나이 및 교차점</span></div></div>
+        <div class="detail-item"><span class="item-num">11</span><div data-i18n="d6i11"><strong>공망 분석</strong><br><span>일주 공망 지지, 대운 공망, 세운 공망</span></div></div>
+        <div class="detail-item"><span class="item-num">12</span><div data-i18n="d6i12"><strong>납음 오행</strong><br><span>일주 납음(해중금/노중화 등), 납음 오행 속성</span></div></div>
+        <div class="detail-item"><span class="item-num">13</span><div data-i18n="d6i13"><strong>운세 흐름</strong><br><span>전체 대운 흐름(10년 단위), 현재 대운/세운 십신 영향, 대운 교차 시점</span></div></div>
+        <div class="detail-item"><span class="item-num">14</span><div data-i18n="d6i14"><strong>일별 운세</strong><br><span>오늘 &#177;7일 운세 점수, 총운/재물/연애/건강/직장 5영역, 럭키 컬러/방향/시간</span></div></div>
+        <div class="detail-item"><span class="item-num">15</span><div data-i18n="d6i15"><strong>월별 운세</strong><br><span>12개월 월별 종합 점수, 월간 간지와 원국 관계, 사업/재물/연애/건강 월별 변화</span></div></div>
+        <div class="detail-item"><span class="item-num">16</span><div data-i18n="d6i16"><strong>개인 일정 연동</strong><br><span>등록된 일정 기반 맞춤 상담, 중요 일정의 길흉 판단, 과거 7일~미래 30일 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">17</span><div data-i18n="d6i17"><strong>궁합 분석</strong><br><span>오행 상생/상극, 성격/감정/현실 궁합, 소통 방식, 800+ 데이터 교차 분석</span></div></div>
       </div>
     </div>
 
@@ -505,43 +505,43 @@
   <section class="consult-section" id="pricing">
     <div class="section-header">
       <div class="section-tag">Consultation</div>
-      <h2 data-i18n="pricing_title">사주 어드바이저 상담 요금</h2>
-      <p>대면 상담의 1/3 가격으로 전문가급 사주 상담을 받으세요</p>
+      <h2 data-i18n="prt">사주 어드바이저 상담 요금</h2>
+      <p data-i18n="prs">대면 상담의 1/3 가격으로 전문가급 사주 상담을 받으세요</p>
     </div>
     <div class="consult-grid">
       <div class="consult-card">
         <div class="sessions">1</div>
-        <div class="sessions-label">회 상담</div>
+        <div class="sessions-label" data-i18n="sess">회 상담</div>
         <div class="price-big">&#8361;14,900</div>
-        <div class="price-per">1세션당 &#8361;14,900</div>
+        <div class="price-per" data-i18n="per1">1세션당 &#8361;14,900</div>
         <ul>
-          <li>질문 10개</li>
-          <li>사주 어드바이저 상담</li>
-          <li>구매 후 무기한 유효</li>
+          <li data-i18n="q10">질문 10개</li>
+          <li data-i18n="advc">사주 어드바이저 상담</li>
+          <li data-i18n="nexp">구매 후 무기한 유효</li>
         </ul>
       </div>
       <div class="consult-card popular">
         <div class="sessions">3</div>
-        <div class="sessions-label">회 상담</div>
+        <div class="sessions-label" data-i18n="sess">회 상담</div>
         <div class="price-big">&#8361;35,900</div>
-        <div class="price-per">1세션당 &#8361;11,967</div>
-        <div class="discount">20% 할인</div>
+        <div class="price-per" data-i18n="per3">1세션당 &#8361;11,967</div>
+        <div class="discount" data-i18n="dc20">20% 할인</div>
         <ul>
-          <li>질문 30개</li>
-          <li>사주 어드바이저 상담</li>
-          <li>구매 후 무기한 유효</li>
+          <li data-i18n="q30">질문 30개</li>
+          <li data-i18n="advc">사주 어드바이저 상담</li>
+          <li data-i18n="nexp">구매 후 무기한 유효</li>
         </ul>
       </div>
       <div class="consult-card">
         <div class="sessions">5</div>
-        <div class="sessions-label">회 상담</div>
+        <div class="sessions-label" data-i18n="sess">회 상담</div>
         <div class="price-big">&#8361;49,900</div>
-        <div class="price-per">1세션당 &#8361;9,980</div>
-        <div class="discount">33% 할인</div>
+        <div class="price-per" data-i18n="per5">1세션당 &#8361;9,980</div>
+        <div class="discount" data-i18n="dc33">33% 할인</div>
         <ul>
-          <li>질문 50개</li>
-          <li>사주 어드바이저 상담</li>
-          <li>구매 후 무기한 유효</li>
+          <li data-i18n="q50">질문 50개</li>
+          <li data-i18n="advc">사주 어드바이저 상담</li>
+          <li data-i18n="nexp">구매 후 무기한 유효</li>
         </ul>
       </div>
     </div>
@@ -551,55 +551,55 @@
   <section class="compare-section">
     <div class="section-header">
       <div class="section-tag">Why SajuPlanner</div>
-      <h2 style="color:#fff">기존 서비스와 비교</h2>
-      <p>대면 상담 비용의 1/3, 더 풍부한 기능</p>
+      <h2 style="color:#fff" data-i18n="cmpt">기존 서비스와 비교</h2>
+      <p data-i18n="cmps">대면 상담 비용의 1/3, 더 풍부한 기능</p>
     </div>
     <div class="compare-table">
       <table>
         <tr>
           <th></th>
-          <th>대면 상담</th>
-          <th>타 운세 앱</th>
-          <th style="color:#F6AD55">사주플래너</th>
+          <th data-i18n="th1">대면 상담</th>
+          <th data-i18n="th2">타 운세 앱</th>
+          <th style="color:#F6AD55" data-i18n="th3">사주플래너</th>
         </tr>
         <tr>
-          <td>가격</td>
-          <td>3~10만원</td>
-          <td>무료+광고</td>
-          <td>1,500원~</td>
+          <td data-i18n="tr1">가격</td>
+          <td data-i18n="tr1a">3~10만원</td>
+          <td data-i18n="tr1b">무료+광고</td>
+          <td>₩1,500~</td>
         </tr>
         <tr>
-          <td>어드바이저 상세 분석</td>
+          <td data-i18n="tr2">어드바이저 상세 분석</td>
           <td class="cross">&#x2715;</td>
           <td class="cross">&#x2715;</td>
           <td class="check">&#x2713;</td>
         </tr>
         <tr>
-          <td>캘린더 연동</td>
+          <td data-i18n="tr3">캘린더 연동</td>
           <td class="cross">&#x2715;</td>
           <td class="cross">&#x2715;</td>
           <td class="check">&#x2713;</td>
         </tr>
         <tr>
-          <td>6카테고리 운세</td>
+          <td data-i18n="tr4">6카테고리 운세</td>
           <td class="cross">&#x2715;</td>
-          <td>일부</td>
+          <td data-i18n="partial">일부</td>
           <td class="check">&#x2713;</td>
         </tr>
         <tr>
-          <td>1:1 상담</td>
+          <td data-i18n="tr5">1:1 상담</td>
           <td class="check">&#x2713;</td>
           <td class="cross">&#x2715;</td>
           <td class="check">&#x2713;</td>
         </tr>
         <tr>
-          <td>다국어 지원</td>
+          <td data-i18n="tr6">다국어 지원</td>
           <td class="cross">&#x2715;</td>
-          <td>일부</td>
-          <td class="check">6개국어</td>
+          <td data-i18n="partial">일부</td>
+          <td class="check" data-i18n="lang6">6개국어</td>
         </tr>
         <tr>
-          <td>24시간 이용</td>
+          <td data-i18n="tr7">24시간 이용</td>
           <td class="cross">&#x2715;</td>
           <td class="check">&#x2713;</td>
           <td class="check">&#x2713;</td>
@@ -612,26 +612,26 @@
   <section class="lang-section">
     <div class="section-header">
       <div class="section-tag">Global</div>
-      <h2>6개 언어 지원</h2>
-      <p>한국어를 포함한 6개국 언어로 이용 가능합니다</p>
+      <h2 data-i18n="lnt">6개 언어 지원</h2>
+      <p data-i18n="lns">한국어를 포함한 6개국 언어로 이용 가능합니다</p>
     </div>
     <div class="lang-grid">
       <div class="lang-chip"><span class="flag">&#x1F1F0;&#x1F1F7;</span> 한국어</div>
       <div class="lang-chip"><span class="flag">&#x1F1FA;&#x1F1F8;</span> English</div>
       <div class="lang-chip"><span class="flag">&#x1F1EF;&#x1F1F5;</span> 日本語</div>
       <div class="lang-chip"><span class="flag">&#x1F1F9;&#x1F1FC;</span> 繁體中文</div>
-      <div class="lang-chip"><span class="flag">&#x1F1FB;&#x1F1F3;</span> Tieng Viet</div>
+      <div class="lang-chip"><span class="flag">&#x1F1FB;&#x1F1F3;</span> Tiếng Việt</div>
       <div class="lang-chip"><span class="flag">&#x1F1EE;&#x1F1E9;</span> Indonesia</div>
     </div>
   </section>
 
   <!-- CTA -->
   <section class="cta-section">
-    <h2 data-i18n="cta_title">지금 바로 시작하세요</h2>
-    <p data-i18n="cta_desc">오늘의 운세를 확인하고, 나의 사주를 깊이 있게 알아보세요.</p>
+    <h2 data-i18n="ctat">지금 바로 시작하세요</h2>
+    <p data-i18n="ctad">오늘의 운세를 확인하고, 나의 사주를 깊이 있게 알아보세요.</p>
     <div class="cta-buttons">
-      <a class="btn-cta" href="#">App Store 다운로드</a>
-      <a class="btn-cta" href="#" style="background:#34A853">Google Play 다운로드</a>
+      <a class="btn-cta" href="#" data-i18n="dl1">App Store 다운로드</a>
+      <a class="btn-cta" href="#" style="background:#34A853" data-i18n="dl2">Google Play 다운로드</a>
     </div>
   </section>
 
@@ -641,107 +641,15 @@
       <div>
         <div class="footer-brand">SajuPlanner</div>
         <div class="footer-links">
-          <a href="/privacy.html" data-i18n="footer_privacy">개인정보 처리방침</a>
-          <a href="/support.html" data-i18n="footer_support">고객 지원</a>
-          <a href="mailto:hapick8350@gmail.com" data-i18n="footer_contact">문의하기</a>
+          <a href="/privacy.html" data-i18n="fp">개인정보 처리방침</a>
+          <a href="/support.html" data-i18n="fs">고객 지원</a>
+          <a href="mailto:hapick8350@gmail.com" data-i18n="fc">문의하기</a>
         </div>
         <div class="footer-copy">&copy; 2026 SajuPlanner. All rights reserved.</div>
       </div>
     </div>
   </footer>
 
-<script>
-const T = {
-  ko: {
-    nav_features:'기능', nav_premium:'프리미엄 분석', nav_pricing:'요금', nav_support:'고객지원',
-    hero_title:'내 사주에 맞는<br><span>최적의 타이밍</span>을 알려드립니다',
-    hero_subtitle:'생년월일시를 기반으로 매일의 운세를 분석하고, 사주 어드바이저 시스템이 깊이 있는 상담을 제공합니다. 중요한 일정은 좋은 날에 맞춰 계획하세요.',
-    btn_appstore:'App Store 다운로드', btn_playstore:'Google Play 다운로드',
-    stat_fortune:'카테고리 운세', stat_lang:'지원 언어', stat_consult:'어드바이저 상담',
-    free_title:'무료로 제공되는 핵심 기능', free_desc:'회원가입만 하면 바로 사용할 수 있는 강력한 기능들',
-    premium_title:'사주 어드바이저 시스템의 깊이 있는 해석', premium_desc:'사주 이론을 학습한 어드바이저 시스템이 전문가 수준의 정밀 분석을 제공합니다',
-    pricing_title:'사주 어드바이저 상담 요금',
-    cta_title:'지금 바로 시작하세요', cta_desc:'오늘의 운세를 확인하고, 나의 사주를 깊이 있게 알아보세요.',
-    footer_privacy:'개인정보 처리방침', footer_support:'고객 지원', footer_contact:'문의하기',
-  },
-  en: {
-    nav_features:'Features', nav_premium:'Premium', nav_pricing:'Pricing', nav_support:'Support',
-    hero_title:'Discover the<br><span>Perfect Timing</span> Based on Your BaZi',
-    hero_subtitle:'Analyze daily fortune based on your birth date and time. The Saju Advisor System provides expert-level consultations. Plan important events on the best days.',
-    btn_appstore:'App Store Download', btn_playstore:'Google Play Download',
-    stat_fortune:'Fortune Categories', stat_lang:'Languages', stat_consult:'Advisor Consult',
-    free_title:'Powerful Free Features', free_desc:'Sign up and start using these powerful features right away',
-    premium_title:'In-Depth Analysis by Saju Advisor System', premium_desc:'The Advisor System trained in Saju theory provides expert-level precision analysis',
-    pricing_title:'Saju Advisor Consultation Pricing',
-    cta_title:'Get Started Now', cta_desc:'Check today\'s fortune and explore your BaZi in depth.',
-    footer_privacy:'Privacy Policy', footer_support:'Support', footer_contact:'Contact Us',
-  },
-  ja: {
-    nav_features:'機能', nav_premium:'プレミアム', nav_pricing:'料金', nav_support:'サポート',
-    hero_title:'四柱推命に基づく<br><span>最適なタイミング</span>をお知らせします',
-    hero_subtitle:'生年月日時に基づいて毎日の運勢を分析し、四柱アドバイザーシステムが深い相談を提供します。大切な予定は良い日に合わせて計画しましょう。',
-    btn_appstore:'App Store ダウンロード', btn_playstore:'Google Play ダウンロード',
-    stat_fortune:'カテゴリ運勢', stat_lang:'対応言語', stat_consult:'アドバイザー相談',
-    free_title:'無料で使える主要機能', free_desc:'会員登録するだけですぐに使える強力な機能',
-    premium_title:'四柱アドバイザーシステムの深い解釈', premium_desc:'四柱理論を学習したアドバイザーシステムが専門家レベルの精密分析を提供します',
-    pricing_title:'四柱アドバイザー相談料金',
-    cta_title:'今すぐ始めましょう', cta_desc:'今日の運勢を確認し、あなたの四柱を深く知りましょう。',
-    footer_privacy:'プライバシーポリシー', footer_support:'サポート', footer_contact:'お問い合わせ',
-  },
-  zh_TW: {
-    nav_features:'功能', nav_premium:'進階分析', nav_pricing:'價格', nav_support:'客服',
-    hero_title:'根據您的八字<br>告訴您<span>最佳時機</span>',
-    hero_subtitle:'根據出生年月日時分析每日運勢，八字顧問系統提供深度諮詢。將重要行程安排在最好的日子。',
-    btn_appstore:'App Store 下載', btn_playstore:'Google Play 下載',
-    stat_fortune:'分類運勢', stat_lang:'支援語言', stat_consult:'顧問諮詢',
-    free_title:'免費提供的核心功能', free_desc:'註冊後即可使用的強大功能',
-    premium_title:'八字顧問系統的深度解析', premium_desc:'學習八字理論的顧問系統提供專家級精準分析',
-    pricing_title:'八字顧問諮詢價格',
-    cta_title:'立即開始', cta_desc:'查看今日運勢，深入了解您的八字。',
-    footer_privacy:'隱私權政策', footer_support:'客服支援', footer_contact:'聯絡我們',
-  },
-  vi: {
-    nav_features:'Tính năng', nav_premium:'Cao cấp', nav_pricing:'Giá', nav_support:'Hỗ trợ',
-    hero_title:'Khám phá<br><span>Thời điểm tốt nhất</span> dựa trên Tứ Trụ',
-    hero_subtitle:'Phân tích vận mệnh hàng ngày dựa trên ngày giờ sinh. Hệ thống Tư vấn Tứ Trụ cung cấp tư vấn chuyên sâu. Lên kế hoạch sự kiện quan trọng vào ngày tốt nhất.',
-    btn_appstore:'Tải App Store', btn_playstore:'Tải Google Play',
-    stat_fortune:'Vận mệnh', stat_lang:'Ngôn ngữ', stat_consult:'Tư vấn',
-    free_title:'Tính năng miễn phí mạnh mẽ', free_desc:'Đăng ký và bắt đầu sử dụng ngay các tính năng mạnh mẽ',
-    premium_title:'Phân tích chuyên sâu của Hệ thống Tư vấn Tứ Trụ', premium_desc:'Hệ thống Tư vấn được đào tạo lý thuyết Tứ Trụ cung cấp phân tích chính xác cấp chuyên gia',
-    pricing_title:'Bảng giá Tư vấn Tứ Trụ',
-    cta_title:'Bắt đầu ngay', cta_desc:'Xem vận mệnh hôm nay và khám phá Tứ Trụ của bạn.',
-    footer_privacy:'Chính sách bảo mật', footer_support:'Hỗ trợ', footer_contact:'Liên hệ',
-  },
-  id: {
-    nav_features:'Fitur', nav_premium:'Premium', nav_pricing:'Harga', nav_support:'Dukungan',
-    hero_title:'Temukan<br><span>Waktu Terbaik</span> Berdasarkan BaZi Anda',
-    hero_subtitle:'Analisis keberuntungan harian berdasarkan tanggal dan waktu lahir. Sistem Penasihat Saju memberikan konsultasi mendalam. Rencanakan acara penting di hari terbaik.',
-    btn_appstore:'Unduh App Store', btn_playstore:'Unduh Google Play',
-    stat_fortune:'Kategori Keberuntungan', stat_lang:'Bahasa', stat_consult:'Konsultasi',
-    free_title:'Fitur Gratis yang Kuat', free_desc:'Daftar dan langsung gunakan fitur-fitur hebat ini',
-    premium_title:'Analisis Mendalam oleh Sistem Penasihat Saju', premium_desc:'Sistem Penasihat yang terlatih teori Saju memberikan analisis presisi tingkat ahli',
-    pricing_title:'Harga Konsultasi Penasihat Saju',
-    cta_title:'Mulai Sekarang', cta_desc:'Cek keberuntungan hari ini dan jelajahi BaZi Anda secara mendalam.',
-    footer_privacy:'Kebijakan Privasi', footer_support:'Dukungan', footer_contact:'Hubungi Kami',
-  }
-};
-function setLang(lang) {
-  document.querySelectorAll('[data-i18n]').forEach(el => {
-    const key = el.getAttribute('data-i18n');
-    if (T[lang] && T[lang][key]) el.innerHTML = T[lang][key];
-  });
-  document.documentElement.lang = lang === 'zh_TW' ? 'zh-TW' : lang;
-  localStorage.setItem('lang', lang);
-  document.getElementById('langSelect').value = lang;
-}
-(function() {
-  const saved = localStorage.getItem('lang');
-  const browserLang = navigator.language.slice(0,2);
-  const langMap = {ko:'ko',en:'en',ja:'ja',zh:'zh_TW',vi:'vi',id:'id'};
-  const lang = saved || langMap[browserLang] || 'ko';
-  document.getElementById('langSelect').value = lang;
-  if (lang !== 'ko') setLang(lang);
-})();
-</script>
+<script src="i18n.js"></script>
 </body>
 </html>
