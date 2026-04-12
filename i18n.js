@@ -28,7 +28,7 @@ sc3:"<strong>Neutral</strong> \u2013 A normal day with no major concerns",
 sc4:"<strong>Caution</strong> \u2013 Better to hold off on big decisions",
 sc5:"<strong>Unfavorable</strong> \u2013 Consider postponing major events",
 pt:"Deep Interpretations by the Saju Advisor System",ps:"Trained in classical Four Pillars theory, the Advisor System delivers expert-grade precision analysis",
-d1t:'Daily Detailed Fortune <span class="detail-price" data-price="daily_fortune"></span>',
+d1t:'Daily Detailed Fortune <span class="detail-price">Premium</span>',
 d1d:"A thorough 9-part analysis of any chosen date. Get a concrete roadmap for how to navigate your day.",
 d1i1:"<strong>Theme of the Day</strong><br><span>The core keyword and energy direction shaping your entire day</span>",
 d1i2:"<strong>BaZi Context Reading</strong><br><span>How today\u2019s energy interacts with your chart pattern, life phase, and key spirit stars</span>",
@@ -39,7 +39,7 @@ d1i6:"<strong>Best Times by Activity</strong><br><span>When to schedule meetings
 d1i7:"<strong>Deep Insights</strong><br><span>Additional analysis and nuanced guidance from the Advisor System</span>",
 d1i8:"<strong>Lucky Elements</strong><br><span>Today\u2019s lucky color, number, direction, and season</span>",
 d1i9:"<strong>Cautions & Message of the Day</strong><br><span>Key things to watch for, plus a closing thought to carry with you</span>",
-d2t:'Yearly Fortune <span class="detail-price" data-price="yearly_fortune"></span>',
+d2t:'Yearly Fortune <span class="detail-price">Premium</span>',
 d2d:"Grasp the year\u2019s big picture and dive into month-by-month fortune details. Plan your year with strategic foresight.",
 d2i1:"<strong>Annual Overview & Yearly Luck</strong><br><span>Your overall score for the year and how this year\u2019s celestial stems and branches influence your chart</span>",
 d2i2:"<strong>Theme of the Year</strong><br><span>The defining keyword and primary energy direction for the coming twelve months</span>",
@@ -47,7 +47,7 @@ d2i3:"<strong>12-Month Detailed Forecast</strong><br><span>Monthly keyword, scor
 d2i4:"<strong>Annual Category Fortunes</strong><br><span>Scores for Career, Relationships, Health, Study, and Social\u2014plus your best and worst months</span>",
 d2i5:"<strong>Lucky Elements</strong><br><span>This year\u2019s lucky color, number, direction, and favorable season</span>",
 d2i6:"<strong>Year-End Strategic Advice</strong><br><span>A comprehensive guide to making the most of the year ahead</span>",
-d3t:'Detailed BaZi Report <span class="detail-price" data-price="detailed_report"></span>',
+d3t:'Detailed BaZi Report <span class="detail-price">Premium</span>',
 d3d:"The Advisor System performs a holistic analysis of your natal chart\u2014covering innate personality, career aptitude, and the arc of your entire life.",
 d3i1:"<strong>Day Master Analysis</strong><br><span>A deep look at your core character and temperament through your Day Master element</span>",
 d3i2:"<strong>Ten Gods Distribution</strong><br><span>How the five star groups are spread across your chart, revealing your life\u2019s direction</span>",
@@ -60,7 +60,7 @@ d3i8:"<strong>Marriage, Spouse & Family</strong><br><span>Spouse palace analysis
 d3i9:"<strong>Health Watch Areas</strong><br><span>Vulnerable areas linked to Five Elements imbalances, with practical wellness tips</span>",
 d3i10:"<strong>Luck Cycles & Life Phases</strong><br><span>Your 10-year luck shifts, peak periods, key turning points, and future outlook\u2014all in one view</span>",
 d3i11:"<strong>Lucky Elements & Overall Message</strong><br><span>Lucky color, number, and direction, plus a holistic message about your life path</span>",
-d4t:'Compatibility Analysis <span class="detail-price" data-price="compatibility"></span>',
+d4t:'Compatibility Analysis <span class="detail-price">Premium</span>',
 d4d:"A multi-dimensional comparison of two people\u2019s charts. Works for romantic partners, married couples, or even business relationships.",
 d4i1:"<strong>Overall Compatibility Score</strong><br><span>A single 0\u2013100 score capturing how well two charts align</span>",
 d4i2:"<strong>Compatibility Summary</strong><br><span>A snapshot overview of the relationship\u2019s key dynamics</span>",
@@ -70,14 +70,14 @@ d4i5:"<strong>Practical Compatibility</strong><br><span>Alignment on lifestyle h
 d4i6:"<strong>Communication Style Analysis</strong><br><span>Each person\u2019s natural communication approach and actionable tips to bridge gaps</span>",
 d4i7:"<strong>Future Outlook</strong><br><span>Where the relationship is heading, with long-range perspective and advice</span>",
 d4i8:"<strong>Tailored Guidance</strong><br><span>Personalized recommendations for deepening and strengthening the bond</span>",
-d5t:'Auspicious Date Selection <span class="detail-price" data-price="date_selection"></span>',
+d5t:'Auspicious Date Selection <span class="detail-price">Premium</span>',
 d5d:"Find the best possible dates for weddings, moves, business launches, contract signings, and other pivotal moments in life.",
 d5i1:"<strong>Analysis Overview</strong><br><span>A high-level summary tailored to the type of event you\u2019re planning</span>",
 d5i2:"<strong>Recommended Dates</strong><br><span>A ranked list with suitability scores, reasons, ideal time windows, and notes</span>",
 d5i3:"<strong>Dates to Avoid</strong><br><span>Dates that don\u2019t suit your event, along with clear explanations</span>",
 d5i4:"<strong>Preparation Checklist</strong><br><span>What to arrange ahead of time once you\u2019ve locked in your date</span>",
 d5i5:"<strong>Final Advice</strong><br><span>Closing guidance to help everything go smoothly</span>",
-d6t:'Saju Advisor Consultation <span class="detail-price" data-price="ai_consult_1session" data-price-suffix="~"></span> <span style="background:var(--accent);color:#1a1a2e;padding:3px 10px;border-radius:20px;font-size:0.75rem;font-weight:700;margin-left:4px;">Core Feature</span>',
+d6t:'Saju Advisor Consultation <span class="detail-price">Premium</span> <span style="background:var(--accent);color:#1a1a2e;padding:3px 10px;border-radius:20px;font-size:0.75rem;font-weight:700;margin-left:4px;">Core Feature</span>',
 d6d:"Have a free-form 1-on-1 conversation with the Saju Advisor. Powered by 400+ data points across 17 analysis categories, it delivers deeply personalized guidance on any topic you bring.",
 d6i1:"<strong>Natal Chart Fundamentals</strong><br><span>Four Heavenly Stems, Four Earthly Branches, Five Elements balance, Yin-Yang, Na Yin</span>",
 d6i2:"<strong>Ten Gods Analysis</strong><br><span>Placement across 8 positions, star-group ratios, Day Master strength assessment</span>",
@@ -96,7 +96,7 @@ d6i14:"<strong>Daily Fortune Window</strong><br><span>Today \u00b17 days across 
 d6i15:"<strong>Monthly Fortune Outlook</strong><br><span>12-month scores, monthly stem/branch interactions, and category-by-category shifts</span>",
 d6i16:"<strong>Personal Schedule Integration</strong><br><span>Fortune assessment tied to your registered events, covering past 7 to next 30 days</span>",
 d6i17:"<strong>Compatibility Module</strong><br><span>Five Elements harmony/conflict, personality/emotion/practical fit, communication style\u2014800+ cross-analyzed data points</span>",
-prt:"Saju Advisor Consultation Pricing",prs:"Expert-level BaZi guidance at a third of the cost of an in-person session",
+prt:"Saju Advisor Consultation",prs:"Expert-level BaZi guidance at a third of the cost of an in-person session",
 sess:"Sessions",per1:"",per3:"",per5:"",
 dc20:"20% OFF",dc33:"33% OFF",
 q10:"10 Questions",q30:"30 Questions",q50:"50 Questions",
@@ -129,7 +129,7 @@ c1t:"\u91D1\u904B",c1d:"\u91D1\u92AD\u3001\u6295\u8CC7\u3001\u8CC7\u7523\u904B\u
 sct:"\u76F4\u611F\u7684\u306A\u904B\u52E2\u30B9\u30B3\u30A2\u30B7\u30B9\u30C6\u30E0",scs:"\u30B9\u30B3\u30A2\u3068\u8272\u3067\u4ECA\u65E5\u306E\u904B\u52E2\u3092\u77AC\u6642\u306B\u628A\u63E1",
 sc1:"<strong>\u5927\u5409</strong> \u2013 \u91CD\u8981\u306A\u4E88\u5B9A\u3092\u5165\u308C\u308B\u306E\u306B\u6700\u9069\u306A\u65E5",sc2:"<strong>\u5409</strong> \u2013 \u307B\u3068\u3093\u3069\u306E\u6D3B\u52D5\u306B\u826F\u3044\u65E5",sc3:"<strong>\u666E\u901A</strong> \u2013 \u65E5\u5E38\u306E\u6D3B\u52D5\u306B\u554F\u984C\u306A\u3044\u65E5",sc4:"<strong>\u6CE8\u610F</strong> \u2013 \u91CD\u8981\u306A\u6C7A\u5B9A\u306F\u907F\u3051\u305F\u65B9\u304C\u826F\u3044\u3067\u3057\u3087\u3046",sc5:"<strong>\u51F6</strong> \u2013 \u5927\u304D\u306A\u4E88\u5B9A\u306F\u5225\u306E\u65E5\u306B\u5EF6\u671F\u3057\u307E\u3057\u3087\u3046",
 pt:"\u56DB\u67F1\u30A2\u30C9\u30D0\u30A4\u30B6\u30FC\u30B7\u30B9\u30C6\u30E0\u306B\u3088\u308B\u6DF1\u3044\u89E3\u91C8",ps:"\u56DB\u67F1\u7406\u8AD6\u3092\u5B66\u3093\u3060\u30A2\u30C9\u30D0\u30A4\u30B6\u30FC\u30B7\u30B9\u30C6\u30E0\u304C\u5C02\u9580\u5BB6\u30EC\u30D9\u30EB\u306E\u7CBE\u5BC6\u5206\u6790\u3092\u63D0\u4F9B",
-d1t:'\u65E5\u5225\u8A73\u7D30\u904B\u52E2 <span class="detail-price" data-price="daily_fortune"></span>',d1d:"\u7279\u5B9A\u306E\u65E5\u306E\u904B\u52E2\u30929\u9805\u76EE\u3067\u6DF1\u304F\u5206\u6790\u3002\u4E00\u65E5\u3092\u3069\u3046\u904E\u3054\u3059\u304B\u306E\u5177\u4F53\u7684\u306A\u30AC\u30A4\u30C9\u3092\u63D0\u4F9B\u3002",
+d1t:'\u65E5\u5225\u8A73\u7D30\u904B\u52E2 <span class="detail-price">Premium</span>',d1d:"\u7279\u5B9A\u306E\u65E5\u306E\u904B\u52E2\u30929\u9805\u76EE\u3067\u6DF1\u304F\u5206\u6790\u3002\u4E00\u65E5\u3092\u3069\u3046\u904E\u3054\u3059\u304B\u306E\u5177\u4F53\u7684\u306A\u30AC\u30A4\u30C9\u3092\u63D0\u4F9B\u3002",
 d1i1:"<strong>\u4ECA\u65E5\u306E\u30C6\u30FC\u30DE</strong><br><span>\u4E00\u65E5\u3092\u8CAB\u304F\u30AD\u30FC\u30EF\u30FC\u30C9\u3068\u30A8\u30CD\u30EB\u30AE\u30FC\u306E\u65B9\u5411</span>",
 d1i2:"<strong>\u56DB\u67F1\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8\u5206\u6790</strong><br><span>\u4ECA\u65E5\u306E\u30A8\u30CD\u30EB\u30AE\u30FC\u3001\u683C\u5C40\u306E\u5F71\u97FF\u3001\u4EBA\u751F\u306E\u6D41\u308C\u3001\u4E3B\u8981\u795E\u6BBA\u3092\u7DCF\u5408\u89E3\u91C8</span>",
 d1i3:"<strong>\u5341\u4E8C\u6642\u8FB0\u5225\u904B\u52E2</strong><br><span>2\u6642\u9593\u9593\u9694\u306712\u306E\u6642\u9593\u5E2F\u5225\u904B\u52E2\u30B9\u30B3\u30A2\u3068\u6700\u9069\u6D3B\u52D5\u63A8\u85A6</span>",
@@ -139,14 +139,14 @@ d1i6:"<strong>\u6D3B\u52D5\u5225\u6700\u9069\u6642\u9593</strong><br><span>\u4F1
 d1i7:"<strong>\u6DF1\u5C64\u30A4\u30F3\u30B5\u30A4\u30C8</strong><br><span>\u30A2\u30C9\u30D0\u30A4\u30B6\u30FC\u30B7\u30B9\u30C6\u30E0\u306B\u3088\u308B\u8FFD\u52A0\u5206\u6790\u3068\u6DF1\u3044\u52A9\u8A00</span>",
 d1i8:"<strong>\u30E9\u30C3\u30AD\u30FC\u8981\u7D20</strong><br><span>\u4ECA\u65E5\u306E\u30E9\u30C3\u30AD\u30FC\u30AB\u30E9\u30FC\u3001\u6570\u5B57\u3001\u65B9\u4F4D\u3001\u5B63\u7BC0</span>",
 d1i9:"<strong>\u6CE8\u610F\u4E8B\u9805\uff06\u4ECA\u65E5\u306E\u30E1\u30C3\u30BB\u30FC\u30B8</strong><br><span>\u4E00\u65E5\u3092\u904E\u3054\u3059\u4E0A\u3067\u306E\u6CE8\u610F\u70B9\u3068\u7DE0\u3081\u304F\u304F\u308A\u306E\u52A9\u8A00</span>",
-d2t:'\u5E74\u9593\u904B\u52E2 <span class="detail-price" data-price="yearly_fortune"></span>',d2d:"\u4ECA\u5E74\u306E\u5168\u4F53\u306E\u6D41\u308C\u3092\u628A\u63E1\u3057\u300112\u30F6\u6708\u306E\u6708\u5225\u904B\u52E2\u3092\u8A73\u7D30\u306B\u5206\u6790\u3002\u6226\u7565\u7684\u306B\u4E00\u5E74\u3092\u8A08\u753B\u3057\u307E\u3057\u3087\u3046\u3002",
+d2t:'\u5E74\u9593\u904B\u52E2 <span class="detail-price">Premium</span>',d2d:"\u4ECA\u5E74\u306E\u5168\u4F53\u306E\u6D41\u308C\u3092\u628A\u63E1\u3057\u300112\u30F6\u6708\u306E\u6708\u5225\u904B\u52E2\u3092\u8A73\u7D30\u306B\u5206\u6790\u3002\u6226\u7565\u7684\u306B\u4E00\u5E74\u3092\u8A08\u753B\u3057\u307E\u3057\u3087\u3046\u3002",
 d2i1:"<strong>\u5E74\u9593\u7DCF\u904B\uff06\u6B73\u904B\u5206\u6790</strong><br><span>\u4ECA\u5E74\u306E\u7DCF\u5408\u30B9\u30B3\u30A2\u3068\u6B73\u904B\u304C\u547D\u76E4\u306B\u4E0E\u3048\u308B\u5F71\u97FF</span>",
 d2i2:"<strong>\u4ECA\u5E74\u306E\u30C6\u30FC\u30DE</strong><br><span>\u4E00\u5E74\u3092\u8CAB\u304F\u30AD\u30FC\u30EF\u30FC\u30C9\u3068\u30A8\u30CD\u30EB\u30AE\u30FC\u306E\u65B9\u5411</span>",
 d2i3:"<strong>12\u30F6\u6708\u6708\u5225\u8A73\u7D30\u904B\u52E2</strong><br><span>\u6BCE\u6708\u306E\u30AD\u30FC\u30EF\u30FC\u30C9\u3001\u30B9\u30B3\u30A2\u3001\u7DCF\u5408\u5206\u6790+4\u30AB\u30C6\u30B4\u30EA\u89E3\u91C8</span>",
 d2i4:"<strong>\u30AB\u30C6\u30B4\u30EA\u5225\u5E74\u9593\u904B\u52E2</strong><br><span>\u4ED5\u4E8B/\u91D1\u904B\u3001\u4EBA\u9593\u95A2\u4FC2\u3001\u5065\u5EB7\u3001\u5B66\u696D\u3001\u793E\u4EA4\u5225\u30B9\u30B3\u30A2\u3068\u826F\u3044\u6708/\u6CE8\u610F\u306E\u6708</span>",
 d2i5:"<strong>\u30E9\u30C3\u30AD\u30FC\u8981\u7D20</strong><br><span>\u4ECA\u5E74\u306E\u30E9\u30C3\u30AD\u30FC\u30AB\u30E9\u30FC\u3001\u6570\u5B57\u3001\u65B9\u4F4D\u3001\u6709\u5229\u306A\u5B63\u7BC0</span>",
 d2i6:"<strong>\u5E74\u9593\u7DCF\u5408\u30A2\u30C9\u30D0\u30A4\u30B9</strong><br><span>\u4E00\u5E74\u3092\u6210\u529F\u3055\u305B\u308B\u305F\u3081\u306E\u6226\u7565\u7684\u30AC\u30A4\u30C9</span>",
-d3t:'\u8A73\u7D30\u56DB\u67F1\u30EC\u30DD\u30FC\u30C8 <span class="detail-price" data-price="detailed_report"></span>',d3d:"\u3042\u306A\u305F\u306E\u56DB\u67F1\u547D\u76E4\u3092\u30A2\u30C9\u30D0\u30A4\u30B6\u30FC\u30B7\u30B9\u30C6\u30E0\u304C\u7DCF\u5408\u7684\u306B\u5206\u6790\u3002\u751F\u307E\u308C\u6301\u3063\u305F\u6027\u683C\u3001\u9069\u6027\u3001\u4EBA\u751F\u306E\u6D41\u308C\u307E\u3067\u6DF1\u304F\u89E3\u91C8\u3002",
+d3t:'\u8A73\u7D30\u56DB\u67F1\u30EC\u30DD\u30FC\u30C8 <span class="detail-price">Premium</span>',d3d:"\u3042\u306A\u305F\u306E\u56DB\u67F1\u547D\u76E4\u3092\u30A2\u30C9\u30D0\u30A4\u30B6\u30FC\u30B7\u30B9\u30C6\u30E0\u304C\u7DCF\u5408\u7684\u306B\u5206\u6790\u3002\u751F\u307E\u308C\u6301\u3063\u305F\u6027\u683C\u3001\u9069\u6027\u3001\u4EBA\u751F\u306E\u6D41\u308C\u307E\u3067\u6DF1\u304F\u89E3\u91C8\u3002",
 d3i1:"<strong>\u65E5\u5E72\u5206\u6790</strong><br><span>\u65E5\u5E72\u4E94\u884C\u304B\u3089\u672C\u8CEA\u7684\u306A\u6027\u683C\u3068\u6C17\u8CEA\u3092\u6DF1\u304F\u89E3\u91C8</span>",
 d3i2:"<strong>\u5341\u795E\u5206\u5E03</strong><br><span>\u6BD4\u52AB/\u98DF\u50B7/\u8CA1\u661F/\u5B98\u661F/\u5370\u661F\u306E\u5206\u5E03\u3067\u4EBA\u751F\u306E\u65B9\u5411\u6027\u3092\u5206\u6790</span>",
 d3i3:"<strong>\u683C\u5C40\u5206\u6790</strong><br><span>\u56DB\u67F1\u306E\u5168\u4F53\u69CB\u9020\u3068\u683C\u306E\u9AD8\u4F4E\u3001\u4EBA\u751F\u30D1\u30BF\u30FC\u30F3\u306E\u89E3\u91C8</span>",
@@ -158,7 +158,7 @@ d3i8:"<strong>\u7D50\u5A5A/\u914D\u5076\u8005\u904B\uff06\u5BB6\u65CF\u95A2\u4FC
 d3i9:"<strong>\u5065\u5EB7\u6CE8\u610F\u90E8\u4F4D</strong><br><span>\u4E94\u884C\u4E0D\u5747\u8861\u306B\u3088\u308B\u5065\u5EB7\u8106\u5F31\u90E8\u4F4D\u3068\u7BA1\u7406\u65B9\u6CD5</span>",
 d3i10:"<strong>\u5927\u904B\u306E\u6D41\u308C\uff06\u4EBA\u751F\u5468\u671F</strong><br><span>10\u5E74\u5358\u4F4D\u306E\u5927\u904B\u5909\u5316\u3001\u5168\u76DB\u671F\u3001\u4E3B\u8981\u5909\u5316\u6642\u70B9\u3001\u5C06\u6765\u5C55\u671B</span>",
 d3i11:"<strong>\u30E9\u30C3\u30AD\u30FC\u8981\u7D20\uff06\u7DCF\u5408\u904B\u52E2</strong><br><span>\u30E9\u30C3\u30AD\u30FC\u30AB\u30E9\u30FC/\u6570\u5B57/\u65B9\u4F4D+\u4EBA\u751F\u5168\u822C\u306E\u7DCF\u5408\u30E1\u30C3\u30BB\u30FC\u30B8</span>",
-d4t:'\u76F8\u6027\u5206\u6790 <span class="detail-price" data-price="compatibility"></span>',d4d:"\u4E8C\u4EBA\u306E\u56DB\u67F1\u3092\u6BD4\u8F03\u3057\u3001\u591A\u89D2\u7684\u306B\u76F8\u6027\u3092\u5206\u6790\u3002\u604B\u4EBA\u3001\u592B\u5A66\u3001\u30D3\u30B8\u30CD\u30B9\u30D1\u30FC\u30C8\u30CA\u30FC\u307E\u3067\u3042\u3089\u3086\u308B\u95A2\u4FC2\u306B\u5BFE\u5FDC\u3002",
+d4t:'\u76F8\u6027\u5206\u6790 <span class="detail-price">Premium</span>',d4d:"\u4E8C\u4EBA\u306E\u56DB\u67F1\u3092\u6BD4\u8F03\u3057\u3001\u591A\u89D2\u7684\u306B\u76F8\u6027\u3092\u5206\u6790\u3002\u604B\u4EBA\u3001\u592B\u5A66\u3001\u30D3\u30B8\u30CD\u30B9\u30D1\u30FC\u30C8\u30CA\u30FC\u307E\u3067\u3042\u3089\u3086\u308B\u95A2\u4FC2\u306B\u5BFE\u5FDC\u3002",
 d4i1:"<strong>\u7DCF\u5408\u76F8\u6027\u30B9\u30B3\u30A2</strong><br><span>\u4E8C\u4EBA\u306E\u7DCF\u5408\u76F8\u6027\u5EA6\u30920\uFF5E100\u70B9\u3067\u7B97\u51FA</span>",
 d4i2:"<strong>\u76F8\u6027\u6982\u8981</strong><br><span>\u4E8C\u4EBA\u306E\u95A2\u4FC2\u3092\u4E00\u76EE\u3067\u628A\u63E1\u3067\u304D\u308B\u6838\u5FC3\u8981\u7D04</span>",
 d4i3:"<strong>\u4E94\u884C\u76F8\u6027\u5206\u6790</strong><br><span>\u4E94\u884C\u306E\u76F8\u751F/\u76F8\u514B\u95A2\u4FC2\u5206\u6790+\u88DC\u5B8C\u70B9\uff06\u89E3\u6C7A\u7B56</span>",
@@ -167,13 +167,13 @@ d4i5:"<strong>\u73FE\u5B9F\u76F8\u6027</strong><br><span>\u751F\u6D3B\u7FD2\u616
 d4i6:"<strong>\u30B3\u30DF\u30E5\u30CB\u30B1\u30FC\u30B7\u30E7\u30F3\u5206\u6790</strong><br><span>\u4E8C\u4EBA\u306E\u30B3\u30DF\u30E5\u30CB\u30B1\u30FC\u30B7\u30E7\u30F3\u30B9\u30BF\u30A4\u30EB\u3068\u5B9F\u8DF5\u7684\u306A\u30D2\u30F3\u30C8</span>",
 d4i7:"<strong>\u5C06\u6765\u5C55\u671B</strong><br><span>\u95A2\u4FC2\u306E\u767A\u5C55\u65B9\u5411\u4E88\u6E2C\u3068\u9577\u671F\u7684\u306A\u30A2\u30C9\u30D0\u30A4\u30B9</span>",
 d4i8:"<strong>\u7DCF\u5408\u30A2\u30C9\u30D0\u30A4\u30B9</strong><br><span>\u95A2\u4FC2\u3092\u3055\u3089\u306B\u767A\u5C55\u3055\u305B\u308B\u305F\u3081\u306E\u30AA\u30FC\u30C0\u30FC\u30E1\u30A4\u30C9\u30AC\u30A4\u30C9</span>",
-d5t:'\u629E\u65E5\u5206\u6790 <span class="detail-price" data-price="date_selection"></span>',d5d:"\u7D50\u5A5A\u3001\u5F15\u8D8A\u3057\u3001\u958B\u696D\u3001\u5951\u7D04\u306A\u3069\u4EBA\u751F\u306E\u91CD\u8981\u306A\u77AC\u9593\u306B\u6700\u9069\u306A\u65E5\u3092\u9078\u5B9A\u3002",
+d5t:'\u629E\u65E5\u5206\u6790 <span class="detail-price">Premium</span>',d5d:"\u7D50\u5A5A\u3001\u5F15\u8D8A\u3057\u3001\u958B\u696D\u3001\u5951\u7D04\u306A\u3069\u4EBA\u751F\u306E\u91CD\u8981\u306A\u77AC\u9593\u306B\u6700\u9069\u306A\u65E5\u3092\u9078\u5B9A\u3002",
 d5i1:"<strong>\u5206\u6790\u6982\u8981</strong><br><span>\u9078\u629E\u3057\u305F\u6D3B\u52D5\u306B\u5BFE\u3059\u308B\u5168\u4F53\u7684\u306A\u5206\u6790\u6982\u8981</span>",
 d5i2:"<strong>\u63A8\u85A6\u65E5\u30EA\u30B9\u30C8</strong><br><span>\u9069\u5408\u5EA6\u30B9\u30B3\u30A2\u3001\u63A8\u85A6\u7406\u7531\u3001\u6700\u9069\u6642\u9593\u5E2F\u3001\u6CE8\u610F\u4E8B\u9805\u4ED8\u304D</span>",
 d5i3:"<strong>\u907F\u3051\u308B\u3079\u304D\u65E5</strong><br><span>\u4E0D\u5411\u304D\u306A\u65E5\u3068\u305D\u306E\u7406\u7531</span>",
 d5i4:"<strong>\u6E96\u5099\u30C1\u30A7\u30C3\u30AF\u30EA\u30B9\u30C8</strong><br><span>\u9078\u3093\u3060\u65E5\u306B\u5411\u3051\u3066\u4E8B\u524D\u306B\u6E96\u5099\u3059\u3079\u304D\u9805\u76EE</span>",
 d5i5:"<strong>\u7DCF\u5408\u30A2\u30C9\u30D0\u30A4\u30B9</strong><br><span>\u629E\u65E5\u306B\u95A2\u3059\u308B\u5168\u4F53\u7684\u306A\u52A9\u8A00\u3068\u7DE0\u3081\u306E\u30AC\u30A4\u30C9</span>",
-d6t:'\u56DB\u67F1\u30A2\u30C9\u30D0\u30A4\u30B6\u30FC\u76F8\u8AC7 <span class="detail-price" data-price="ai_consult_1session" data-price-suffix="~"></span> <span style="background:var(--accent);color:#1a1a2e;padding:3px 10px;border-radius:20px;font-size:0.75rem;font-weight:700;margin-left:4px;">\u6838\u5FC3\u6A5F\u80FD</span>',
+d6t:'\u56DB\u67F1\u30A2\u30C9\u30D0\u30A4\u30B6\u30FC\u76F8\u8AC7 <span class="detail-price">Premium</span> <span style="background:var(--accent);color:#1a1a2e;padding:3px 10px;border-radius:20px;font-size:0.75rem;font-weight:700;margin-left:4px;">\u6838\u5FC3\u6A5F\u80FD</span>',
 d6d:"\u56DB\u67F1\u30A2\u30C9\u30D0\u30A4\u30B6\u30FC\u30681:1\u5F62\u5F0F\u3067\u81EA\u7531\u306B\u8CEA\u554F\u300017\u306E\u5206\u6790\u30AB\u30C6\u30B4\u30EA\u30FB400\u4EE5\u4E0A\u306E\u30C7\u30FC\u30BF\u306B\u57FA\u3065\u304F\u6DF1\u3044\u30AA\u30FC\u30C0\u30FC\u30E1\u30A4\u30C9\u76F8\u8AC7\u3002",
 d6i1:"<strong>\u56DB\u67F1\u547D\u76E4\u57FA\u672C\u60C5\u5831</strong><br><span>\u5929\u5E724\u67F1\u3001\u5730\u652F4\u67F1\u3001\u4E94\u884C\u5206\u5E03/\u30D0\u30E9\u30F3\u30B9\u3001\u9670\u967D\u69CB\u6210\u3001\u7D0D\u97F3\u4E94\u884C</span>",
 d6i2:"<strong>\u5341\u795E\u5206\u6790</strong><br><span>8\u4F4D\u7F6E\u5225\u5341\u795E\u914D\u7F6E\u3001\u6BD4\u52AB/\u98DF\u50B7/\u8CA1\u661F/\u5B98\u661F/\u5370\u661F\u6BD4\u7387\u3001\u65E5\u5E72\u5F37\u5F31</span>",
@@ -192,11 +192,11 @@ d6i14:"<strong>\u65E5\u5225\u904B\u52E2</strong><br><span>\u4ECA\u65E5\u00B17\u6
 d6i15:"<strong>\u6708\u5225\u904B\u52E2</strong><br><span>12\u30F6\u6708\u306E\u7DCF\u5408\u30B9\u30B3\u30A2\u3001\u6708\u9593\u5E72\u652F\u3068\u547D\u76E4\u306E\u95A2\u4FC2\u3001\u30AB\u30C6\u30B4\u30EA\u5225\u5909\u5316</span>",
 d6i16:"<strong>\u500B\u4EBA\u30B9\u30B1\u30B8\u30E5\u30FC\u30EB\u9023\u52D5</strong><br><span>\u767B\u9332\u4E88\u5B9A\u306B\u57FA\u3065\u304F\u76F8\u8AC7\u3001\u91CD\u8981\u4E88\u5B9A\u306E\u5409\u51F6\u5224\u65AD\u3001\u904E\u53BB7\u65E5\uFF5E\u672A\u67305\u65E5\u5206\u6790</span>",
 d6i17:"<strong>\u76F8\u6027\u5206\u6790</strong><br><span>\u4E94\u884C\u76F8\u751F/\u76F8\u514B\u3001\u6027\u683C/\u611F\u60C5/\u73FE\u5B9F\u76F8\u6027\u3001\u30B3\u30DF\u30E5\u30CB\u30B1\u30FC\u30B7\u30E7\u30F3\u3001800+\u30C7\u30FC\u30BF\u4EA4\u5DEE\u5206\u6790</span>",
-prt:"\u56DB\u67F1\u30A2\u30C9\u30D0\u30A4\u30B6\u30FC\u76F8\u8AC7\u6599\u91D1",prs:"\u5BFE\u9762\u76F8\u8AC7\u306E1/3\u306E\u4FA1\u683C\u3067\u5C02\u9580\u5BB6\u7D1A\u306E\u56DB\u67F1\u76F8\u8AC7\u3092",
+prt:"\u56DB\u67F1\u30A2\u30C9\u30D0\u30A4\u30B6\u30FC\u76F8\u8AC7\u6599\u91D1",prs:"Get expert-level Saju consultation right in the app",
 sess:"\u56DE\u76F8\u8AC7",per1:"",per3:"",per5:"",
 dc20:"20% OFF",dc33:"33% OFF",q10:"\u8CEA\u554F10\u500B",q30:"\u8CEA\u554F30\u500B",q50:"\u8CEA\u554F50\u500B",
 advc:"\u56DB\u67F1\u30A2\u30C9\u30D0\u30A4\u30B6\u30FC\u76F8\u8AC7",nexp:"\u8CFC\u5165\u5F8C\u7121\u671F\u9650\u6709\u52B9",
-cmpt:"\u65E2\u5B58\u30B5\u30FC\u30D3\u30B9\u3068\u306E\u6BD4\u8F03",cmps:"\u5BFE\u9762\u76F8\u8AC7\u306E1/3\u306E\u8CBB\u7528\u3067\u3001\u3088\u308A\u8C4A\u5BCC\u306A\u6A5F\u80FD",
+cmpt:"\u65E2\u5B58\u30B5\u30FC\u30D3\u30B9\u3068\u306E\u6BD4\u8F03",cmps:"More features, more accurate analysis",
 th1:"\u5BFE\u9762\u76F8\u8AC7",th2:"\u4ED6\u306E\u30A2\u30D7\u30EA",th3:"SajuPlanner",
 tr1:"\u4FA1\u683C",tr1a:"3\uFF5E10\u4E07\u5186",tr1b:"\u7121\u6599+\u5E83\u544A",
 tr2:"\u30A2\u30C9\u30D0\u30A4\u30B6\u30FC\u8A73\u7D30\u5206\u6790",tr3:"\u30AB\u30EC\u30F3\u30C0\u30FC\u9023\u643A",tr4:"6\u30AB\u30C6\u30B4\u30EA\u904B\u52E2",tr5:"1:1\u76F8\u8AC7",tr6:"\u591A\u8A00\u8A9E\u5BFE\u5FDC",tr7:"24\u6642\u9593\u5229\u7528",
@@ -224,12 +224,12 @@ c1t:"\u8CA1\u904B",c1d:"\u91D1\u9322\u3001\u6295\u8CC7\u3001\u7406\u8CA1",c2t:"\
 sct:"\u76F4\u89C0\u7684\u904B\u52E2\u8A55\u5206\u7CFB\u7D71",scs:"\u901A\u904E\u5206\u6578\u548C\u984F\u8272\u77AC\u9593\u638C\u63E1\u4ECA\u65E5\u904B\u52E2",
 sc1:"<strong>\u5927\u5409</strong> \u2013 \u5B89\u6392\u91CD\u8981\u884C\u7A0B\u7684\u6700\u4F73\u65E5\u5B50",sc2:"<strong>\u5409</strong> \u2013 \u5927\u591A\u6578\u6D3B\u52D5\u7684\u597D\u65E5\u5B50",sc3:"<strong>\u666E\u901A</strong> \u2013 \u65E5\u5E38\u6D3B\u52D5\u7121\u7919",sc4:"<strong>\u6CE8\u610F</strong> \u2013 \u907F\u514D\u91CD\u5927\u6C7A\u5B9A",sc5:"<strong>\u51F6</strong> \u2013 \u5EFA\u8B70\u5C07\u91CD\u8981\u4E8B\u9805\u5EF6\u671F",
 pt:"\u516B\u5B57\u9867\u554F\u7CFB\u7D71\u7684\u6DF1\u5EA6\u89E3\u8B80",ps:"\u5B78\u7FD2\u516B\u5B57\u7406\u8AD6\u7684\u9867\u554F\u7CFB\u7D71\u63D0\u4F9B\u5C08\u5BB6\u7D1A\u7CBE\u6E96\u5206\u6790",
-d1t:'\u65E5\u5225\u8A73\u7D30\u904B\u52E2 <span class="detail-price" data-price="daily_fortune"></span>',d1d:"\u5C079\u500B\u9805\u76EE\u6DF1\u5165\u5206\u6790\u7279\u5B9A\u65E5\u671F\u7684\u904B\u52E2\u3002\u63D0\u4F9B\u5177\u9AD4\u7684\u4E00\u65E5\u6307\u5357\u3002",
-d2t:'\u5E74\u5EA6\u904B\u52E2 <span class="detail-price" data-price="yearly_fortune"></span>',d2d:"\u638C\u63E1\u4ECA\u5E74\u6574\u9AD4\u8D70\u52E2\uFF0C\u8A73\u7D30\u520612\u500B\u6708\u904B\u52E2\u3002\u6230\u7565\u6027\u5730\u898F\u5283\u60A8\u7684\u4E00\u5E74\u3002",
-d3t:'\u8A73\u7D30\u516B\u5B57\u5831\u544A <span class="detail-price" data-price="detailed_report"></span>',d3d:"\u9867\u554F\u7CFB\u7D71\u5168\u9762\u5206\u6790\u60A8\u7684\u516B\u5B57\u547D\u76E4\u3002\u5F9E\u5929\u751F\u6027\u683C\u3001\u9069\u6027\u5230\u4EBA\u751F\u8D70\u52E2\u6DF1\u5165\u89E3\u8B80\u3002",
-d4t:'\u5408\u5A5A\u5206\u6790 <span class="detail-price" data-price="compatibility"></span>',d4d:"\u6BD4\u8F03\u5169\u4EBA\u7684\u516B\u5B57\uFF0C\u591A\u89D2\u5EA6\u5206\u6790\u5408\u5A5A\u3002\u9069\u7528\u65BC\u6200\u4EBA\u3001\u592B\u5987\u3001\u5546\u696D\u5925\u4F34\u7B49\u6240\u6709\u95DC\u4FC2\u3002",
-d5t:'\u64C7\u65E5\u5206\u6790 <span class="detail-price" data-price="date_selection"></span>',d5d:"\u70BA\u7D50\u5A5A\u3001\u642C\u5BB6\u3001\u958B\u696D\u3001\u7C3D\u7D04\u7B49\u4EBA\u751F\u91CD\u8981\u6642\u523B\u9078\u5B9A\u6700\u4F73\u65E5\u671F\u3002",
-d6t:'\u516B\u5B57\u9867\u554F\u8AEE\u8A62 <span class="detail-price" data-price="ai_consult_1session" data-price-suffix="~"></span> <span style="background:var(--accent);color:#1a1a2e;padding:3px 10px;border-radius:20px;font-size:0.75rem;font-weight:700;margin-left:4px;">\u6838\u5FC3\u529F\u80FD</span>',
+d1t:'\u65E5\u5225\u8A73\u7D30\u904B\u52E2 <span class="detail-price">Premium</span>',d1d:"\u5C079\u500B\u9805\u76EE\u6DF1\u5165\u5206\u6790\u7279\u5B9A\u65E5\u671F\u7684\u904B\u52E2\u3002\u63D0\u4F9B\u5177\u9AD4\u7684\u4E00\u65E5\u6307\u5357\u3002",
+d2t:'\u5E74\u5EA6\u904B\u52E2 <span class="detail-price">Premium</span>',d2d:"\u638C\u63E1\u4ECA\u5E74\u6574\u9AD4\u8D70\u52E2\uFF0C\u8A73\u7D30\u520612\u500B\u6708\u904B\u52E2\u3002\u6230\u7565\u6027\u5730\u898F\u5283\u60A8\u7684\u4E00\u5E74\u3002",
+d3t:'\u8A73\u7D30\u516B\u5B57\u5831\u544A <span class="detail-price">Premium</span>',d3d:"\u9867\u554F\u7CFB\u7D71\u5168\u9762\u5206\u6790\u60A8\u7684\u516B\u5B57\u547D\u76E4\u3002\u5F9E\u5929\u751F\u6027\u683C\u3001\u9069\u6027\u5230\u4EBA\u751F\u8D70\u52E2\u6DF1\u5165\u89E3\u8B80\u3002",
+d4t:'\u5408\u5A5A\u5206\u6790 <span class="detail-price">Premium</span>',d4d:"\u6BD4\u8F03\u5169\u4EBA\u7684\u516B\u5B57\uFF0C\u591A\u89D2\u5EA6\u5206\u6790\u5408\u5A5A\u3002\u9069\u7528\u65BC\u6200\u4EBA\u3001\u592B\u5987\u3001\u5546\u696D\u5925\u4F34\u7B49\u6240\u6709\u95DC\u4FC2\u3002",
+d5t:'\u64C7\u65E5\u5206\u6790 <span class="detail-price">Premium</span>',d5d:"\u70BA\u7D50\u5A5A\u3001\u642C\u5BB6\u3001\u958B\u696D\u3001\u7C3D\u7D04\u7B49\u4EBA\u751F\u91CD\u8981\u6642\u523B\u9078\u5B9A\u6700\u4F73\u65E5\u671F\u3002",
+d6t:'\u516B\u5B57\u9867\u554F\u8AEE\u8A62 <span class="detail-price">Premium</span> <span style="background:var(--accent);color:#1a1a2e;padding:3px 10px;border-radius:20px;font-size:0.75rem;font-weight:700;margin-left:4px;">\u6838\u5FC3\u529F\u80FD</span>',
 d6d:"\u82071:1\u5C0D\u8A71\u5F62\u5F0F\u8207\u516B\u5B57\u9867\u554F\u81EA\u7531\u63D0\u554F\u300017\u500B\u5206\u6790\u985E\u5225\u3001400+\u6578\u64DA\u9EDE\u63D0\u4F9B\u6DF1\u5EA6\u5B9A\u5236\u8AEE\u8A62\u3002",
 d1i1:"<strong>\u4ECA\u65E5\u4E3B\u984C</strong><br><span>\u8CAB\u7A7F\u4E00\u5929\u7684\u6838\u5FC3\u95DC\u9375\u8A5E\u8207\u80FD\u91CF\u65B9\u5411</span>",d1i2:"<strong>\u516B\u5B57\u80CC\u666F\u5206\u6790</strong><br><span>\u4ECA\u65E5\u80FD\u91CF\u3001\u683C\u5C40\u5F71\u97FF\u3001\u4EBA\u751F\u6D41\u7A0B\u3001\u4E3B\u8981\u795E\u7164\u7D9C\u5408\u89E3\u8B80</span>",d1i3:"<strong>\u5341\u4E8C\u6642\u8FB0\u904B\u52E2</strong><br><span>12\u500B\u6642\u6BB5\u904B\u52E2\u8A55\u5206\u8207\u6700\u4F73\u6D3B\u52D5\u63A8\u85A6</span>",d1i4:"<strong>\u5206\u985E\u8A73\u7D30\u904B\u52E2</strong><br><span>\u8CA1\u904B\u3001\u6843\u82B1\u3001\u4E8B\u696D\u3001\u5065\u5EB74\u5927\u985E\u8A55\u5206\u8207\u8A73\u7D30\u89E3\u8B80</span>",d1i5:"<strong>\u4E94\u884C\u80FD\u91CF\u5206\u6790</strong><br><span>\u4ECA\u65E5\u4E94\u884C\uFF08\u6728\u706B\u571F\u91D1\u6C34\uFF09\u80FD\u91CF\u6D41\u52D5\u8207\u5E73\u8861</span>",d1i6:"<strong>\u6D3B\u52D5\u6700\u4F73\u6642\u6A5F</strong><br><span>\u6703\u8B70\u3001\u7C3D\u7D04\u3001\u904B\u52D5\u7B49\u6D3B\u52D5\u7684\u6700\u4F73\u6642\u6BB5</span>",d1i7:"<strong>\u6DF1\u5EA6\u6D1E\u5BDF</strong><br><span>\u9867\u554F\u7CFB\u7D71\u7684\u984D\u5916\u5206\u6790\u8207\u6DF1\u5165\u5EFA\u8B70</span>",d1i8:"<strong>\u5E78\u904B\u8981\u7D20</strong><br><span>\u4ECA\u65E5\u7684\u5E78\u904B\u984F\u8272\u3001\u6578\u5B57\u3001\u65B9\u4F4D\u3001\u5B63\u7BC0</span>",d1i9:"<strong>\u6CE8\u610F\u4E8B\u9805\u8207\u4ECA\u65E5\u5BC4\u8A9E</strong><br><span>\u4E00\u5929\u4E2D\u9700\u6CE8\u610F\u7684\u4E8B\u9805\u8207\u7D50\u5C3E\u5EFA\u8B70</span>",
 d2i1:"<strong>\u5E74\u5EA6\u7E3D\u904B\u8207\u6D41\u5E74\u5206\u6790</strong><br><span>\u4ECA\u5E74\u7E3D\u5206\u8207\u6D41\u5E74\u5E72\u652F\u5C0D\u547D\u76E4\u7684\u5F71\u97FF</span>",d2i2:"<strong>\u4ECA\u5E74\u4E3B\u984C</strong><br><span>\u8CAB\u7A7F\u5168\u5E74\u7684\u6838\u5FC3\u95DC\u9375\u8A5E\u8207\u80FD\u91CF\u65B9\u5411</span>",d2i3:"<strong>12\u500B\u6708\u8A73\u7D30\u904B\u52E2</strong><br><span>\u6BCF\u6708\u95DC\u9375\u8A5E\u3001\u8A55\u5206\u3001\u7D9C\u5408\u5206\u6790+4\u5927\u985E\u89E3\u8B80</span>",d2i4:"<strong>\u5206\u985E\u5E74\u5EA6\u904B\u52E2</strong><br><span>\u4E8B\u696D/\u8CA1\u904B\u3001\u4EBA\u969B/\u6843\u82B1\u3001\u5065\u5EB7\u3001\u5B78\u696D\u3001\u793E\u4EA4\u5206\u5225\u8A55\u5206\u8207\u597D\u6708/\u6CE8\u610F\u6708</span>",d2i5:"<strong>\u5E78\u904B\u8981\u7D20</strong><br><span>\u4ECA\u5E74\u7684\u5E78\u904B\u984F\u8272\u3001\u6578\u5B57\u3001\u65B9\u4F4D\u3001\u6709\u5229\u5B63\u7BC0</span>",d2i6:"<strong>\u5E74\u5EA6\u7D9C\u5408\u5EFA\u8B70</strong><br><span>\u6210\u529F\u5EA6\u904E\u4E00\u5E74\u7684\u6230\u7565\u6307\u5357</span>",
@@ -237,11 +237,11 @@ d3i1:"<strong>\u65E5\u5E72\u5206\u6790</strong><br><span>\u5F9E\u65E5\u5E72\u4E9
 d4i1:"<strong>\u7D9C\u5408\u5408\u5A5A\u8A55\u5206</strong><br><span>\u5169\u4EBA\u7684\u7D9C\u5408\u5408\u5A5A\u5EA6\u4EE50\uFF5E100\u5206\u8A08\u7B97</span>",d4i2:"<strong>\u5408\u5A5A\u6982\u8981</strong><br><span>\u4E00\u76EE\u4E86\u7136\u5169\u4EBA\u95DC\u4FC2\u7684\u6838\u5FC3\u6458\u8981</span>",d4i3:"<strong>\u4E94\u884C\u5408\u5A5A</strong><br><span>\u4E94\u884C\u76F8\u751F/\u76F8\u514B\u5206\u6790+\u88DC\u5F37\u8207\u89E3\u6C7A\u65B9\u6848</span>",d4i4:"<strong>\u60C5\u611F\u5408\u5A5A</strong><br><span>\u60C5\u611F\u4EA4\u6D41\u65B9\u5F0F\u3001\u60C5\u7DD2\u76F8\u5BB9\u6027\u3001\u885D\u7A81\u9EDE</span>",d4i5:"<strong>\u73FE\u5BE6\u5408\u5A5A</strong><br><span>\u751F\u6D3B\u7FD2\u6163\u3001\u50F9\u503C\u89C0\u3001\u76EE\u6A19\u7684\u5BE6\u969B\u76F8\u5BB9\u6027</span>",d4i6:"<strong>\u6E9D\u901A\u65B9\u5F0F</strong><br><span>\u5169\u4EBA\u7684\u6E9D\u901A\u98A8\u683C\u8207\u5BE6\u7528\u5EFA\u8B70</span>",d4i7:"<strong>\u672A\u4F86\u5C55\u671B</strong><br><span>\u95DC\u4FC2\u767C\u5C55\u65B9\u5411\u9810\u6E2C\u8207\u9577\u671F\u5EFA\u8B70</span>",d4i8:"<strong>\u7D9C\u5408\u5EFA\u8B70</strong><br><span>\u9032\u4E00\u6B65\u6DF1\u5316\u95DC\u4FC2\u7684\u5B9A\u5236\u6307\u5357</span>",
 d5i1:"<strong>\u5206\u6790\u6982\u8981</strong><br><span>\u6240\u9078\u6D3B\u52D5\u985E\u578B\u7684\u6574\u9AD4\u5206\u6790\u6982\u8FF0</span>",d5i2:"<strong>\u63A8\u85A6\u65E5\u671F\u6E05\u55AE</strong><br><span>\u9069\u5408\u5EA6\u8A55\u5206\u3001\u63A8\u85A6\u539F\u56E0\u3001\u6700\u4F73\u6642\u6BB5\u3001\u6CE8\u610F\u4E8B\u9805</span>",d5i3:"<strong>\u61C9\u907F\u514D\u7684\u65E5\u671F</strong><br><span>\u4E0D\u9069\u5408\u7684\u65E5\u671F\u53CA\u5176\u539F\u56E0</span>",d5i4:"<strong>\u6E96\u5099\u6E05\u55AE</strong><br><span>\u70BA\u6240\u9078\u65E5\u671F\u9810\u5148\u6E96\u5099\u7684\u4E8B\u9805</span>",d5i5:"<strong>\u7D9C\u5408\u5EFA\u8B70</strong><br><span>\u64C7\u65E5\u76F8\u95DC\u7684\u6574\u9AD4\u5EFA\u8B70\u8207\u7D50\u8A9E</span>",
 d6i1:"<strong>\u516B\u5B57\u547D\u76E4\u57FA\u672C\u8CC7\u8A0A</strong><br><span>\u5929\u5E724\u67F1\u3001\u5730\u652F4\u67F1\u3001\u4E94\u884C\u5206\u4F48/\u5E73\u8861\u3001\u9670\u967D\u69CB\u6210\u3001\u7D0D\u97F3\u4E94\u884C</span>",d6i2:"<strong>\u5341\u795E\u5206\u6790</strong><br><span>8\u4F4D\u7F6E\u5341\u795E\u914D\u7F6E\u3001\u6BD4\u80A9/\u98DF\u50B7/\u8CA1\u661F/\u5B98\u661F/\u5370\u661F\u6BD4\u4F8B\u3001\u65E5\u5E72\u5F37\u5F31</span>",d6i3:"<strong>\u7528\u795E/\u559C\u795E\u9AD4\u7CFB</strong><br><span>\u7528\u795E\u4E94\u884C\uFF08\u6291\u6276\u6CD5/\u8ABF\u5019\u6CD5/\u901A\u95DC\u6CD5/\u75C5\u85E5\u6CD5\uFF09\u3001\u559C\u795E/\u5FCC\u795E/\u4EC7\u795E</span>",d6i4:"<strong>\u5341\u4E8C\u9577\u751F</strong><br><span>4\u5730\u652F\u5225\u5341\u4E8C\u9577\u751F\uFF08\u9577\u751F\uFF5E\u80CE\uFF09\u3001\u751F\u65FA\u58A8\u7D55\u80FD\u91CF</span>",d6i5:"<strong>\u795E\u7164\u5206\u6790</strong><br><span>\u5929\u4E59\u8CB4\u4EBA/\u6587\u660C\u8CB4\u4EBA\u7B49\u5409\u795E\u3001\u6843\u82B1\u7164/\u99DB\u99AC\u7164\u7B49\u51F6\u795E\u3001\u83EF\u84CB\u7164\u7B49\u7279\u6B8A\u795E\u7164</span>",d6i6:"<strong>\u5408/\u6C96\u95DC\u4FC2</strong><br><span>\u5929\u5E72\u5408\u3001\u516D\u5408\u3001\u4E09\u5408\u3001\u65B9\u5408\u3001\u5730\u652F\u6C96\u7D9C\u5408\u5206\u6790</span>",d6i7:"<strong>\u6C96/\u5211/\u539F\u9032\u95DC\u4FC2</strong><br><span>\u5929\u5E72\u6C96\u3001\u5730\u652F\u4E09\u5211\u3001\u539F\u9032\u95DC\u4FC2\u5206\u6790</span>",d6i8:"<strong>\u85CF\u5E72\u5206\u6790</strong><br><span>\u5E74\u652F/\u6708\u652F/\u65E5\u652F/\u6642\u652F\u96B1\u85CF\u5929\u5E72\u3001\u9918\u6C23/\u4E2D\u6C23/\u6B63\u6C23\u5340\u5206</span>",d6i9:"<strong>\u683C\u5C40\u5224\u5B9A</strong><br><span>\u6B63\u683C8\u683C\u3001\u5F9E\u683C\u3001\u6210\u683C/\u7834\u683C\u5224\u5B9A</span>",d6i10:"<strong>\u5927\u904B/\u6D41\u5E74\u5206\u6790</strong><br><span>\u7576\u524D\u5927\u904B/\u6D41\u5E74\u5929\u5E72/\u5730\u652F/\u5341\u795E\u3001\u5927\u904B\u958B\u59CB\u5E74\u9F61\u8207\u4EA4\u63DB\u9EDE</span>",d6i11:"<strong>\u7A7A\u4EA1\u5206\u6790</strong><br><span>\u65E5\u67F1\u7A7A\u4EA1\u5730\u652F\u3001\u5927\u904B\u7A7A\u4EA1\u3001\u6D41\u5E74\u7A7A\u4EA1</span>",d6i12:"<strong>\u7D0D\u97F3\u4E94\u884C</strong><br><span>\u65E5\u67F1\u7D0D\u97F3\u985E\u578B\u8207\u4E94\u884C\u5C6C\u6027</span>",d6i13:"<strong>\u904B\u52E2\u8D70\u52E2</strong><br><span>\u5168\u5927\u904B\u8D70\u52E2\uFF0810\u5E74\u55AE\u4F4D\uFF09\u3001\u7576\u524D\u5341\u795E\u5F71\u97FF\u3001\u5927\u904B\u4EA4\u63DB\u6642\u9EDE</span>",d6i14:"<strong>\u65E5\u5225\u904B\u52E2</strong><br><span>\u4ECA\u65E5\u00B17\u65E5\u30015\u9818\u57DF\u8A55\u5206\u3001\u5E78\u904B\u984F\u8272/\u65B9\u4F4D/\u6642\u9593</span>",d6i15:"<strong>\u6708\u5225\u904B\u52E2</strong><br><span>12\u500B\u6708\u7D9C\u5408\u8A55\u5206\u3001\u6708\u5E72\u652F\u8207\u547D\u76E4\u95DC\u4FC2\u3001\u5206\u985E\u8B8A\u5316</span>",d6i16:"<strong>\u500B\u4EBA\u884C\u7A0B\u6574\u5408</strong><br><span>\u5DF2\u8A3B\u518A\u884C\u7A0B\u7684\u5409\u51F6\u5224\u65B7\u3001\u904E\u53BB7\u65E5\uFF5E\u672A\u4F8630\u65E5\u5206\u6790</span>",d6i17:"<strong>\u5408\u5A5A\u5206\u6790</strong><br><span>\u4E94\u884C\u76F8\u751F/\u76F8\u514B\u3001\u6027\u683C/\u60C5\u611F/\u73FE\u5BE6\u5408\u5A5A\u3001\u6E9D\u901A\u65B9\u5F0F\u3001800+\u6578\u64DA\u4EA4\u53C9\u5206\u6790</span>",
-prt:"\u516B\u5B57\u9867\u554F\u8AEE\u8A62\u50F9\u683C",prs:"\u4EE5\u9762\u8AC7\u8AEE\u8A621/3\u7684\u50F9\u683C\u7372\u5F97\u5C08\u5BB6\u7D1A\u516B\u5B57\u8AEE\u8A62",
+prt:"\u516B\u5B57\u9867\u554F\u8AEE\u8A62\u50F9\u683C",prs:"Get expert-level Saju consultation right in the app",
 sess:"\u6B21\u8AEE\u8A62",per1:"",per3:"",per5:"",
 dc20:"8\u6298",dc33:"67\u6298",q10:"10\u500B\u554F\u984C",q30:"30\u500B\u554F\u984C",q50:"50\u500B\u554F\u984C",
 advc:"\u516B\u5B57\u9867\u554F\u8AEE\u8A62",nexp:"\u8CFC\u8CB7\u5F8C\u6C38\u4E45\u6709\u6548",
-cmpt:"\u8207\u73FE\u6709\u670D\u52D9\u6BD4\u8F03",cmps:"\u50C5\u70BA\u9762\u8AC7\u8CBB\u7528\u76841/3\uFF0C\u529F\u80FD\u66F4\u8C50\u5BCC",
+cmpt:"\u8207\u73FE\u6709\u670D\u52D9\u6BD4\u8F03",cmps:"More features, more accurate analysis",
 th1:"\u9762\u8AC7\u8AEE\u8A62",th2:"\u5176\u4ED6APP",th3:"SajuPlanner",
 tr1:"\u50F9\u683C",tr1a:"$30\u2013100",tr1b:"\u514D\u8CBB+\u5EE3\u544A",
 tr2:"\u9867\u554F\u8A73\u7D30\u5206\u6790",tr3:"\u65E5\u66C6\u6574\u5408",tr4:"6\u985E\u904B\u52E2",tr5:"1:1\u8AEE\u8A62",tr6:"\u591A\u8A9E\u8A00",tr7:"24\u5C0F\u6642\u4F7F\u7528",
@@ -269,12 +269,12 @@ c1t:"T\xE0i v\u1EADn",c1d:"Ti\u1EC1n b\u1EA1c, \u0111\u1EA7u t\u01B0, t\xE0i ch\
 sct:"H\u1EC7 th\u1ED1ng \u0111i\u1EC3m v\u1EADn m\u1EC7nh tr\u1EF1c quan",scs:"N\u1EAFm b\u1EAFt v\u1EADn m\u1EC7nh h\xF4m nay qua \u0111i\u1EC3m s\u1ED1 v\xE0 m\xE0u s\u1EAFc",
 sc1:"<strong>\u0110\u1EA1i c\xE1t</strong> \u2013 Ng\xE0y l\xFD t\u01B0\u1EDFng cho s\u1EF1 ki\u1EC7n quan tr\u1ECDng",sc2:"<strong>C\xE1t</strong> \u2013 Ng\xE0y t\u1ED1t cho h\u1EA7u h\u1EBFt ho\u1EA1t \u0111\u1ED9ng",sc3:"<strong>B\xECnh th\u01B0\u1EDDng</strong> \u2013 Ho\u1EA1t \u0111\u1ED9ng th\u01B0\u1EDDng ng\xE0y b\xECnh th\u01B0\u1EDDng",sc4:"<strong>Ch\xFA \xFD</strong> \u2013 Tr\xE1nh quy\u1EBFt \u0111\u1ECBnh l\u1EDBn",sc5:"<strong>X\u1EA5u</strong> \u2013 N\xEAn ho\xE3n s\u1EF1 ki\u1EC7n quan tr\u1ECDng",
 pt:"Ph\xE2n t\xEDch chuy\xEAn s\xE2u t\u1EEB H\u1EC7 th\u1ED1ng T\u01B0 v\u1EA5n T\u1EE9 Tr\u1EE5",ps:"H\u1EC7 th\u1ED1ng T\u01B0 v\u1EA5n \u0111\u01B0\u1EE3c \u0111\xE0o t\u1EA1o l\xFD thuy\u1EBFt T\u1EE9 Tr\u1EE5 cung c\u1EA5p ph\xE2n t\xEDch ch\xEDnh x\xE1c c\u1EA5p chuy\xEAn gia",
-d1t:'V\u1EADn m\u1EC7nh chi ti\u1EBFt h\xE0ng ng\xE0y <span class="detail-price" data-price="daily_fortune"></span>',d1d:"Ph\xE2n t\xEDch s\xE2u 9 h\u1EA1ng m\u1EE5c cho ng\xE0y b\u1EA1n ch\u1ECDn. H\u01B0\u1EDBng d\u1EABn c\u1EE5 th\u1EC3 cho m\u1ED9t ng\xE0y.",
-d2t:'V\u1EADn m\u1EC7nh n\u0103m <span class="detail-price" data-price="yearly_fortune"></span>',d2d:"N\u1EAFm b\u1EAFt xu h\u01B0\u1EDBng c\u1EA3 n\u0103m v\xE0 ph\xE2n t\xEDch chi ti\u1EBFt 12 th\xE1ng. L\u1EADp k\u1EBF ho\u1EA1ch chi\u1EBFn l\u01B0\u1EE3c cho n\u0103m m\u1EDBi.",
-d3t:'B\xE1o c\xE1o T\u1EE9 Tr\u1EE5 chi ti\u1EBFt <span class="detail-price" data-price="detailed_report"></span>',d3d:"H\u1EC7 th\u1ED1ng T\u01B0 v\u1EA5n ph\xE2n t\xEDch to\xE0n di\u1EC7n l\xE1 s\u1ED1 c\u1EE7a b\u1EA1n. T\u1EEB t\xEDnh c\xE1ch b\u1EA9m sinh, s\u1EF1 nghi\u1EC7p \u0111\u1EBFn d\xF2ng ch\u1EA3y cu\u1ED9c \u0111\u1EDDi.",
-d4t:'Ph\xE2n t\xEDch h\u1EE3p tu\u1ED5i <span class="detail-price" data-price="compatibility"></span>',d4d:"So s\xE1nh T\u1EE9 Tr\u1EE5 hai ng\u01B0\u1EDDi, ph\xE2n t\xEDch \u0111a chi\u1EC1u. \xC1p d\u1EE5ng cho c\u1EB7p \u0111\xF4i, v\u1EE3 ch\u1ED3ng, \u0111\u1ED1i t\xE1c kinh doanh.",
-d5t:'Ch\u1ECDn ng\xE0y t\u1ED1t <span class="detail-price" data-price="date_selection"></span>',d5d:"Ch\u1ECDn ng\xE0y t\u1ED1t nh\u1EA5t cho k\u1EBFt h\xF4n, chuy\u1EC3n nh\xE0, khai tr\u01B0\u01A1ng, k\xFD h\u1EE3p \u0111\u1ED3ng.",
-d6t:'T\u01B0 v\u1EA5n T\u1EE9 Tr\u1EE5 <span class="detail-price" data-price="ai_consult_1session" data-price-suffix="~"></span> <span style="background:var(--accent);color:#1a1a2e;padding:3px 10px;border-radius:20px;font-size:0.75rem;font-weight:700;margin-left:4px;">T\xEDnh n\u0103ng ch\xEDnh</span>',
+d1t:'V\u1EADn m\u1EC7nh chi ti\u1EBFt h\xE0ng ng\xE0y <span class="detail-price">Premium</span>',d1d:"Ph\xE2n t\xEDch s\xE2u 9 h\u1EA1ng m\u1EE5c cho ng\xE0y b\u1EA1n ch\u1ECDn. H\u01B0\u1EDBng d\u1EABn c\u1EE5 th\u1EC3 cho m\u1ED9t ng\xE0y.",
+d2t:'V\u1EADn m\u1EC7nh n\u0103m <span class="detail-price">Premium</span>',d2d:"N\u1EAFm b\u1EAFt xu h\u01B0\u1EDBng c\u1EA3 n\u0103m v\xE0 ph\xE2n t\xEDch chi ti\u1EBFt 12 th\xE1ng. L\u1EADp k\u1EBF ho\u1EA1ch chi\u1EBFn l\u01B0\u1EE3c cho n\u0103m m\u1EDBi.",
+d3t:'B\xE1o c\xE1o T\u1EE9 Tr\u1EE5 chi ti\u1EBFt <span class="detail-price">Premium</span>',d3d:"H\u1EC7 th\u1ED1ng T\u01B0 v\u1EA5n ph\xE2n t\xEDch to\xE0n di\u1EC7n l\xE1 s\u1ED1 c\u1EE7a b\u1EA1n. T\u1EEB t\xEDnh c\xE1ch b\u1EA9m sinh, s\u1EF1 nghi\u1EC7p \u0111\u1EBFn d\xF2ng ch\u1EA3y cu\u1ED9c \u0111\u1EDDi.",
+d4t:'Ph\xE2n t\xEDch h\u1EE3p tu\u1ED5i <span class="detail-price">Premium</span>',d4d:"So s\xE1nh T\u1EE9 Tr\u1EE5 hai ng\u01B0\u1EDDi, ph\xE2n t\xEDch \u0111a chi\u1EC1u. \xC1p d\u1EE5ng cho c\u1EB7p \u0111\xF4i, v\u1EE3 ch\u1ED3ng, \u0111\u1ED1i t\xE1c kinh doanh.",
+d5t:'Ch\u1ECDn ng\xE0y t\u1ED1t <span class="detail-price">Premium</span>',d5d:"Ch\u1ECDn ng\xE0y t\u1ED1t nh\u1EA5t cho k\u1EBFt h\xF4n, chuy\u1EC3n nh\xE0, khai tr\u01B0\u01A1ng, k\xFD h\u1EE3p \u0111\u1ED3ng.",
+d6t:'T\u01B0 v\u1EA5n T\u1EE9 Tr\u1EE5 <span class="detail-price">Premium</span> <span style="background:var(--accent);color:#1a1a2e;padding:3px 10px;border-radius:20px;font-size:0.75rem;font-weight:700;margin-left:4px;">T\xEDnh n\u0103ng ch\xEDnh</span>',
 d6d:"Tr\xF2 chuy\u1EC7n 1:1 v\u1EDBi T\u01B0 v\u1EA5n T\u1EE9 Tr\u1EE5. 17 danh m\u1EE5c ph\xE2n t\xEDch, 400+ d\u1EEF li\u1EC7u cung c\u1EA5p t\u01B0 v\u1EA5n c\xE1 nh\xE2n h\xF3a s\xE2u s\u1EAFc.",
 d1i1:"<strong>Ch\u1EE7 \u0111\u1EC1 h\xF4m nay</strong><br><span>T\u1EEB kh\xF3a c\u1ED1t l\xF5i v\xE0 h\u01B0\u1EDBng n\u0103ng l\u01B0\u1EE3ng c\u1EE7a ng\xE0y</span>",d1i2:"<strong>Ph\xE2n t\xEDch b\u1ED1i c\u1EA3nh T\u1EE9 Tr\u1EE5</strong><br><span>N\u0103ng l\u01B0\u1EE3ng h\xF4m nay, \u1EA3nh h\u01B0\u1EDFng C\xE1ch C\u1EE5c, d\xF2ng \u0111\u1EDDi, Th\u1EA7n S\xE1t ch\xEDnh</span>",d1i3:"<strong>V\u1EADn m\u1EC7nh 12 th\u1EDDi th\u1EA7n</strong><br><span>\u0110i\u1EC3m v\xE0 g\u1EE3i \xFD ho\u1EA1t \u0111\u1ED9ng t\u1ED1t nh\u1EA5t cho t\u1EEBng khung 2 gi\u1EDD</span>",d1i4:"<strong>V\u1EADn m\u1EC7nh theo danh m\u1EE5c</strong><br><span>T\xE0i v\u1EADn, T\xECnh duy\xEAn, S\u1EF1 nghi\u1EC7p, S\u1EE9c kh\u1ECFe \u2013 \u0111i\u1EC3m v\xE0 ph\xE2n t\xEDch chi ti\u1EBFt</span>",d1i5:"<strong>Ph\xE2n t\xEDch Ng\u0169 H\xE0nh</strong><br><span>D\xF2ng ch\u1EA3y v\xE0 c\xE2n b\u1EB1ng Ng\u0169 H\xE0nh (Kim/M\u1ED9c/Th\u1EE7y/H\u1ECFa/Th\u1ED5) h\xF4m nay</span>",d1i6:"<strong>Th\u1EDDi gian t\u1ED1t nh\u1EA5t theo ho\u1EA1t \u0111\u1ED9ng</strong><br><span>Khung gi\u1EDD l\xFD t\u01B0\u1EDFng cho h\u1ECDp, k\xFD k\u1EBFt, t\u1EADp th\u1EC3 d\u1EE5c...</span>",d1i7:"<strong>Nh\u1EADn \u0111\u1ECBnh chuy\xEAn s\xE2u</strong><br><span>Ph\xE2n t\xEDch b\u1ED5 sung v\xE0 l\u1EDDi khuy\xEAn s\xE2u t\u1EEB H\u1EC7 th\u1ED1ng T\u01B0 v\u1EA5n</span>",d1i8:"<strong>Y\u1EBFu t\u1ED1 may m\u1EAFn</strong><br><span>M\xE0u s\u1EAFc, con s\u1ED1, ph\u01B0\u01A1ng h\u01B0\u1EDBng, m\xF9a may m\u1EAFn h\xF4m nay</span>",d1i9:"<strong>L\u01B0u \xFD & Th\xF4ng \u0111i\u1EC7p</strong><br><span>\u0110i\u1EC1u c\u1EA7n ch\xFA \xFD trong ng\xE0y v\xE0 l\u1EDDi nh\u1EAFn k\u1EBFt th\xFAc</span>",
 d2i1:"<strong>T\u1ED5ng v\u1EADn n\u0103m & L\u01B0u Ni\xEAn</strong><br><span>\u0110i\u1EC3m t\u1ED5ng n\u0103m v\xE0 \u1EA3nh h\u01B0\u1EDFng L\u01B0u Ni\xEAn l\xEAn l\xE1 s\u1ED1</span>",d2i2:"<strong>Ch\u1EE7 \u0111\u1EC1 n\u0103m nay</strong><br><span>T\u1EEB kh\xF3a v\xE0 h\u01B0\u1EDBng n\u0103ng l\u01B0\u1EE3ng ch\xEDnh c\u1EE7a c\u1EA3 n\u0103m</span>",d2i3:"<strong>V\u1EADn m\u1EC7nh 12 th\xE1ng chi ti\u1EBFt</strong><br><span>T\u1EEB kh\xF3a, \u0111i\u1EC3m, ph\xE2n t\xEDch t\u1ED5ng h\u1EE3p + 4 danh m\u1EE5c m\u1ED7i th\xE1ng</span>",d2i4:"<strong>V\u1EADn m\u1EC7nh n\u0103m theo danh m\u1EE5c</strong><br><span>S\u1EF1 nghi\u1EC7p, T\xECnh duy\xEAn, S\u1EE9c kh\u1ECFe, H\u1ECDc v\u1EA5n, Giao ti\u1EBFp \u2013 th\xE1ng t\u1ED1t/th\xE1ng c\u1EA7n ch\xFA \xFD</span>",d2i5:"<strong>Y\u1EBFu t\u1ED1 may m\u1EAFn</strong><br><span>M\xE0u, s\u1ED1, ph\u01B0\u01A1ng h\u01B0\u1EDBng, m\xF9a may m\u1EAFn n\u0103m nay</span>",d2i6:"<strong>L\u1EDDi khuy\xEAn t\u1ED5ng h\u1EE3p</strong><br><span>H\u01B0\u1EDBng d\u1EABn chi\u1EBFn l\u01B0\u1EE3c \u0111\u1EC3 c\xF3 m\u1ED9t n\u0103m th\xE0nh c\xF4ng</span>",
@@ -282,11 +282,11 @@ d3i1:"<strong>Ph\xE2n t\xEDch Nh\u1EADt Ch\u1EE7</strong><br><span>Gi\u1EA3i \u0
 d4i1:"<strong>\u0110i\u1EC3m t\u1ED5ng h\u1EE3p</strong><br><span>T\xEDnh t\u01B0\u01A1ng h\u1EE3p t\u1ED5ng th\u1EC3 0\u2013100 \u0111i\u1EC3m</span>",d4i2:"<strong>T\xF3m t\u1EAFt</strong><br><span>C\xE1i nh\xECn t\u1ED5ng quan v\u1EC1 m\u1ED1i quan h\u1EC7</span>",d4i3:"<strong>Ng\u0169 H\xE0nh t\u01B0\u01A1ng h\u1EE3p</strong><br><span>T\u01B0\u01A1ng sinh/t\u01B0\u01A1ng kh\u1EAFc + gi\u1EA3i ph\xE1p</span>",d4i4:"<strong>T\u01B0\u01A1ng h\u1EE3p c\u1EA3m x\xFAc</strong><br><span>C\xE1ch giao ti\u1EBFp t\xECnh c\u1EA3m, \u0111\u1ED9 t\u01B0\u01A1ng th\xEDch, \u0111i\u1EC3m xung \u0111\u1ED9t</span>",d4i5:"<strong>T\u01B0\u01A1ng h\u1EE3p th\u1EF1c t\u1EBF</strong><br><span>L\u1ED1i s\u1ED1ng, gi\xE1 tr\u1ECB, m\u1EE5c ti\xEAu s\u1ED1ng</span>",d4i6:"<strong>Ph\u01B0\u01A1ng th\u1EE9c giao ti\u1EBFp</strong><br><span>Phong c\xE1ch giao ti\u1EBFp v\xE0 m\u1EB9o th\u1EF1c t\u1EBF</span>",d4i7:"<strong>Tri\u1EC3n v\u1ECDng</strong><br><span>D\u1EF1 \u0111o\xE1n h\u01B0\u1EDBng ph\xE1t tri\u1EC3n v\xE0 l\u1EDDi khuy\xEAn d\xE0i h\u1EA1n</span>",d4i8:"<strong>L\u1EDDi khuy\xEAn t\u1ED5ng h\u1EE3p</strong><br><span>H\u01B0\u1EDBng d\u1EABn c\xE1 nh\xE2n h\xF3a \u0111\u1EC3 ph\xE1t tri\u1EC3n m\u1ED1i quan h\u1EC7</span>",
 d5i1:"<strong>T\xF3m t\u1EAFt ph\xE2n t\xEDch</strong><br><span>T\u1ED5ng quan cho lo\u1EA1i ho\u1EA1t \u0111\u1ED9ng \u0111\xE3 ch\u1ECDn</span>",d5i2:"<strong>Ng\xE0y \u0111\u01B0\u1EE3c \u0111\u1EC1 xu\u1EA5t</strong><br><span>\u0110i\u1EC3m ph\xF9 h\u1EE3p, l\xFD do, khung gi\u1EDD t\u1ED1t, l\u01B0u \xFD</span>",d5i3:"<strong>Ng\xE0y n\xEAn tr\xE1nh</strong><br><span>Ng\xE0y kh\xF4ng ph\xF9 h\u1EE3p v\xE0 l\xFD do</span>",d5i4:"<strong>Danh s\xE1ch chu\u1EA9n b\u1ECB</strong><br><span>Nh\u1EEFng vi\u1EC7c c\u1EA7n chu\u1EA9n b\u1ECB tr\u01B0\u1EDBc cho ng\xE0y \u0111\xE3 ch\u1ECDn</span>",d5i5:"<strong>L\u1EDDi khuy\xEAn t\u1ED5ng h\u1EE3p</strong><br><span>H\u01B0\u1EDBng d\u1EABn chung v\xE0 l\u1EDDi k\u1EBFt</span>",
 d6i1:"<strong>Th\xF4ng tin l\xE1 s\u1ED1 c\u01A1 b\u1EA3n</strong><br><span>4 Thi\xEAn Can, 4 \u0110\u1ECBa Chi, Ng\u0169 H\xE0nh, \u00C2m D\u01B0\u01A1ng, N\u1EA1p \u00C2m</span>",d6i2:"<strong>Th\u1EADp Th\u1EA7n</strong><br><span>8 v\u1ECB tr\xED, t\u1EC9 l\u1EC7 nh\xF3m sao, \u0111\u1ED9 m\u1EA1nh/y\u1EBFu Nh\u1EADt Ch\u1EE7</span>",d6i3:"<strong>D\u1EE5ng Th\u1EA7n/H\u1EF7 Th\u1EA7n</strong><br><span>Nhi\u1EC1u ph\u01B0\u01A1ng ph\xE1p c\u1ED5 \u0111i\u1EC3n, K\u1EF5/H\u1EF7/K\u1EF5 Th\u1EA7n</span>",d6i4:"<strong>Th\u1EADp Nh\u1ECB Tr\u01B0\u1EDDng Sinh</strong><br><span>Giai \u0111o\u1EA1n s\u1ED1ng cho m\u1ED7i \u0110\u1ECBa Chi, d\xF2ng n\u0103ng l\u01B0\u1EE3ng</span>",d6i5:"<strong>Th\u1EA7n S\xE1t</strong><br><span>C\xE1t th\u1EA7n, Hung th\u1EA7n, Th\u1EA7n S\xE1t \u0111\u1EB7c bi\u1EC7t</span>",d6i6:"<strong>H\u1EE3p/Xung</strong><br><span>Thi\xEAn Can h\u1EE3p, L\u1EE5c h\u1EE3p, Tam h\u1EE3p, Ph\u01B0\u01A1ng h\u1EE3p, \u0110\u1ECBa Chi xung</span>",d6i7:"<strong>Xung/H\xECnh/Nguy\xEAn Ti\u1EBFn</strong><br><span>Thi\xEAn Can xung, Tam h\xECnh, quan h\u1EC7 Nguy\xEAn Ti\u1EBFn</span>",d6i8:"<strong>T\xE0ng Can</strong><br><span>Thi\xEAn Can \u1EA9n trong m\u1ED7i Chi, D\u01B0 kh\xED/Trung kh\xED/Ch\xEDnh kh\xED</span>",d6i9:"<strong>C\xE1ch C\u1EE5c</strong><br><span>8 Ch\xEDnh c\xE1ch, T\xF2ng c\xE1ch, Th\xE0nh/Ph\xE1 c\xE1ch</span>",d6i10:"<strong>\u0110\u1EA1i V\u1EADn/L\u01B0u Ni\xEAn</strong><br><span>Can/Chi/Th\u1EADp Th\u1EA7n hi\u1EC7n t\u1EA1i, tu\u1ED5i b\u1EAFt \u0111\u1EA7u v\xE0 \u0111i\u1EC3m chuy\u1EC3n</span>",d6i11:"<strong>Kh\xF4ng Vong</strong><br><span>Kh\xF4ng Vong Nh\u1EADt tr\u1EE5, \u0110\u1EA1i V\u1EADn, L\u01B0u Ni\xEAn</span>",d6i12:"<strong>N\u1EA1p \u00C2m</strong><br><span>Lo\u1EA1i N\u1EA1p \u00C2m Nh\u1EADt tr\u1EE5 v\xE0 thu\u1ED9c t\xEDnh</span>",d6i13:"<strong>D\xF2ng v\u1EADn m\u1EC7nh</strong><br><span>To\xE0n b\u1ED9 \u0110\u1EA1i V\u1EADn (10 n\u0103m), \u1EA3nh h\u01B0\u1EDFng hi\u1EC7n t\u1EA1i, \u0111i\u1EC3m chuy\u1EC3n ti\u1EBFp</span>",d6i14:"<strong>V\u1EADn m\u1EC7nh h\xE0ng ng\xE0y</strong><br><span>H\xF4m nay \u00B17 ng\xE0y, 5 l\u0129nh v\u1EF1c, m\xE0u/ph\u01B0\u01A1ng/gi\u1EDD may m\u1EAFn</span>",d6i15:"<strong>V\u1EADn m\u1EC7nh h\xE0ng th\xE1ng</strong><br><span>12 th\xE1ng t\u1ED5ng \u0111i\u1EC3m, t\u01B0\u01A1ng t\xE1c Can Chi, bi\u1EBFn \u0111\u1ED5i danh m\u1EE5c</span>",d6i16:"<strong>T\xEDch h\u1EE3p l\u1ECBch c\xE1 nh\xE2n</strong><br><span>\u0110\xE1nh gi\xE1 v\u1EADn m\u1EC7nh theo l\u1ECBch \u0111\xE3 \u0111\u0103ng k\xFD, 7 ng\xE0y tr\u01B0\u1EDBc\u201330 ng\xE0y sau</span>",d6i17:"<strong>H\u1EE3p tu\u1ED5i</strong><br><span>Ng\u0169 H\xE0nh t\u01B0\u01A1ng sinh/kh\u1EAFc, t\xEDnh c\xE1ch/c\u1EA3m x\xFAc/th\u1EF1c t\u1EBF, giao ti\u1EBFp, 800+ d\u1EEF li\u1EC7u</span>",
-prt:"B\u1EA3ng gi\xE1 T\u01B0 v\u1EA5n T\u1EE9 Tr\u1EE5",prs:"T\u01B0 v\u1EA5n chuy\xEAn gia v\u1EDBi 1/3 chi ph\xED t\u01B0 v\u1EA5n tr\u1EF1c ti\u1EBFp",
+prt:"B\u1EA3ng gi\xE1 T\u01B0 v\u1EA5n T\u1EE9 Tr\u1EE5",prs:"Get expert-level Saju consultation right in the app",
 sess:"phi\xEAn t\u01B0 v\u1EA5n",per1:"",per3:"",per5:"",
 dc20:"Gi\u1EA3m 20%",dc33:"Gi\u1EA3m 33%",q10:"10 c\xE2u h\u1ECFi",q30:"30 c\xE2u h\u1ECFi",q50:"50 c\xE2u h\u1ECFi",
 advc:"T\u01B0 v\u1EA5n T\u1EE9 Tr\u1EE5",nexp:"Kh\xF4ng h\u1EBFt h\u1EA1n sau mua",
-cmpt:"So s\xE1nh v\u1EDBi d\u1ECBch v\u1EE5 kh\xE1c",cmps:"1/3 chi ph\xED t\u01B0 v\u1EA5n tr\u1EF1c ti\u1EBFp, t\xEDnh n\u0103ng phong ph\xFA h\u01A1n",
+cmpt:"So s\xE1nh v\u1EDBi d\u1ECBch v\u1EE5 kh\xE1c",cmps:"More features, more accurate analysis",
 th1:"Tr\u1EF1c ti\u1EBFp",th2:"App kh\xE1c",th3:"SajuPlanner",
 tr1:"Gi\xE1",tr1a:"$30\u2013100",tr1b:"Mi\u1EC5n ph\xED+QC",
 tr2:"Ph\xE2n t\xEDch chuy\xEAn s\xE2u",tr3:"T\xEDch h\u1EE3p l\u1ECBch",tr4:"6 lo\u1EA1i v\u1EADn m\u1EC7nh",tr5:"T\u01B0 v\u1EA5n 1:1",tr6:"\u0110a ng\xF4n ng\u1EEF",tr7:"24/7",
@@ -314,12 +314,12 @@ c1t:"Keuangan",c1d:"Uang, investasi, aset",c2t:"Percintaan",c2d:"Romansa, pernik
 sct:"Sistem Skor Intuitif",scs:"Pahami keberuntungan hari ini melalui skor dan warna",
 sc1:"<strong>Sangat Baik</strong> \u2013 Hari ideal untuk acara penting",sc2:"<strong>Baik</strong> \u2013 Hari yang baik untuk kebanyakan aktivitas",sc3:"<strong>Normal</strong> \u2013 Aktivitas sehari-hari tanpa masalah",sc4:"<strong>Hati-hati</strong> \u2013 Hindari keputusan besar",sc5:"<strong>Buruk</strong> \u2013 Tunda acara penting",
 pt:"Analisis Mendalam oleh Sistem Penasihat Saju",ps:"Sistem Penasihat yang terlatih teori Saju memberikan analisis presisi tingkat ahli",
-d1t:'Keberuntungan Harian Detail <span class="detail-price" data-price="daily_fortune"></span>',d1d:"Analisis mendalam 9 item untuk tanggal pilihan. Panduan konkret untuk hari Anda.",
-d2t:'Keberuntungan Tahunan <span class="detail-price" data-price="yearly_fortune"></span>',d2d:"Pahami tren tahun ini dan analisis detail 12 bulan. Rencanakan tahun secara strategis.",
-d3t:'Laporan BaZi Detail <span class="detail-price" data-price="detailed_report"></span>',d3d:"Sistem Penasihat menganalisis bagan natal Anda secara komprehensif. Dari kepribadian bawaan hingga alur kehidupan.",
-d4t:'Analisis Kecocokan <span class="detail-price" data-price="compatibility"></span>',d4d:"Bandingkan BaZi dua orang, analisis multi-dimensi. Untuk pasangan, suami-istri, atau mitra bisnis.",
-d5t:'Pemilihan Tanggal Baik <span class="detail-price" data-price="date_selection"></span>',d5d:"Pilih tanggal terbaik untuk pernikahan, pindah rumah, pembukaan bisnis, penandatanganan kontrak.",
-d6t:'Konsultasi Penasihat Saju <span class="detail-price" data-price="ai_consult_1session" data-price-suffix="~"></span> <span style="background:var(--accent);color:#1a1a2e;padding:3px 10px;border-radius:20px;font-size:0.75rem;font-weight:700;margin-left:4px;">Fitur Utama</span>',
+d1t:'Keberuntungan Harian Detail <span class="detail-price">Premium</span>',d1d:"Analisis mendalam 9 item untuk tanggal pilihan. Panduan konkret untuk hari Anda.",
+d2t:'Keberuntungan Tahunan <span class="detail-price">Premium</span>',d2d:"Pahami tren tahun ini dan analisis detail 12 bulan. Rencanakan tahun secara strategis.",
+d3t:'Laporan BaZi Detail <span class="detail-price">Premium</span>',d3d:"Sistem Penasihat menganalisis bagan natal Anda secara komprehensif. Dari kepribadian bawaan hingga alur kehidupan.",
+d4t:'Analisis Kecocokan <span class="detail-price">Premium</span>',d4d:"Bandingkan BaZi dua orang, analisis multi-dimensi. Untuk pasangan, suami-istri, atau mitra bisnis.",
+d5t:'Pemilihan Tanggal Baik <span class="detail-price">Premium</span>',d5d:"Pilih tanggal terbaik untuk pernikahan, pindah rumah, pembukaan bisnis, penandatanganan kontrak.",
+d6t:'Konsultasi Penasihat Saju <span class="detail-price">Premium</span> <span style="background:var(--accent);color:#1a1a2e;padding:3px 10px;border-radius:20px;font-size:0.75rem;font-weight:700;margin-left:4px;">Fitur Utama</span>',
 d6d:"Percakapan 1:1 dengan Penasihat Saju. 17 kategori analisis, 400+ data memberikan konsultasi personal mendalam.",
 d1i1:"<strong>Tema Hari Ini</strong><br><span>Kata kunci utama dan arah energi sepanjang hari</span>",d1i2:"<strong>Analisis Konteks BaZi</strong><br><span>Energi hari ini, pengaruh Pola Bagan, alur kehidupan, Bintang Roh utama</span>",d1i3:"<strong>Keberuntungan 12 Periode</strong><br><span>Skor dan rekomendasi aktivitas untuk setiap slot 2 jam</span>",d1i4:"<strong>Keberuntungan per Kategori</strong><br><span>Skor dan analisis detail Keuangan, Cinta, Karier, Kesehatan</span>",d1i5:"<strong>Analisis Energi Lima Elemen</strong><br><span>Aliran dan keseimbangan Lima Elemen (Kayu/Api/Tanah/Logam/Air) hari ini</span>",d1i6:"<strong>Waktu Terbaik per Aktivitas</strong><br><span>Slot waktu ideal untuk rapat, kontrak, olahraga, dll</span>",d1i7:"<strong>Wawasan Mendalam</strong><br><span>Analisis tambahan dan saran mendalam dari Sistem Penasihat</span>",d1i8:"<strong>Elemen Keberuntungan</strong><br><span>Warna, angka, arah, musim keberuntungan hari ini</span>",d1i9:"<strong>Peringatan & Pesan Hari Ini</strong><br><span>Hal yang perlu diperhatikan dan pesan penutup</span>",
 d2i1:"<strong>Tinjauan Tahunan & Keberuntungan Tahun</strong><br><span>Skor total tahun ini dan pengaruh batang/cabang tahun pada bagan Anda</span>",d2i2:"<strong>Tema Tahun Ini</strong><br><span>Kata kunci dan arah energi utama sepanjang tahun</span>",d2i3:"<strong>Ramalan Detail 12 Bulan</strong><br><span>Kata kunci, skor, analisis lengkap + 4 kategori per bulan</span>",d2i4:"<strong>Keberuntungan Tahunan per Kategori</strong><br><span>Karier, Hubungan, Kesehatan, Pendidikan, Sosial \u2013 bulan terbaik dan terburuk</span>",d2i5:"<strong>Elemen Keberuntungan</strong><br><span>Warna, angka, arah, musim keberuntungan tahun ini</span>",d2i6:"<strong>Saran Strategis Tahunan</strong><br><span>Panduan komprehensif untuk tahun yang sukses</span>",
@@ -327,11 +327,11 @@ d3i1:"<strong>Analisis Tuan Hari</strong><br><span>Interpretasi mendalam karakte
 d4i1:"<strong>Skor Kecocokan Total</strong><br><span>Skor 0\u2013100 kecocokan keseluruhan</span>",d4i2:"<strong>Ringkasan Kecocokan</strong><br><span>Ikhtisar dinamika utama hubungan</span>",d4i3:"<strong>Kecocokan Lima Elemen</strong><br><span>Harmoni/konflik elemen + solusi praktis</span>",d4i4:"<strong>Kecocokan Emosional</strong><br><span>Komunikasi perasaan, empati, titik gesekan</span>",d4i5:"<strong>Kecocokan Praktis</strong><br><span>Gaya hidup, nilai, tujuan sehari-hari</span>",d4i6:"<strong>Analisis Komunikasi</strong><br><span>Gaya komunikasi dan tips menjembatani perbedaan</span>",d4i7:"<strong>Prospek Masa Depan</strong><br><span>Arah perkembangan dan saran jangka panjang</span>",d4i8:"<strong>Saran Khusus</strong><br><span>Rekomendasi personal untuk memperkuat hubungan</span>",
 d5i1:"<strong>Ringkasan Analisis</strong><br><span>Ikhtisar untuk jenis acara yang dipilih</span>",d5i2:"<strong>Tanggal Direkomendasikan</strong><br><span>Skor kesesuaian, alasan, waktu ideal, catatan</span>",d5i3:"<strong>Tanggal yang Dihindari</strong><br><span>Tanggal tidak cocok beserta penjelasan</span>",d5i4:"<strong>Daftar Persiapan</strong><br><span>Hal yang perlu disiapkan sebelum hari H</span>",d5i5:"<strong>Saran Penutup</strong><br><span>Panduan akhir agar semuanya berjalan lancar</span>",
 d6i1:"<strong>Dasar Bagan Natal</strong><br><span>4 Batang Langit, 4 Cabang Bumi, Lima Elemen, Yin-Yang, Na Yin</span>",d6i2:"<strong>Analisis Sepuluh Dewa</strong><br><span>Penempatan 8 posisi, rasio kelompok, kekuatan Tuan Hari</span>",d6i3:"<strong>Kerangka Elemen Pendukung</strong><br><span>Metode klasik, Elemen Pembantu/Merugikan/Musuh</span>",d6i4:"<strong>Dua Belas Tahap Kehidupan</strong><br><span>Energi tahap hidup untuk setiap Cabang Bumi</span>",d6i5:"<strong>Pembacaan Bintang Roh</strong><br><span>Bintang baik, buruk, dan khusus</span>",d6i6:"<strong>Dinamika Harmoni & Bentrokan</strong><br><span>Kombinasi batang, Enam Harmoni, Tiga Harmoni, Bentrokan Cabang</span>",d6i7:"<strong>Bentrokan/Hukuman/Dendam</strong><br><span>Bentrokan batang, Tiga Hukuman, hubungan Dendam</span>",d6i8:"<strong>Batang Tersembunyi</strong><br><span>Batang tersembunyi di setiap cabang, pembagian qi</span>",d6i9:"<strong>Penilaian Pola</strong><br><span>8 pola standar, pola khusus, penilaian formasi/destruksi</span>",d6i10:"<strong>Keberuntungan Besar & Tahunan</strong><br><span>Batang/Cabang/Dewa saat ini, usia mulai dan transisi</span>",d6i11:"<strong>Analisis Kekosongan</strong><br><span>Kekosongan Pilar Hari, Keberuntungan Besar, Tahunan</span>",d6i12:"<strong>Elemen Na Yin</strong><br><span>Tipe Na Yin Pilar Hari dan properti elemen</span>",d6i13:"<strong>Alur Keberuntungan</strong><br><span>Timeline penuh (siklus 10 tahun), pengaruh saat ini, transisi</span>",d6i14:"<strong>Keberuntungan Harian</strong><br><span>Hari ini \u00B17 hari, 5 bidang, warna/arah/waktu beruntung</span>",d6i15:"<strong>Keberuntungan Bulanan</strong><br><span>Skor 12 bulan, interaksi batang/cabang, pergeseran kategori</span>",d6i16:"<strong>Integrasi Jadwal</strong><br><span>Penilaian keberuntungan berdasarkan jadwal, 7 hari lalu\u201330 hari ke depan</span>",d6i17:"<strong>Modul Kecocokan</strong><br><span>Lima Elemen, kepribadian/emosi/praktis, komunikasi, 800+ data</span>",
-prt:"Harga Konsultasi Penasihat Saju",prs:"Konsultasi ahli dengan 1/3 biaya konsultasi langsung",
+prt:"Harga Konsultasi Penasihat Saju",prs:"Get expert-level Saju consultation right in the app",
 sess:"sesi",per1:"",per3:"",per5:"",
 dc20:"Diskon 20%",dc33:"Diskon 33%",q10:"10 Pertanyaan",q30:"30 Pertanyaan",q50:"50 Pertanyaan",
 advc:"Konsultasi Penasihat Saju",nexp:"Tidak kedaluwarsa setelah pembelian",
-cmpt:"Perbandingan dengan Layanan Lain",cmps:"1/3 biaya konsultasi langsung, fitur lebih lengkap",
+cmpt:"Perbandingan dengan Layanan Lain",cmps:"More features, more accurate analysis",
 th1:"Langsung",th2:"App Lain",th3:"SajuPlanner",
 tr1:"Harga",tr1a:"$30\u2013100",tr1b:"Gratis+Iklan",
 tr2:"Analisis Mendalam",tr3:"Integrasi Kalender",tr4:"6 Kategori",tr5:"Konsultasi 1:1",tr6:"Multi-bahasa",tr7:"24/7",
@@ -341,77 +341,8 @@ ctat:"Mulai Sekarang",ctad:"Cek keberuntungan hari ini dan jelajahi BaZi Anda.",
 fp:"Kebijakan Privasi",fs:"Dukungan",fc:"Hubungi Kami"
 }
 };
-// 국가별 가격 (과금정책 설계서 기준)
-const PRICES={
-  ko:{
-    daily_fortune:"₩1,500", yearly_fortune:"₩5,900", detailed_report:"₩7,900",
-    compatibility:"₩5,900", date_selection:"₩5,900",
-    ai_consult_1session:"₩14,900", ai_consult_3session:"₩35,900", ai_consult_5session:"₩49,900",
-    ai_consult_1session_per:"₩14,900", ai_consult_3session_per:"₩11,967", ai_consult_5session_per:"₩9,980"
-  },
-  ja:{
-    daily_fortune:"¥480", yearly_fortune:"¥980", detailed_report:"¥1,480",
-    compatibility:"¥1,200", date_selection:"¥1,200",
-    ai_consult_1session:"¥2,980", ai_consult_3session:"¥6,980", ai_consult_5session:"¥9,800",
-    ai_consult_1session_per:"¥2,980", ai_consult_3session_per:"¥2,327", ai_consult_5session_per:"¥1,960"
-  },
-  zh:{
-    daily_fortune:"NT$80", yearly_fortune:"NT$250", detailed_report:"NT$300",
-    compatibility:"NT$350", date_selection:"NT$350",
-    ai_consult_1session:"NT$980", ai_consult_3session:"NT$2,350", ai_consult_5session:"NT$3,280",
-    ai_consult_1session_per:"NT$980", ai_consult_3session_per:"NT$783", ai_consult_5session_per:"NT$656"
-  },
-  en:{
-    daily_fortune:"S$4", yearly_fortune:"S$12", detailed_report:"S$18",
-    compatibility:"S$28", date_selection:"S$28",
-    ai_consult_1session:"S$38", ai_consult_3session:"S$88", ai_consult_5session:"S$128",
-    ai_consult_1session_per:"S$38", ai_consult_3session_per:"S$29", ai_consult_5session_per:"S$26"
-  },
-  vi:{
-    daily_fortune:"₫19,000", yearly_fortune:"₫29,000", detailed_report:"₫35,000",
-    compatibility:"₫39,000", date_selection:"₫39,000",
-    ai_consult_1session:"₫99,000", ai_consult_3session:"₫239,000", ai_consult_5session:"₫329,000",
-    ai_consult_1session_per:"₫99,000", ai_consult_3session_per:"₫79,667", ai_consult_5session_per:"₫65,800"
-  },
-  id:{
-    daily_fortune:"Rp9,900", yearly_fortune:"Rp19,000", detailed_report:"Rp25,000",
-    compatibility:"Rp29,000", date_selection:"Rp29,000",
-    ai_consult_1session:"Rp69,000", ai_consult_3session:"Rp165,000", ai_consult_5session:"Rp229,000",
-    ai_consult_1session_per:"Rp69,000", ai_consult_3session_per:"Rp55,000", ai_consult_5session_per:"Rp45,800"
-  }
-};
-
-const PRICE_PER_LABEL={
-  ko:{1:"1세션당",3:"1세션당",5:"1세션당"},
-  en:{1:"per session",3:"per session",5:"per session"},
-  ja:{1:"1セッション",3:"1セッション",5:"1セッション"},
-  zh:{1:"每次",3:"每次",5:"每次"},
-  vi:{1:"/phiên",3:"/phiên",5:"/phiên"},
-  id:{1:"per sesi",3:"per sesi",5:"per sesi"}
-};
-
-function applyPrices(l){
-  const p=PRICES[l]||PRICES.ko;
-  // detail-price (단건 상품)
-  document.querySelectorAll('[data-price]').forEach(e=>{
-    const key=e.getAttribute('data-price');
-    const suffix=e.getAttribute('data-price-suffix')||'';
-    if(p[key])e.textContent=p[key]+suffix;
-  });
-  // price-per (세션당 가격)
-  document.querySelectorAll('[data-price-per]').forEach(e=>{
-    const key=e.getAttribute('data-price-per');
-    const perKey=key+'_per';
-    if(p[perKey]){
-      const sessions=key.includes('1session')?1:key.includes('3session')?3:5;
-      const label=(PRICE_PER_LABEL[l]||PRICE_PER_LABEL.ko)[sessions];
-      e.textContent=l==='ko'?`${label} ${p[perKey]}`:`${p[perKey]} ${label}`;
-    }
-  });
-}
-
 function switchLang(l){
-  if(l==='ko'){document.querySelectorAll('[data-i18n]').forEach(e=>{if(e._ko)e.innerHTML=e._ko});localStorage.setItem('lang','ko');applyPrices('ko');return}
+  if(l==='ko'){document.querySelectorAll('[data-i18n]').forEach(e=>{if(e._ko)e.innerHTML=e._ko});localStorage.setItem('lang','ko');return}
   const t=I18N[l];if(!t)return;
   document.querySelectorAll('[data-i18n]').forEach(e=>{
     if(!e._ko)e._ko=e.innerHTML;
@@ -419,10 +350,8 @@ function switchLang(l){
     if(t[k])e.innerHTML=t[k];
   });
   localStorage.setItem('lang',l);
-  applyPrices(l);
 }
 (function(){
-  // save original Korean
   document.querySelectorAll('[data-i18n]').forEach(e=>e._ko=e.innerHTML);
   const s=localStorage.getItem('lang');
   const bl=navigator.language.slice(0,2);
@@ -430,5 +359,4 @@ function switchLang(l){
   const l=s||(m[bl])||'ko';
   document.getElementById('langSel').value=l;
   if(l!=='ko')switchLang(l);
-  else applyPrices('ko');
 })();
