@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>사주플래너 - 내 사주에 맞는 최적의 타이밍</title>
-  <meta name="description" content="사주 기반 스마트 캘린더. 사주 어드바이저 시스템이 매일의 운세, 상세 분석, 상담, 궁합, 택일을 제공합니다.">
+  <title>사주플래너 - 일정 × 사주가 만나는 스마트 캘린더</title>
+  <meta name="description" content="사주 기반 스마트 캘린더 + 14개 섹션 일별 상세 운세, 주간 플래닝, 월간 리포트, 사주 상담, 궁합, 택일, 꿈 해몽까지. 정통 명리로 풀어내는 매일의 흐름.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
   <style>
@@ -48,6 +48,19 @@
     .hero-stat { text-align: center; }
     .hero-stat .num { font-size: 2rem; font-weight: 700; }
     .hero-stat .label { font-size: 0.85rem; opacity: 0.7; margin-top: 4px; }
+
+    /* SCREENSHOTS SHOWCASE */
+    .screenshots-section { background: linear-gradient(180deg, #1a1a2e 0%, #2d1b69 100%); color: var(--white); padding: 100px 24px; }
+    .screenshots-section .section-tag { background: rgba(255,255,255,0.1); color: var(--accent); }
+    .screenshots-section .section-header h2 { color: var(--white); }
+    .screenshots-section .section-header p { color: rgba(255,255,255,0.7); }
+    .screenshots-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 32px; max-width: 1200px; margin: 0 auto; }
+    .screenshot-card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; overflow: hidden; transition: all 0.3s; }
+    .screenshot-card:hover { transform: translateY(-6px); box-shadow: 0 16px 50px rgba(0,0,0,0.4); }
+    .screenshot-card img { width: 100%; display: block; }
+    .screenshot-caption { padding: 18px 20px 22px; }
+    .screenshot-caption h4 { font-size: 1.05rem; font-weight: 700; margin-bottom: 6px; color: var(--white); }
+    .screenshot-caption p { font-size: 0.85rem; color: rgba(255,255,255,0.7); line-height: 1.5; }
 
     /* SECTION COMMON */
     section { padding: 100px 24px; }
@@ -190,6 +203,7 @@
     <div class="nav-inner">
       <a href="/" class="logo">SajuPlanner</a>
       <div class="nav-links">
+        <a href="#screenshots" data-i18n="nav0">화면 미리보기</a>
         <a href="#features" data-i18n="nav1">기능</a>
         <a href="#ai" data-i18n="nav2">프리미엄 분석</a>
         <a href="#pricing" data-i18n="nav3">요금</a>
@@ -198,6 +212,7 @@
           <option value="ko">한국어</option>
           <option value="en">English</option>
           <option value="ja">日本語</option>
+          <option value="zh_CN">简体中文</option>
           <option value="zh">繁體中文</option>
           <option value="vi">Tiếng Việt</option>
           <option value="id">Indonesia</option>
@@ -211,18 +226,18 @@
     <div class="hero-content">
       <div class="hero-badge">Saju Advisor System</div>
       <h1 data-i18n="h1">내 사주에 맞는<br><span>최적의 타이밍</span>을 알려드립니다</h1>
-      <p class="subtitle" data-i18n="h1s">생년월일시를 기반으로 매일의 운세를 분석하고, 사주 어드바이저 시스템이 깊이 있는 상담을 제공합니다. 중요한 일정은 좋은 날에 맞춰 계획하세요.</p>
+      <p class="subtitle" data-i18n="h1s">생년월일시를 기반으로 14개 섹션의 일별 상세 운세, 주간·월간 플래닝, 1:1 어드바이저 상담까지. 정통 명리로 풀어내는 일정과 운세 — 중요한 일은 좋은 날에 맞춰 계획하세요.</p>
       <div class="hero-buttons">
         <a class="btn-primary" href="#" data-i18n="dl1">App Store 다운로드</a>
         <a class="btn-secondary" href="#" data-i18n="dl2">Google Play 다운로드</a>
       </div>
       <div class="hero-stats">
         <div class="hero-stat">
-          <div class="num">6</div>
-          <div class="label" data-i18n="s1">카테고리 운세</div>
+          <div class="num">14</div>
+          <div class="label" data-i18n="s1">일별 분석 항목</div>
         </div>
         <div class="hero-stat">
-          <div class="num">6</div>
+          <div class="num">7</div>
           <div class="label" data-i18n="s2">지원 언어</div>
         </div>
         <div class="hero-stat">
@@ -232,6 +247,108 @@
       </div>
     </div>
   </div>
+
+  <!-- SCREENSHOTS SHOWCASE -->
+  <section class="screenshots-section" id="screenshots">
+    <div class="section-header">
+      <div class="section-tag">App Walkthrough</div>
+      <h2 data-i18n="sht">사주가 알려주는 오늘의 흐름</h2>
+      <p data-i18n="shs">일정과 사주가 만나는 13개 화면 — 매일 아침 받는 맞춤 코칭부터 한 달의 큰 그림까지</p>
+    </div>
+    <div class="screenshots-grid">
+      <div class="screenshot-card">
+        <img src="assets/screenshots/01_today.png" alt="오늘 화면">
+        <div class="screenshot-caption">
+          <h4 data-i18n="sh01t">오늘의 브리핑</h4>
+          <p data-i18n="sh01d">매일 아침 받는 맞춤 코칭 — 일정과 운세를 한눈에</p>
+        </div>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/02_calendar.png" alt="캘린더">
+        <div class="screenshot-caption">
+          <h4 data-i18n="sh02t">사주 흐름이 깃든 캘린더</h4>
+          <p data-i18n="sh02d">매일의 운세 점수가 색으로 표시되는 직관적인 달력</p>
+        </div>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/09_calendar_schedule.png" alt="일정 관리">
+        <div class="screenshot-caption">
+          <h4 data-i18n="sh09t">약속 하나하나에 깊이를</h4>
+          <p data-i18n="sh09d">카테고리·시간·메모 — 사주 흐름을 담아내는 스마트 일정</p>
+        </div>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/10_calendar_score.png" alt="일정 평가">
+        <div class="screenshot-caption">
+          <h4 data-i18n="sh10t">끝난 일정마다 쌓이는 성취</h4>
+          <p data-i18n="sh10d">일정 만족도와 결과 기록으로 흐름을 학습하다</p>
+        </div>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/11_calendar_sync.png" alt="캘린더 동기화">
+        <div class="screenshot-caption">
+          <h4 data-i18n="sh11t">구글·애플 캘린더 양방향 동기화</h4>
+          <p data-i18n="sh11d">기존 일정을 그대로 가져오는 안전한 양방향 연동</p>
+        </div>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/12_weekly_plan.png" alt="주간 플래닝">
+        <div class="screenshot-caption">
+          <h4 data-i18n="sh12t">한 주의 흐름을 미리 그리다</h4>
+          <p data-i18n="sh12d">7일 일정에 사주 코칭이 더해지는 매주 맞춤 플래닝</p>
+        </div>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/13_monthly_report.png" alt="월간 리포트">
+        <div class="screenshot-caption">
+          <h4 data-i18n="sh13t">한 달의 큰 그림을 그려보다</h4>
+          <p data-i18n="sh13d">월별 일정과 사주 흐름을 종합 분석하는 월간 전략</p>
+        </div>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/03_consult.png" alt="사주 상담">
+        <div class="screenshot-caption">
+          <h4 data-i18n="sh03t">1:1 사주 어드바이저 맞춤 상담</h4>
+          <p data-i18n="sh03d">정통 명리로 풀어가는 진지한 1:1 대화</p>
+        </div>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/04_detailed_report.png" alt="상세 사주 리포트">
+        <div class="screenshot-caption">
+          <h4 data-i18n="sh04t">깊이 풀어내는 나의 사주</h4>
+          <p data-i18n="sh04d">사주 명리학 기반 심층 분석, 인생 테마와 흐름을 한눈에</p>
+        </div>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/05_yearly_fortune.png" alt="연간 운세">
+        <div class="screenshot-caption">
+          <h4 data-i18n="sh05t">한 해의 흐름을 미리 보다</h4>
+          <p data-i18n="sh05d">월별 운세와 흐름 변화, 올해의 전략을 사주가 짚어주는</p>
+        </div>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/06_compatibility.png" alt="궁합">
+        <div class="screenshot-caption">
+          <h4 data-i18n="sh06t">두 사람의 사주 궁합</h4>
+          <p data-i18n="sh06d">운명적 인연과 관계 역학 — 사주가 풀어내는 두 사람의 이야기</p>
+        </div>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/07_date_selection.png" alt="택일">
+        <div class="screenshot-caption">
+          <h4 data-i18n="sh07t">중요한 일의 길일을 짚다</h4>
+          <p data-i18n="sh07d">결혼·이사·계약 등 인생의 큰 결정, 사주가 알려주는 가장 좋은 날</p>
+        </div>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/08_dream.png" alt="꿈 해몽">
+        <div class="screenshot-caption">
+          <h4 data-i18n="sh08t">꿈에 담긴 사주의 메시지</h4>
+          <p data-i18n="sh08d">꿈의 상징과 사주 풀이, 무의식이 보내는 신호를 해석하는</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- FREE FEATURES -->
   <section class="free-features" id="features">
@@ -276,6 +393,24 @@
         <div class="tag" data-i18n="free">무료</div>
         <h3 data-i18n="f6t">대운/세운 분석</h3>
         <p data-i18n="f6d">10년 단위 대운과 연간 세운 흐름을 분석합니다. 인생의 큰 흐름 속에서 지금이 어떤 시기인지 파악하고, 장기적인 계획을 세우세요.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">&#x1F514;</div>
+        <div class="tag" data-i18n="free">무료</div>
+        <h3 data-i18n="f7t">오늘의 브리핑</h3>
+        <p data-i18n="f7d">매일 아침 받는 사주 기반 맞춤 코칭 — 오늘의 핵심 키워드, 영역별 점수, 시간대 흐름을 한 카드로 요약해드립니다.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">&#x1F517;</div>
+        <div class="tag" data-i18n="free">무료</div>
+        <h3 data-i18n="f8t">구글·애플 캘린더 연동</h3>
+        <p data-i18n="f8d">기존에 쓰던 캘린더 일정을 양방향으로 동기화합니다. 어디서든 같은 일정 흐름을 그대로 이어가세요.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">&#x2B50;</div>
+        <div class="tag" data-i18n="free">무료</div>
+        <h3 data-i18n="f9t">일정 완료 평가</h3>
+        <p data-i18n="f9d">끝난 일정마다 만족도와 결과를 기록하면 운세 예측과 실제 결과가 함께 쌓이는 나만의 흐름 라이브러리가 됩니다.</p>
       </div>
     </div>
   </section>
@@ -365,25 +500,71 @@
       <p data-i18n="ps">사주 이론을 학습한 어드바이저 시스템이 전문가 수준의 정밀 분석을 제공합니다</p>
     </div>
 
-    <!-- 일별 상세 운세 -->
+    <!-- 일별 상세 운세 v3 -->
     <div class="detail-block">
       <div class="detail-header">
         <div class="detail-icon">&#x1F52E;</div>
         <div>
           <h3 data-i18n="d1t">일별 상세 운세 <span class="detail-price">Premium</span></h3>
-          <p class="detail-desc" data-i18n="d1d">특정 날짜의 운세를 9개 항목으로 심층 분석합니다. 오늘 하루를 어떻게 보내야 할지 구체적인 가이드를 제공합니다.</p>
+          <p class="detail-desc" data-i18n="d1d">특정 날짜의 운세를 14개 섹션으로 심층 분석합니다. 5대 영역, 핵심 시진, 미시 흐름, 하루 루틴까지 — 오늘 하루를 어떻게 보내야 할지 구체적인 실행 가이드를 제공합니다.</p>
         </div>
       </div>
       <div class="detail-items">
         <div class="detail-item"><span class="item-num">01</span><div data-i18n="d1i1"><strong>오늘의 테마</strong><br><span>오늘 하루를 관통하는 핵심 키워드와 에너지 방향</span></div></div>
         <div class="detail-item"><span class="item-num">02</span><div data-i18n="d1i2"><strong>사주 맥락 분석</strong><br><span>오늘의 에너지, 격국의 영향, 인생 흐름, 주요 신살을 종합 해석</span></div></div>
-        <div class="detail-item"><span class="item-num">03</span><div data-i18n="d1i3"><strong>12시진 시간대별 운세</strong><br><span>2시간 간격 12개 시간대별 운세 점수와 최적 활동 추천</span></div></div>
-        <div class="detail-item"><span class="item-num">04</span><div data-i18n="d1i4"><strong>카테고리별 상세 운세</strong><br><span>재물, 연애, 직장, 건강 4대 카테고리별 점수와 상세 해석</span></div></div>
-        <div class="detail-item"><span class="item-num">05</span><div data-i18n="d1i5"><strong>오행 에너지 분석</strong><br><span>오늘의 오행(목화토금수) 에너지 흐름과 균형 상태</span></div></div>
-        <div class="detail-item"><span class="item-num">06</span><div data-i18n="d1i6"><strong>활동별 최적 시간 추천</strong><br><span>미팅, 계약, 운동 등 활동 유형별 베스트 시간대 안내</span></div></div>
-        <div class="detail-item"><span class="item-num">07</span><div data-i18n="d1i7"><strong>심층 인사이트</strong><br><span>어드바이저 시스템의 추가 분석과 깊이 있는 조언</span></div></div>
-        <div class="detail-item"><span class="item-num">08</span><div data-i18n="d1i8"><strong>행운 요소</strong><br><span>오늘의 행운 색상, 숫자, 방위, 계절 추천</span></div></div>
-        <div class="detail-item"><span class="item-num">09</span><div data-i18n="d1i9"><strong>주의 사항 & 오늘의 메시지</strong><br><span>하루를 보내며 주의할 점과 마무리 조언</span></div></div>
+        <div class="detail-item"><span class="item-num">03</span><div data-i18n="d1i3"><strong>5대 영역 심층 분석</strong><br><span>재물·연애·건강·직업·자기성장 5대 영역별 점수와 영역별 최적 시진</span></div></div>
+        <div class="detail-item"><span class="item-num">04</span><div data-i18n="d1i4"><strong>핵심 시진 (최적/주의)</strong><br><span>오늘의 최고 시간과 주의해야 할 시간을 사주 근거와 함께</span></div></div>
+        <div class="detail-item"><span class="item-num">05</span><div data-i18n="d1i5"><strong>12시진 시간대별 운세</strong><br><span>2시간 간격 12개 시간대별 운세 점수와 최적 활동 추천</span></div></div>
+        <div class="detail-item"><span class="item-num">06</span><div data-i18n="d1i6"><strong>카테고리별 운세</strong><br><span>재물, 연애, 직장, 건강, 학업, 대인 6대 카테고리별 점수와 해석</span></div></div>
+        <div class="detail-item"><span class="item-num">07</span><div data-i18n="d1i7"><strong>미시 흐름</strong><br><span>대운·세운·월운·일진이 오늘에 미치는 영향을 결합한 정밀 흐름도</span></div></div>
+        <div class="detail-item"><span class="item-num">08</span><div data-i18n="d1i8"><strong>하루 루틴 가이드</strong><br><span>아침·점심·저녁·심야 시간대별 의식·행동 가이드</span></div></div>
+        <div class="detail-item"><span class="item-num">09</span><div data-i18n="d1i9"><strong>음식 가이드</strong><br><span>오늘의 오행 균형에 맞춘 추천 식단과 피해야 할 음식</span></div></div>
+        <div class="detail-item"><span class="item-num">10</span><div data-i18n="d1i10"><strong>오늘 꼭 이루기 / 피하기</strong><br><span>사주 근거와 함께 제시되는 오늘의 필수 할 일과 회피 사항</span></div></div>
+        <div class="detail-item"><span class="item-num">11</span><div data-i18n="d1i11"><strong>오행 에너지 분석</strong><br><span>오늘의 오행(목화토금수) 에너지 흐름과 균형 상태</span></div></div>
+        <div class="detail-item"><span class="item-num">12</span><div data-i18n="d1i12"><strong>행운 요소</strong><br><span>오늘의 행운 색상, 숫자, 방위, 계절 추천</span></div></div>
+        <div class="detail-item"><span class="item-num">13</span><div data-i18n="d1i13"><strong>심층 인사이트</strong><br><span>어드바이저 시스템의 추가 분석과 깊이 있는 조언</span></div></div>
+        <div class="detail-item"><span class="item-num">14</span><div data-i18n="d1i14"><strong>오늘의 마지막 메시지</strong><br><span>하루를 보내며 마음에 새길 따뜻한 마무리 메시지</span></div></div>
+      </div>
+    </div>
+
+    <!-- 주간 플래닝 (NEW) -->
+    <div class="detail-block">
+      <div class="detail-header">
+        <div class="detail-icon">&#x1F4C5;</div>
+        <div>
+          <h3 data-i18n="d7t">주간 플래닝 <span class="detail-price">Premium</span></h3>
+          <p class="detail-desc" data-i18n="d7d">이번 주 또는 다음 주 7일을 사주 흐름과 실제 일정에 함께 맞춰 풀어드립니다. 한 주 단위로 다시 받는 맞춤 코칭.</p>
+        </div>
+      </div>
+      <div class="detail-items">
+        <div class="detail-item"><span class="item-num">01</span><div data-i18n="d7i1"><strong>이번 주 / 다음 주 선택</strong><br><span>일요일에는 자동으로 다음 주가 선택되어 미리 한 주를 그려볼 수 있음</span></div></div>
+        <div class="detail-item"><span class="item-num">02</span><div data-i18n="d7i2"><strong>7일 일주 흐름 분석</strong><br><span>요일별 일주 천간·지지와 사주의 호환성, 강세 일과 약세 일을 짚어드림</span></div></div>
+        <div class="detail-item"><span class="item-num">03</span><div data-i18n="d7i3"><strong>일정 × 시진 매칭</strong><br><span>등록된 일정을 시진별로 분석 — 시간 조정 추천과 함께 표시</span></div></div>
+        <div class="detail-item"><span class="item-num">04</span><div data-i18n="d7i4"><strong>주간 핵심 키워드</strong><br><span>한 주의 흐름을 관통하는 키워드와 에너지 방향</span></div></div>
+        <div class="detail-item"><span class="item-num">05</span><div data-i18n="d7i5"><strong>카테고리별 베스트 데이</strong><br><span>재물·연애·건강·직장·학업·대인 카테고리별 최적의 요일 안내</span></div></div>
+        <div class="detail-item"><span class="item-num">06</span><div data-i18n="d7i6"><strong>준비·집중·정리 단계</strong><br><span>한 주를 시작·중간·마무리 3단계로 나눠 실행 우선순위를 제시</span></div></div>
+        <div class="detail-item"><span class="item-num">07</span><div data-i18n="d7i7"><strong>주간 종합 조언</strong><br><span>한 주를 잘 보내기 위한 핵심 가이드와 실행 팁</span></div></div>
+      </div>
+    </div>
+
+    <!-- 월간 리포트 (NEW) -->
+    <div class="detail-block">
+      <div class="detail-header">
+        <div class="detail-icon">&#x1F4C6;</div>
+        <div>
+          <h3 data-i18n="d8t">월간 리포트 <span class="detail-price">Premium</span></h3>
+          <p class="detail-desc" data-i18n="d8d">한 달의 큰 그림을 그려보는 월간 종합 분석. 30일 일정과 사주의 흐름을 결합해 한 달의 전략을 미리 세웁니다.</p>
+        </div>
+      </div>
+      <div class="detail-items">
+        <div class="detail-item"><span class="item-num">01</span><div data-i18n="d8i1"><strong>이달의 핵심 메시지</strong><br><span>이번 달의 정체성과 한 줄로 정리되는 큰 흐름</span></div></div>
+        <div class="detail-item"><span class="item-num">02</span><div data-i18n="d8i2"><strong>5대 영역 상세 분석</strong><br><span>재물·연애·건강·직업·자기성장 영역별 월간 흐름과 실행 포인트</span></div></div>
+        <div class="detail-item"><span class="item-num">03</span><div data-i18n="d8i3"><strong>주차별 흐름 (1~5주차)</strong><br><span>각 주차별 핵심 키워드와 영역 변화 추이</span></div></div>
+        <div class="detail-item"><span class="item-num">04</span><div data-i18n="d8i4"><strong>중요 일자 캘린더</strong><br><span>이달의 길일·기회의 날·주의해야 할 날을 사주 근거와 함께 표시</span></div></div>
+        <div class="detail-item"><span class="item-num">05</span><div data-i18n="d8i5"><strong>30일 생활 루틴</strong><br><span>아침·낮·저녁 시간대별 한 달간 추천 루틴과 의식</span></div></div>
+        <div class="detail-item"><span class="item-num">06</span><div data-i18n="d8i6"><strong>월간 목표 설정</strong><br><span>이번 달 반드시 이뤄야 할 일과 피해야 할 함정</span></div></div>
+        <div class="detail-item"><span class="item-num">07</span><div data-i18n="d8i7"><strong>거시 흐름 (대운·세운·월운)</strong><br><span>큰 흐름 속에서 이번 달의 위치와 전략적 의미</span></div></div>
+        <div class="detail-item"><span class="item-num">08</span><div data-i18n="d8i8"><strong>월간 종합 메시지</strong><br><span>한 달을 마무리하며 마음에 새길 핵심 가이드</span></div></div>
       </div>
     </div>
 
@@ -469,13 +650,31 @@
       </div>
     </div>
 
+    <!-- 꿈 해몽 (NEW) -->
+    <div class="detail-block">
+      <div class="detail-header">
+        <div class="detail-icon">&#x1F319;</div>
+        <div>
+          <h3 data-i18n="d9t">꿈 해몽 <span class="detail-price">Premium</span></h3>
+          <p class="detail-desc" data-i18n="d9d">꿈의 상징을 사주의 맥락과 함께 풀어드립니다. 200여 개 상징 사전에 본인의 사주를 결합해 무의식이 보내는 메시지를 해석합니다.</p>
+        </div>
+      </div>
+      <div class="detail-items">
+        <div class="detail-item"><span class="item-num">01</span><div data-i18n="d9i1"><strong>꿈 요약</strong><br><span>입력한 꿈 내용에서 핵심 장면과 정서적 톤을 추출</span></div></div>
+        <div class="detail-item"><span class="item-num">02</span><div data-i18n="d9i2"><strong>길흉 등급</strong><br><span>꿈의 의미를 0~100점으로 점수화 — 길몽/흉몽 등급 안내</span></div></div>
+        <div class="detail-item"><span class="item-num">03</span><div data-i18n="d9i3"><strong>핵심 상징 해석</strong><br><span>꿈에 등장한 주요 상징(동물·물·길 등)의 사주 맥락 해설</span></div></div>
+        <div class="detail-item"><span class="item-num">04</span><div data-i18n="d9i4"><strong>사주와의 연결</strong><br><span>본인의 일간·오행·현재 운로와 꿈이 어떻게 호응하는지 분석</span></div></div>
+        <div class="detail-item"><span class="item-num">05</span><div data-i18n="d9i5"><strong>실생활 조언</strong><br><span>꿈이 전하는 메시지를 현실에 적용할 수 있는 실천 가이드</span></div></div>
+      </div>
+    </div>
+
     <!-- 사주 상담 -->
     <div class="detail-block" style="border: 2px solid var(--primary);">
       <div class="detail-header">
         <div class="detail-icon" style="background: linear-gradient(135deg, var(--primary), var(--primary-light));">&#x1F4AC;</div>
         <div>
           <h3 data-i18n="d6t">사주 어드바이저 상담 <span style="background:var(--accent);color:#1a1a2e;padding:3px 10px;border-radius:20px;font-size:0.75rem;font-weight:700;margin-left:4px;">핵심 기능</span></h3>
-          <p class="detail-desc" data-i18n="d6d">사주 어드바이저와 1:1 대화 형식으로 자유롭게 질문하세요. 아래 17개 분석 카테고리의 400개 이상 데이터를 기반으로 깊이 있는 맞춤 상담을 제공합니다.</p>
+          <p class="detail-desc" data-i18n="d6d">사주 어드바이저와 1:1 대화 형식으로 자유롭게 질문하세요. 정통 명리 기준으로 강화된 응답 품질 — 원국·운로 종합 분석과 용신/기신 매칭으로 깊이 있는 맞춤 상담을 제공합니다.</p>
         </div>
       </div>
       <div class="detail-items">
@@ -596,7 +795,7 @@
           <td data-i18n="tr6">다국어 지원</td>
           <td class="cross">&#x2715;</td>
           <td data-i18n="partial">일부</td>
-          <td class="check" data-i18n="lang6">6개국어</td>
+          <td class="check" data-i18n="lang6">7개국어</td>
         </tr>
         <tr>
           <td data-i18n="tr7">24시간 이용</td>
@@ -612,13 +811,14 @@
   <section class="lang-section">
     <div class="section-header">
       <div class="section-tag">Global</div>
-      <h2 data-i18n="lnt">6개 언어 지원</h2>
-      <p data-i18n="lns">한국어를 포함한 6개국 언어로 이용 가능합니다</p>
+      <h2 data-i18n="lnt">7개 언어 지원</h2>
+      <p data-i18n="lns">한국어를 포함한 7개국 언어로 이용 가능합니다</p>
     </div>
     <div class="lang-grid">
       <div class="lang-chip"><span class="flag">&#x1F1F0;&#x1F1F7;</span> 한국어</div>
       <div class="lang-chip"><span class="flag">&#x1F1FA;&#x1F1F8;</span> English</div>
       <div class="lang-chip"><span class="flag">&#x1F1EF;&#x1F1F5;</span> 日本語</div>
+      <div class="lang-chip"><span class="flag">&#x1F1E8;&#x1F1F3;</span> 简体中文</div>
       <div class="lang-chip"><span class="flag">&#x1F1F9;&#x1F1FC;</span> 繁體中文</div>
       <div class="lang-chip"><span class="flag">&#x1F1FB;&#x1F1F3;</span> Tiếng Việt</div>
       <div class="lang-chip"><span class="flag">&#x1F1EE;&#x1F1E9;</span> Indonesia</div>
